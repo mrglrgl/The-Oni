@@ -1,0 +1,20 @@
+
+yuugi.sprite.jumpkick.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jumpkick
+  rotate: false
+  xy: 1, 1
+  size: 361, 284
+  orig: 361, 284
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1, 287
+  size: 357, 69
+  orig: 359, 71
+  offset: 2, 0
+  index: -1

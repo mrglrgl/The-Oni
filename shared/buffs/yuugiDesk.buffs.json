@@ -1,0 +1,291 @@
+{
+   "buffs":
+   [
+	  {
+         "id" : "yuugi_riposte_Desk_B1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_riposte_desk_B1",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_riposte_Desk_B2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_riposte_desk_B2",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_riposte_Desk_B3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_riposte_desk_B3",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_riposte_Desk_B4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_riposte_desk_B4",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_riposte_Desk_B5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_riposte_desk_B5",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_riposte_Desk_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_riposte_desk_C",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_wog_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_wog_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_wog_Desk_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_wog_desk_1",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_wog_Desk_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_wog_desk_2",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_wog_Desk_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_wog_desk_3",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_wog_Desk_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_wog_desk_4",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_wog_Desk_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_wog_desk_5",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_high_eels_1_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_high_eels_1_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_high_eels_2_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_high_eels_2_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_high_eels_3_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_high_eels_3_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_high_eels_4_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_high_eels_4_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_high_eels_5_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_high_eels_5_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_low_eels_1_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_low_eels_1_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_low_eels_2_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_low_eels_2_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_low_eels_3_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_low_eels_3_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_low_eels_4_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_low_eels_4_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_low_eels_5_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_low_eels_5_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+   ]
+}

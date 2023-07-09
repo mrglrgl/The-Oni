@@ -1,0 +1,430 @@
+{
+   "buffs":
+   [
+       {
+         "id" : "yuugi_Focus_dmglow_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+	  },
+      {
+         "id" : "yuugi_Focus_dmglow_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+	  },
+      {
+         "id" : "yuugi_Focus_dmglow_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+	  },
+      {
+         "id" : "yuugi_Focus_dmglow_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+	  },
+      {
+         "id" : "yuugi_Focus_dmglow_5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+	  },
+	  {
+         "id" : "yuugi_Focus_dmghigh_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+	  },
+      {
+         "id" : "yuugi_Focus_dmghigh_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+	  },
+      {
+         "id" : "yuugi_Focus_dmghigh_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+	  },
+      {
+         "id" : "yuugi_Focus_dmghigh_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+	  },
+      {
+         "id" : "yuugi_Focus_dmghigh_5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+	  },
+      {
+         "id" : "yuugi_Focus_ACC",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+	  },
+	  {
+         "id" : "yuugi_riposte_ACC_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "yuugi_riposte_CRIT_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "yuugi_riposte_ACC_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "yuugi_riposte_CRIT_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "yuugi_riposte_ACC_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "yuugi_riposte_CRIT_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "yuugi_riposte_ACC_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "yuugi_riposte_CRIT_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "yuugi_wogblock",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : -5,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+	  },
+	  {
+         "id" : "yuugi_wogunblock",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 5,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+	  },
+	  {
+         "id" : "yuugi_DMGL_Large",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterSize",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "yuugi_DMGH_Large",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterSize",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "yuugi_ACC_Large",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterSize",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_spd_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_spd_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_spd_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_AP50",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_blockmark",
+         "stat_type" : "tag_blocked",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_blockstress",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -1000,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_blockeel",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : -9999,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.49,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "yuugi_campstressbuff",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.1,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_camp",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }  
+   ]
+}  

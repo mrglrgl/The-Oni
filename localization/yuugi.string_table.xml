@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">	
+
+    <entry id="hero_class_name_yuugi"><![CDATA[Oni]]></entry>
+	
+
+		<!--Camp Skills-->
+	<entry id="camping_skill_name_yuugi_party"><![CDATA[ENDLESS REVELRY]]></entry>
+	<entry id="camping_skill_name_yuugi_armwrestle"><![CDATA[TEST OF STRENGTH]]></entry>
+	
+	<entry id="yuugi+str_bark_yuugi_party"><![CDATA[Gather 'round, got enough for everyone!]]></entry>
+	<entry id="yuugi+str_bark_yuugi_party"><![CDATA[I brought the strong stuff this time!]]></entry>
+	<entry id="yuugi+str_bark_yuugi_party"><![CDATA[Drink up, ahaha!]]></entry>
+	<entry id="yuugi+str_bark_yuugi_party"><![CDATA[Let the party begin, RAAAAAH!]]></entry>
+	<entry id="yuugi+str_bark_yuugi_party"><![CDATA[I know just how to break this tension!]]></entry>
+	<entry id="yuugi+str_bark_yuugi_armwrestle"><![CDATA[Hah, nice try!]]></entry>
+
+	<entry id="yuugi+str_bark_first_aid"><![CDATA[Nothing a little spit won't fix.]]></entry>
+	<entry id="yuugi+str_bark_encourage"><![CDATA[Stop moping and have another!]]></entry>
+	<entry id="yuugi+str_bark_pep_talk"><![CDATA[*slaps back* Relax, you'll be fine!]]></entry>
+
+
+		<!--Combat Skills-->
+	<entry id="combat_skill_name_yuugi_y_obliterate"><![CDATA[Obliterate]]></entry>
+	<entry id="combat_skill_name_yuugi_y_obligatorycleave"><![CDATA[Ooe-yama Hurricane]]></entry>
+	<entry id="combat_skill_name_yuugi_y_wog"><![CDATA[Annihilating Roar]]></entry>
+	<entry id="combat_skill_name_yuugi_y_warpath"><![CDATA[Inexorible Advance]]></entry>
+	<entry id="combat_skill_name_yuugi_y_notlunge"><![CDATA[Dragon-felling Kick]]></entry>
+    <entry id="combat_skill_name_yuugi_y_warmup"><![CDATA[Battle Rhythm]]></entry>
+    <entry id="combat_skill_name_yuugi_y_kampai"><![CDATA[Kampai!]]></entry>
+    <entry id="combat_skill_name_yuugi_move"><![CDATA[Move]]></entry>
+    <entry id="upgrade_tree_name_yuugi.y_obliterate"><![CDATA[Obliterate]]></entry>
+	<entry id="upgrade_tree_name_yuugi.y_obligatorycleave"><![CDATA[Ooe-yama Hurricane]]></entry>
+	<entry id="upgrade_tree_name_yuugi.y_wog"><![CDATA[Annihilating Roar]]></entry>
+	<entry id="upgrade_tree_name_yuugi.y_warpath"><![CDATA[Inexorible Advance]]></entry>
+	<entry id="upgrade_tree_name_yuugi.y_notlunge"><![CDATA[Dragon-felling Kick]]></entry>
+	<entry id="upgrade_tree_name_yuugi.y_warmup"><![CDATA[Battle Rhythm]]></entry>
+	<entry id="upgrade_tree_name_yuugi.y_kampai"><![CDATA[Kampai!]]></entry>
+	
+		<!-- Upgrades -->
+    <entry id="yuugi_weapon_0"><![CDATA[Yuugi Weapon 1]]></entry>
+    <entry id="yuugi_weapon_1"><![CDATA[Yuugi Weapon 2]]></entry>
+    <entry id="yuugi_weapon_2"><![CDATA[Yuugi Weapon 3]]></entry>
+    <entry id="yuugi_weapon_3"><![CDATA[Yuugi Weapon 4]]></entry>
+    <entry id="yuugi_weapon_4"><![CDATA[Yuugi Weapon 5]]></entry>
+    <entry id="upgrade_tree_name_yuugi.weapon"><![CDATA[Yuugi Weapon]]></entry>
+    <entry id="yuugi_armour_0"><![CDATA[Yuugi Armor 1]]></entry>
+    <entry id="yuugi_armour_1"><![CDATA[Yuugi Armor 2]]></entry>
+    <entry id="yuugi_armour_2"><![CDATA[Yuugi Armor 3]]></entry>
+    <entry id="yuugi_armour_3"><![CDATA[Yuugi Armor 4]]></entry>
+    <entry id="yuugi_armour_4"><![CDATA[Yuugi Armor 5]]></entry>
+    <entry id="upgrade_tree_name_yuugi.armour"><![CDATA[Yuugi Armor]]></entry>
+    <entry id="action_verbose_body_guild_yuugi"><![CDATA[Yuugi Guild]]></entry>
+    <entry id="action_verbose_body_blacksmith_yuugi"><![CDATA[Yuugi Blacksmith]]></entry>
+    <entry id="action_verbose_body_camping_trainer_yuugi"><![CDATA[Yuugi Camp]]></entry>
+	
+		<!-- Event -->
+
+		<!-- Trinkets and Bobbles -->
+
+		<!-- Random Tooltips Desk -->
+	<entry id="str_skill_mode_info_yuugirulemode"><![CDATA[]]></entry>
+	<entry id="str_skill_mode_info_yuugiripostemode1"><![CDATA[{colour_start|notable}Riposte 1{colour_end}]]></entry>
+	<entry id="str_skill_mode_info_yuugiripostemode2"><![CDATA[{colour_start|notable}Riposte 2{colour_end}]]></entry>
+	<entry id="str_skill_mode_info_yuugiripostemode3"><![CDATA[{colour_start|notable}Riposte 3{colour_end}]]></entry>
+	<entry id="str_skill_mode_info_yuugiripostemode4"><![CDATA[{colour_start|notable}Riposte 4{colour_end}]]></entry>
+	<entry id="str_skill_mode_info_yuugiripostemode5"><![CDATA[{colour_start|notable}Riposte 5{colour_end}]]></entry>
+			<!-- Combat Skills -->
+				<!-- Rampage -->
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_riposte_desk_B1"><![CDATA[ACC base: 80 / CRIT mod: +1%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_riposte_desk_B2"><![CDATA[ACC base: 85 / CRIT mod: +2%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_riposte_desk_B3"><![CDATA[ACC base: 90 / CRIT mod: +3%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_riposte_desk_B4"><![CDATA[ACC base: 95 / CRIT mod: +4%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_riposte_desk_B5"><![CDATA[ACC base: 100 / CRIT mod: +5%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_riposte_desk_C"><![CDATA[DMG mod: -55%% vs Rank 3 & 4]]></entry>	
+	
+				<!-- Excavation Strike -->
+	
+				<!-- Combo Breaker -->
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_wog_desk"><![CDATA[Bypass {colour_start|riposte}Riposte{colour_end} / Breaks {colour_start|riposte}Riposte{colour_end}]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_wog_desk_1"><![CDATA[Consume Self {colour_start|mark}Mark{colour_end}: {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_wog_desk_2"><![CDATA[Consume Self {colour_start|mark}Mark{colour_end}: {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_wog_desk_3"><![CDATA[Consume Self {colour_start|mark}Mark{colour_end}: {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_wog_desk_4"><![CDATA[Consume Self {colour_start|mark}Mark{colour_end}: {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_wog_desk_5"><![CDATA[Consume Self {colour_start|mark}Mark{colour_end}: {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(150%% base){colour_end}]]></entry>
+
+				<!-- Battle Rhythm -->
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_1_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -5 / {colour_start|mark}Mark{colour_end} Target]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_2_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -5 / {colour_start|mark}Mark{colour_end} Target]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_3_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -6 / {colour_start|mark}Mark{colour_end} Target]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_4_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -7 / {colour_start|mark}Mark{colour_end} Target]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_5_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -8 / {colour_start|mark}Mark{colour_end} Target]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_low_eels_1_desk"><![CDATA[If HP below 50%%: {colour_start|healhp}Heal{colour_end} 15%% / Clear {colour_start|mark}Mark{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_low_eels_2_desk"><![CDATA[If HP below 50%%: {colour_start|healhp}Heal{colour_end} 15%% / Clear {colour_start|mark}Mark{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_low_eels_3_desk"><![CDATA[If HP below 50%%: {colour_start|healhp}Heal{colour_end} 15%% / Clear {colour_start|mark}Mark{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_low_eels_4_desk"><![CDATA[If HP below 50%%: {colour_start|healhp}Heal{colour_end} 15%% / Clear {colour_start|mark}Mark{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_low_eels_5_desk"><![CDATA[If HP below 50%%: {colour_start|healhp}Heal{colour_end} 15%% / Clear {colour_start|mark}Mark{colour_end}]]></entry>
+
+	
+  </language>
+
+</root>
+

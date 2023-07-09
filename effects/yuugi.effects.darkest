@@ -1,0 +1,127 @@
+//// Skills \\\\
+effect: .name "Yuugi CRIT Heal" .target "performer" .chance 100% .heal_percent 0.10	.can_crit_heal false	.on_hit true .on_miss true .queue true
+
+effect: .name "Yuugi Focus 1" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_1" "yuugi_Focus_dmghigh_1" "yuugi_Focus_ACC" .on_hit true .on_miss true .apply_once true
+effect: .name "Yuugi Focus 2" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_2" "yuugi_Focus_dmghigh_2" "yuugi_Focus_ACC" .on_hit true .on_miss true .apply_once true
+effect: .name "Yuugi Focus 3" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_3" "yuugi_Focus_dmghigh_3" "yuugi_Focus_ACC" .on_hit true .on_miss true .apply_once true
+effect: .name "Yuugi Focus 4" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_4" "yuugi_Focus_dmghigh_4" "yuugi_Focus_ACC" .on_hit true .on_miss true .apply_once true
+effect: .name "Yuugi Focus 5" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_5" "yuugi_Focus_dmghigh_5" "yuugi_Focus_ACC" .on_hit true .on_miss true .apply_once true
+
+effect: .name "Yuugi MarkS" .target "performer" .chance 100% .tag 1  .duration 4 .on_hit true .on_miss true .apply_once true
+
+
+//// Annihilating Roar \\\\
+
+effect: .name "Yuugi Corpseclear" .target "target_group" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss false .queue false .can_apply_on_death true .apply_once true
+
+
+//// Combo Breaker \\\\
+effect: .name "Yuugi Disarm" .target "target" .chance 100% .clear_riposte 1 .on_hit true .on_miss false .has_description false
+
+effect: .name "Yuugi WoG Desk"	.target "performer"	.skill_instant true .buff_ids "yuugi_wog_Desk" .apply_once true .on_hit true .on_miss true
+
+
+
+effect: .name "Yuugi WoG Block" .target "performer" .chance 100%	.buff_ids "yuugi_wogblock" .buff_source_type bsrc_notspecified .duration 1	.on_hit true .on_miss false .queue true .has_description false
+
+effect: .name "Yuugi Stun 1" .target "target" .chance 110% .stun 1	.on_hit true .on_miss false .queue true .has_description false
+effect: .name "Yuugi Stun 2" .target "target" .chance 120% .stun 1	.on_hit true .on_miss false .queue true .has_description false
+effect: .name "Yuugi Stun 3" .target "target" .chance 130% .stun 1	.on_hit true .on_miss false .queue true .has_description false
+effect: .name "Yuugi Stun 4" .target "target" .chance 140% .stun 1	.on_hit true .on_miss false .queue true .has_description false
+effect: .name "Yuugi Stun 5" .target "target" .chance 150% .stun 1	.on_hit true .on_miss false .queue true .has_description false
+
+effect: .name "Yuugi WoG Unblock" .target "performer" .chance 100%	.buff_ids "yuugi_wogunblock" .buff_source_type bsrc_notspecified .duration 1	.on_hit true .on_miss false .queue true .has_description false
+
+effect: .name "Yuugi Demark" .target "performer" .chance 100%	.untag 1	.on_hit true .on_miss true .queue true .has_description false
+
+effect: .name "Yuugi WoG Desk 1"	.target "performer"	.skill_instant true .buff_ids "yuugi_wog_Desk_1" .apply_once true .on_hit true .on_miss true
+effect: .name "Yuugi WoG Desk 2"	.target "performer"	.skill_instant true .buff_ids "yuugi_wog_Desk_2" .apply_once true .on_hit true .on_miss true
+effect: .name "Yuugi WoG Desk 3"	.target "performer"	.skill_instant true .buff_ids "yuugi_wog_Desk_3" .apply_once true .on_hit true .on_miss true
+effect: .name "Yuugi WoG Desk 4"	.target "performer"	.skill_instant true .buff_ids "yuugi_wog_Desk_4" .apply_once true .on_hit true .on_miss true
+effect: .name "Yuugi WoG Desk 5"	.target "performer"	.skill_instant true .buff_ids "yuugi_wog_Desk_5" .apply_once true .on_hit true .on_miss true
+
+
+//// Warpath \\\\
+effect: .name "Yuugi Riposte Clear" .target "performer" .chance 100% .clear_riposte 1 .on_hit true .on_miss true .has_description false
+
+effect: .name "Yuugi Riposte"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true
+effect: .name "Yuugi Riposte Stats 2"  .target "performer" .chance 100% .buff_ids "yuugi_riposte_ACC_2" "yuugi_riposte_CRIT_2" .duration 3  .on_hit true .on_miss true .buff_source_type bsrc_riposte .has_description false
+effect: .name "Yuugi Riposte Stats 3"  .target "performer" .chance 100% .buff_ids "yuugi_riposte_ACC_3" "yuugi_riposte_CRIT_3" .duration 3  .on_hit true .on_miss true .buff_source_type bsrc_riposte .has_description false
+effect: .name "Yuugi Riposte Stats 4"  .target "performer" .chance 100% .buff_ids "yuugi_riposte_ACC_4" "yuugi_riposte_CRIT_4" .duration 3  .on_hit true .on_miss true .buff_source_type bsrc_riposte .has_description false
+effect: .name "Yuugi Riposte Stats 5"  .target "performer" .chance 100% .buff_ids "yuugi_riposte_ACC_5" "yuugi_riposte_CRIT_5" .duration 3  .on_hit true .on_miss true .buff_source_type bsrc_riposte .has_description false
+
+effect: .name "Yuugi Riposte 1 Desk"	.target "performer"	.skill_instant true .buff_ids "yuugi_riposte_Desk_B1" "yuugi_riposte_Desk_C" .apply_once true .on_hit true .on_miss true
+effect: .name "Yuugi Riposte 2 Desk"	.target "performer" .skill_instant true .buff_ids "yuugi_riposte_Desk_B2" "yuugi_riposte_Desk_C" .apply_once true .on_hit true .on_miss true
+effect: .name "Yuugi Riposte 3 Desk"	.target "performer"	.skill_instant true .buff_ids "yuugi_riposte_Desk_B3" "yuugi_riposte_Desk_C" .apply_once true .on_hit true .on_miss true
+effect: .name "Yuugi Riposte 4 Desk"	.target "performer"	.skill_instant true .buff_ids "yuugi_riposte_Desk_B4" "yuugi_riposte_Desk_C" .apply_once true .on_hit true .on_miss true
+effect: .name "Yuugi Riposte 5 Desk"	.target "performer"	.skill_instant true .buff_ids "yuugi_riposte_Desk_B5" "yuugi_riposte_Desk_C" .apply_once true .on_hit true .on_miss true
+
+
+//// Double Edge \\\\
+effect: .name "Yuugi Giant Killer" .target "performer" .skill_instant true .buff_ids "yuugi_DMGL_Large" "yuugi_DMGH_Large" "yuugi_ACC_Large" .apply_once true .on_hit true .on_miss true
+
+
+
+//// Ignition \\\\
+effect: .name "Yuugi No Eels"	.target "performer" .chance 100% .buff_source_type bsrc_vampire .buff_ids "yuugi_blockmark" "yuugi_blockeel" "yuugi_blockstress" .duration 1 .on_hit true .on_miss true .has_description false
+effect: .name "Yuugi MarkS Hidden" .target "performer" .chance 100% .tag 1  .duration 4 .on_hit true .on_miss true .apply_once true .has_description false
+
+effect: .name "Yuugi DemarkS"	.target "performer" .chance 100% .untag 1	.on_hit true .on_miss true .has_description false
+
+effect: .name "Yuugi CondEel 1" .target "performer" .chance 100% .healstress 5 .heal_percent 15%	.on_hit true .on_miss true .can_crit_heal false .has_description false
+effect: .name "Yuugi CondEel 2" .target "performer" .chance 100% .healstress 5 .heal_percent 15%	.on_hit true .on_miss true .can_crit_heal false .has_description false
+effect: .name "Yuugi CondEel 3" .target "performer" .chance 100% .healstress 6 .heal_percent 15%	.on_hit true .on_miss true .can_crit_heal false .has_description false
+effect: .name "Yuugi CondEel 4" .target "performer" .chance 100% .healstress 7 .heal_percent 15%	.on_hit true .on_miss true .can_crit_heal false .has_description false
+effect: .name "Yuugi CondEel 5" .target "performer" .chance 100% .healstress 8 .heal_percent 15%	.on_hit true .on_miss true .can_crit_heal false .has_description false
+
+effect: .name "Yuugi CleanEels"	.target "performer" .chance 100% .steal_buff_source_type bsrc_vampire .on_hit true .on_miss true .has_description false
+
+effect: .name "Yuugi Eels 1 Desk" .target "performer" .buff_source_type bsrc_notspecified .duration 1 .buff_ids "yuugi_high_eels_1_Desk" "yuugi_low_eels_1_Desk" .on_hit true .on_miss false
+effect: .name "Yuugi Eels 2 Desk" .target "performer" .buff_source_type bsrc_notspecified .duration 1 .buff_ids "yuugi_high_eels_2_Desk" "yuugi_low_eels_2_Desk" .on_hit true .on_miss false
+effect: .name "Yuugi Eels 3 Desk" .target "performer" .buff_source_type bsrc_notspecified .duration 1 .buff_ids "yuugi_high_eels_3_Desk" "yuugi_low_eels_3_Desk" .on_hit true .on_miss false
+effect: .name "Yuugi Eels 4 Desk" .target "performer" .buff_source_type bsrc_notspecified .duration 1 .buff_ids "yuugi_high_eels_4_Desk" "yuugi_low_eels_4_Desk" .on_hit true .on_miss false
+effect: .name "Yuugi Eels 5 Desk" .target "performer" .buff_source_type bsrc_notspecified .duration 1 .buff_ids "yuugi_high_eels_5_Desk" "yuugi_low_eels_5_Desk" .on_hit true .on_miss false
+
+
+effect: .name "Yuugi Eel 1" .target "performer" .chance 100% .heal 1	.on_hit true .on_miss true
+effect: .name "Yuugi Eel 2" .target "performer" .chance 100% .heal 2	.on_hit true .on_miss true
+effect: .name "Yuugi Eel 3" .target "performer" .chance 100% .heal 3	.on_hit true .on_miss true
+
+effect: .name "Yuugi Destress 1" .target "target" .chance 100% .healstress 2	.on_hit true .on_miss true
+effect: .name "Yuugi Destress 2" .target "target" .chance 100% .healstress 3	.on_hit true .on_miss true
+effect: .name "Yuugi Destress 3" .target "target" .chance 100% .healstress 4	.on_hit true .on_miss true
+
+
+
+effect: .name "Yuugi Ignition 1" .target "performer" .chance 100%	.combat_stat_buff 1 .damage_low_multiply 10% .damage_high_multiply 10% .attack_rating_add 5%	.speed_rating_add 4 .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true
+effect: .name "Yuugi Ignition 2" .target "performer" .chance 100%	.combat_stat_buff 1 .damage_low_multiply 12% .damage_high_multiply 12% .attack_rating_add 6%	.speed_rating_add 4 .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true
+effect: .name "Yuugi Ignition 3" .target "performer" .chance 100%	.combat_stat_buff 1 .damage_low_multiply 15% .damage_high_multiply 15% .attack_rating_add 7%	.speed_rating_add 5 .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true
+effect: .name "Yuugi Ignition 4" .target "performer" .chance 100%	.combat_stat_buff 1 .damage_low_multiply 17% .damage_high_multiply 17% .attack_rating_add 8%	.speed_rating_add 5 .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true
+effect: .name "Yuugi Ignition 5" .target "performer" .chance 100%	.combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20% .attack_rating_add 10%	.speed_rating_add 6 .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true
+
+effect: .name "Yuugi AP" .target "performer" .chance 100%	.buff_ids "yuugi_AP50" .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true
+
+
+//// Kampai \\\\
+effect: .name "Yuugi Heal 1" .target "performer" .chance 100% .heal 3	.on_hit true .on_miss true
+effect: .name "Yuugi Heal 2" .target "performer" .chance 100% .heal 4	.on_hit true .on_miss true
+effect: .name "Yuugi Heal 3" .target "performer" .chance 100% .heal 5	.on_hit true .on_miss true
+effect: .name "Yuugi Heal 4" .target "performer" .chance 100% .heal 6	.on_hit true .on_miss true
+
+effect: .name "Yuugi Healdot 1" .target "performer" .chance 100% .dotHpHeal 2 .duration 3	.on_hit true .on_miss true
+effect: .name "Yuugi Healdot 2" .target "performer" .chance 100% .dotHpHeal 3 .duration 3	.on_hit true .on_miss true
+effect: .name "Yuugi Healdot 3" .target "performer" .chance 100% .dotHpHeal 4 .duration 3	.on_hit true .on_miss true
+
+effect: .name "Yuugi Drunk 1" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .attack_rating_add 5%		.on_hit true .on_miss true .queue true
+effect: .name "Yuugi Drunk 2" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .damage_low_multiply 27% .damage_high_multiply 27% .attack_rating_add 6%		.on_hit true .on_miss true .queue true
+effect: .name "Yuugi Drunk 3" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .damage_low_multiply 30% .damage_high_multiply 30% .attack_rating_add 7%		.on_hit true .on_miss true .queue true
+effect: .name "Yuugi Drunk 4" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .damage_low_multiply 32% .damage_high_multiply 32% .attack_rating_add 8%		.on_hit true .on_miss true .queue true
+effect: .name "Yuugi Drunk 5" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .damage_low_multiply 35% .damage_high_multiply 35% .attack_rating_add 10%	.on_hit true .on_miss true .queue true
+
+effect: .name "Yuugi Drunk" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .defense_rating_add -10%	.on_hit true .on_miss true
+
+effect: .name "Yuugi Riposte A1"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4  .on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50%  .attack_rating_add -20%
+effect: .name "Yuugi Riposte A2"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4  .on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50%  .attack_rating_add -15%
+effect: .name "Yuugi Riposte A3"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4  .on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50%  .attack_rating_add -10%
+effect: .name "Yuugi Riposte A4"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4  .on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50%  .attack_rating_add -5%
+effect: .name "Yuugi Riposte A5"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4  .on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50% 
