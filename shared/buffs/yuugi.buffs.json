@@ -286,7 +286,7 @@
          "id" : "yuugi_DMGL_Large",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 0.5,
+         "amount" : 0.6,
          "remove_if_not_active" : false,
          "rule_type" : "monsterSize",
          "is_false_rule" : false,
@@ -299,7 +299,7 @@
          "id" : "yuugi_DMGH_Large",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : 0.5,
+         "amount" : 0.6,
          "remove_if_not_active" : false,
          "rule_type" : "monsterSize",
          "is_false_rule" : false,
@@ -411,6 +411,21 @@
             "float" : 0.49,
             "string" : ""
          }
+      },
+	  {
+         "id" : "yuugi_drunk_DODGE",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.1,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid": false
       },
       {
          "id" : "yuugi_campstressbuff",

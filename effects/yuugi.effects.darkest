@@ -1,11 +1,11 @@
 //// Skills \\\\
 effect: .name "Yuugi CRIT Heal" .target "performer" .chance 100% .heal_percent 0.10	.can_crit_heal false	.on_hit true .on_miss true .queue true
 
-effect: .name "Yuugi Focus 1" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_1" "yuugi_Focus_dmghigh_1" "yuugi_Focus_ACC" .on_hit true .on_miss true .apply_once true
-effect: .name "Yuugi Focus 2" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_2" "yuugi_Focus_dmghigh_2" "yuugi_Focus_ACC" .on_hit true .on_miss true .apply_once true
-effect: .name "Yuugi Focus 3" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_3" "yuugi_Focus_dmghigh_3" "yuugi_Focus_ACC" .on_hit true .on_miss true .apply_once true
-effect: .name "Yuugi Focus 4" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_4" "yuugi_Focus_dmghigh_4" "yuugi_Focus_ACC" .on_hit true .on_miss true .apply_once true
-effect: .name "Yuugi Focus 5" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_5" "yuugi_Focus_dmghigh_5" "yuugi_Focus_ACC" .on_hit true .on_miss true .apply_once true
+effect: .name "Yuugi Focus 1" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_1" "yuugi_Focus_dmghigh_1" "yuugi_Focus_ACC" "yuugi_momentum_header_Desk" .on_hit true .on_miss true .apply_once true
+effect: .name "Yuugi Focus 2" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_2" "yuugi_Focus_dmghigh_2" "yuugi_Focus_ACC" "yuugi_momentum_header_Desk" .on_hit true .on_miss true .apply_once true
+effect: .name "Yuugi Focus 3" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_3" "yuugi_Focus_dmghigh_3" "yuugi_Focus_ACC" "yuugi_momentum_header_Desk" .on_hit true .on_miss true .apply_once true
+effect: .name "Yuugi Focus 4" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_4" "yuugi_Focus_dmghigh_4" "yuugi_Focus_ACC" "yuugi_momentum_header_Desk" .on_hit true .on_miss true .apply_once true
+effect: .name "Yuugi Focus 5" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_5" "yuugi_Focus_dmghigh_5" "yuugi_Focus_ACC" "yuugi_momentum_header_Desk" .on_hit true .on_miss true .apply_once true
 
 effect: .name "Yuugi MarkS" .target "performer" .chance 100% .tag 1  .duration 4 .on_hit true .on_miss true .apply_once true
 
@@ -58,7 +58,7 @@ effect: .name "Yuugi Riposte 5 Desk"	.target "performer"	.skill_instant true .bu
 
 
 //// Double Edge \\\\
-effect: .name "Yuugi Giant Killer" .target "performer" .skill_instant true .buff_ids "yuugi_DMGL_Large" "yuugi_DMGH_Large" "yuugi_ACC_Large" .apply_once true .on_hit true .on_miss true
+effect: .name "Yuugi Giant Killer" .target "performer" .skill_instant true .buff_ids "yuugi_DMGL_Large" "yuugi_DMGH_Large" "yuugi_ACC_Large" "yuugi_momentum_header_Desk" .apply_once true .on_hit true .on_miss true
 
 
 
@@ -120,10 +120,10 @@ effect: .name "Yuugi Drunk 3" .target "performer" .chance 100% .duration 3 .comb
 effect: .name "Yuugi Drunk 4" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .damage_low_multiply 32% .damage_high_multiply 32% .attack_rating_add 8%		.on_hit true .on_miss true .queue true
 effect: .name "Yuugi Drunk 5" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .damage_low_multiply 35% .damage_high_multiply 35% .attack_rating_add 10%	.on_hit true .on_miss true .queue true
 
-effect: .name "Yuugi Drunk" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .defense_rating_add -10%	.on_hit true .on_miss true
+effect: .name "Yuugi Drunk" .target "performer" .chance 100% .duration 4  .buff_ids "yuugi_drunk_DODGE"	.on_hit true .on_miss true
 
-effect: .name "Yuugi Riposte A1"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4  .on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50%  .attack_rating_add -20%
-effect: .name "Yuugi Riposte A2"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4  .on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50%  .attack_rating_add -15%
-effect: .name "Yuugi Riposte A3"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4  .on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50%  .attack_rating_add -10%
-effect: .name "Yuugi Riposte A4"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4  .on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50%  .attack_rating_add -5%
-effect: .name "Yuugi Riposte A5"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4  .on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50% 
+effect: .name "Yuugi Riposte A1"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4	.on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50%  .attack_rating_add -20%
+effect: .name "Yuugi Riposte A2"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4	.on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50%  .attack_rating_add -15%
+effect: .name "Yuugi Riposte A3"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4	.on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50%  .attack_rating_add -10%
+effect: .name "Yuugi Riposte A4"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4	.on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50%  .attack_rating_add -5%
+effect: .name "Yuugi Riposte A5"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4	.on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50% 
