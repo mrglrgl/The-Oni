@@ -361,19 +361,6 @@
          }
       },
 	  {
-         "id" : "yuugi_AP50",
-         "stat_type" : "ignore_protection",
-         "stat_sub_type" : "",
-         "amount" : 0.5,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
          "id" : "yuugi_blockmark",
          "stat_type" : "tag_blocked",
          "stat_sub_type" : "",
@@ -389,26 +376,78 @@
 	  {
          "id" : "yuugi_blockstress",
          "stat_type" : "stress_heal_percent",
-         "stat_sub_type" : "",
+         "stat_sub_type" : "effect",
          "amount" : -1000,
          "remove_if_not_active" : false,
          "rule_type" : "hpbelow",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0.5,
+            "float" : 0.50,
             "string" : ""
          }
       },
 	  {
-         "id" : "yuugi_blockeel",
+         "id" : "yuugi_healbuff1",
          "stat_type" : "hp_heal_amount",
          "stat_sub_type" : "",
-         "amount" : -9999,
+         "amount" : 5,
          "remove_if_not_active" : false,
-         "rule_type" : "hpabove",
+         "rule_type" : "hpbelow",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0.49,
+            "float" : 0.51,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_healbuff2",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 6,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.51,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_healbuff3",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 7,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.51,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_healbuff4",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 8,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.51,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_healbuff5",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 10,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.51,
             "string" : ""
          }
       },

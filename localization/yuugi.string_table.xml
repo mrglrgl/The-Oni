@@ -26,7 +26,7 @@
 	<entry id="combat_skill_name_yuugi_y_obligatorycleave"><![CDATA[Ooe-yama Hurricane]]></entry>
 	<entry id="combat_skill_name_yuugi_y_wog"><![CDATA[Annihilating Roar]]></entry>
 	<entry id="combat_skill_name_yuugi_y_warpath"><![CDATA[Inexorible Advance]]></entry>
-	<entry id="combat_skill_name_yuugi_y_notlunge"><![CDATA[Dragon-felling Kick]]></entry>
+	<entry id="combat_skill_name_yuugi_y_notlunge"><![CDATA[Mountain Breaker]]></entry>
     <entry id="combat_skill_name_yuugi_y_warmup"><![CDATA[Battle Rhythm]]></entry>
     <entry id="combat_skill_name_yuugi_y_kampai"><![CDATA[Kampai!]]></entry>
     <entry id="combat_skill_name_yuugi_move"><![CDATA[Move]]></entry>
@@ -34,7 +34,7 @@
 	<entry id="upgrade_tree_name_yuugi.y_obligatorycleave"><![CDATA[Ooe-yama Hurricane]]></entry>
 	<entry id="upgrade_tree_name_yuugi.y_wog"><![CDATA[Annihilating Roar]]></entry>
 	<entry id="upgrade_tree_name_yuugi.y_warpath"><![CDATA[Inexorible Advance]]></entry>
-	<entry id="upgrade_tree_name_yuugi.y_notlunge"><![CDATA[Dragon-felling Kick]]></entry>
+	<entry id="upgrade_tree_name_yuugi.y_notlunge"><![CDATA[Mountain Breaker]]></entry>
 	<entry id="upgrade_tree_name_yuugi.y_warmup"><![CDATA[Battle Rhythm]]></entry>
 	<entry id="upgrade_tree_name_yuugi.y_kampai"><![CDATA[Kampai!]]></entry>
 	
@@ -91,17 +91,17 @@ Riposte for 1 rds{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_wog_desk_5"><![CDATA[Consume Self {colour_start|mark}Mark{colour_end}: {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(150%% base){colour_end}]]></entry>
 
 				<!-- Battle Rhythm -->
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_1_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -5 / {colour_start|mark}Mark{colour_end} Target]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_2_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -5 / {colour_start|mark}Mark{colour_end} Target]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_3_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -6 / {colour_start|mark}Mark{colour_end} Target]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_4_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -7 / {colour_start|mark}Mark{colour_end} Target]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_5_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -8 / {colour_start|mark}Mark{colour_end} Target]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_1_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -5]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_2_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -5]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_3_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -6]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_4_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -7]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_5_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -8]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_low_eels_1_desk"><![CDATA[If HP below 50%%: {colour_start|healhp}Heal{colour_end} 15%% / Clear {colour_start|mark}Mark{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_low_eels_2_desk"><![CDATA[If HP below 50%%: {colour_start|healhp}Heal{colour_end} 15%% / Clear {colour_start|mark}Mark{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_low_eels_3_desk"><![CDATA[If HP below 50%%: {colour_start|healhp}Heal{colour_end} 15%% / Clear {colour_start|mark}Mark{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_low_eels_4_desk"><![CDATA[If HP below 50%%: {colour_start|healhp}Heal{colour_end} 15%% / Clear {colour_start|mark}Mark{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_low_eels_5_desk"><![CDATA[If HP below 50%%: {colour_start|healhp}Heal{colour_end} 15%% / Clear {colour_start|mark}Mark{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_low_eels_1_desk"><![CDATA[If HP below 51%%: +4 {colour_start|healhp}Healing{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_low_eels_2_desk"><![CDATA[If HP below 51%%: +5 {colour_start|healhp}Healing{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_low_eels_3_desk"><![CDATA[If HP below 51%%: +6 {colour_start|healhp}Healing{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_low_eels_4_desk"><![CDATA[If HP below 51%%: +7 {colour_start|healhp}Healing{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_low_eels_5_desk"><![CDATA[If HP below 51%%: +8 {colour_start|healhp}Healing{colour_end}]]></entry>
 
 	
   </language>

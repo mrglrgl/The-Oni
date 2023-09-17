@@ -25,11 +25,11 @@ combat_skill: .id "y_obligatorycleave" .level 3 .type "melee" .atk 95%	.dmg -50%
 combat_skill: .id "y_obligatorycleave" .level 4 .type "melee" .atk 100% .dmg -50% .crit 0%	.launch 21 .target ~34 .is_crit_valid True .valid_modes yuugirulemode yuugimomentumDesk	.effect "Yuugi Focus 5"
 
 // Slam
-combat_skill: .id "y_wog" .level 0 .type "ranged" .atk 95%	.dmg -60% .crit 0%	.launch 1 .target 1234	.can_be_riposted false	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi WoG Desk" "Yuugi Disarm" "Yuugi Corpseclear"
-combat_skill: .id "y_wog" .level 1 .type "ranged" .atk 100%	.dmg -60% .crit 0%	.launch 1 .target 1234	.can_be_riposted false	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi WoG Desk" "Yuugi Disarm" "Yuugi Corpseclear"
-combat_skill: .id "y_wog" .level 2 .type "ranged" .atk 105%	.dmg -60% .crit 0%	.launch 1 .target 1234	.can_be_riposted false	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi WoG Desk" "Yuugi Disarm" "Yuugi Corpseclear"
-combat_skill: .id "y_wog" .level 3 .type "ranged" .atk 110%	.dmg -60% .crit 0%	.launch 1 .target 1234	.can_be_riposted false	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi WoG Desk" "Yuugi Disarm" "Yuugi Corpseclear"
-combat_skill: .id "y_wog" .level 4 .type "ranged" .atk 115%	.dmg -60% .crit 0%	.launch 1 .target 1234	.can_be_riposted false	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi WoG Desk" "Yuugi Disarm" "Yuugi Corpseclear"
+combat_skill: .id "y_wog" .level 0 .type "ranged" .atk 95%	.dmg -65% .crit 0%	.launch 4321 .target 1234	.can_be_riposted false	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi WoG Desk" "Yuugi Disarm" "Yuugi Corpseclear"
+combat_skill: .id "y_wog" .level 1 .type "ranged" .atk 100%	.dmg -65% .crit 0%	.launch 4321 .target 1234	.can_be_riposted false	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi WoG Desk" "Yuugi Disarm" "Yuugi Corpseclear"
+combat_skill: .id "y_wog" .level 2 .type "ranged" .atk 105%	.dmg -65% .crit 0%	.launch 4321 .target 1234	.can_be_riposted false	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi WoG Desk" "Yuugi Disarm" "Yuugi Corpseclear"
+combat_skill: .id "y_wog" .level 3 .type "ranged" .atk 110%	.dmg -65% .crit 0%	.launch 4321 .target 1234	.can_be_riposted false	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi WoG Desk" "Yuugi Disarm" "Yuugi Corpseclear"
+combat_skill: .id "y_wog" .level 4 .type "ranged" .atk 115%	.dmg -65% .crit 0%	.launch 4321 .target 1234	.can_be_riposted false	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi WoG Desk" "Yuugi Disarm" "Yuugi Corpseclear"
 
 // Rampage
 combat_skill: .id "y_warpath" .level 0 .type "melee" .atk 90%	.dmg -65% .crit 5% 	.move 0 1 .launch 321 .target 12 .is_crit_valid True .valid_modes yuugirulemode	.effect "Stun 1" "Yuugi MarkS"
@@ -46,18 +46,18 @@ combat_skill: .id "y_notlunge" .level 3 .type "melee" .atk 95%	.dmg -25% .crit 6
 combat_skill: .id "y_notlunge" .level 4 .type "melee" .atk 100%	.dmg -25% .crit 7% 	.move 0 2 .launch 432 .target 123 .is_crit_valid True .ignore_protection true  .valid_modes yuugirulemode yuugimomentumDesk  .effect "Yuugi Giant Killer"
 
 // Heat Crash
-combat_skill: .id "y_warmup" .level 0 .launch 4321 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi No Eels" "Yuugi DemarkS" "Yuugi MarkS Hidden" "Yuugi CondStress 1" "Yuugi CondEel" "Yuugi CleanEels" "Yuugi Eel 1" "Yuugi Eels 1 Desk"
-combat_skill: .id "y_warmup" .level 1 .launch 4321 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi No Eels" "Yuugi DemarkS" "Yuugi MarkS Hidden" "Yuugi CondStress 2" "Yuugi CondEel" "Yuugi CleanEels" "Yuugi Eel 2" "Yuugi Eels 2 Desk"
-combat_skill: .id "y_warmup" .level 2 .launch 4321 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi No Eels" "Yuugi DemarkS" "Yuugi MarkS Hidden" "Yuugi CondStress 3" "Yuugi CondEel" "Yuugi CleanEels" "Yuugi Eel 2" "Yuugi Eels 3 Desk"
-combat_skill: .id "y_warmup" .level 3 .launch 4321 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi No Eels" "Yuugi DemarkS" "Yuugi MarkS Hidden" "Yuugi CondStress 4" "Yuugi CondEel" "Yuugi CleanEels" "Yuugi Eel 3" "Yuugi Eels 4 Desk"
-combat_skill: .id "y_warmup" .level 4 .launch 4321 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi No Eels" "Yuugi DemarkS" "Yuugi MarkS Hidden" "Yuugi CondStress 5" "Yuugi CondEel" "Yuugi CleanEels" "Yuugi Eel 3" "Yuugi Eels 5 Desk"
+combat_skill: .id "y_warmup" .level 0 .launch 4321 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi EelCond 1" "Yuugi MarkS" "Yuugi CondStress 1" "Yuugi CondEel" "Yuugi CleanEels" "Yuugi Eel 1" "Yuugi Eels 1 Desk"
+combat_skill: .id "y_warmup" .level 1 .launch 4321 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi EelCond 2" "Yuugi MarkS" "Yuugi CondStress 2" "Yuugi CondEel" "Yuugi CleanEels" "Yuugi Eel 2" "Yuugi Eels 2 Desk"
+combat_skill: .id "y_warmup" .level 2 .launch 4321 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi EelCond 3" "Yuugi MarkS" "Yuugi CondStress 3" "Yuugi CondEel" "Yuugi CleanEels" "Yuugi Eel 2" "Yuugi Eels 3 Desk"
+combat_skill: .id "y_warmup" .level 3 .launch 4321 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi EelCond 4" "Yuugi MarkS" "Yuugi CondStress 4" "Yuugi CondEel" "Yuugi CleanEels" "Yuugi Eel 3" "Yuugi Eels 4 Desk"
+combat_skill: .id "y_warmup" .level 4 .launch 4321 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi EelCond 5" "Yuugi MarkS" "Yuugi CondStress 5" "Yuugi CondEel" "Yuugi CleanEels" "Yuugi Eel 3" "Yuugi Eels 5 Desk"
 
 // Get Drunk
-combat_skill: .id "y_kampai" .level 0 .launch 21 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi Healdot 1" "Yuugi Drunk" "Yuugi Riposte A1" .is_stall_invalidating false
-combat_skill: .id "y_kampai" .level 1 .launch 21 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi Healdot 1" "Yuugi Drunk" "Yuugi Riposte A2" .is_stall_invalidating false
-combat_skill: .id "y_kampai" .level 2 .launch 21 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi Healdot 2" "Yuugi Drunk" "Yuugi Riposte A3" .is_stall_invalidating false
-combat_skill: .id "y_kampai" .level 3 .launch 21 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi Healdot 2" "Yuugi Drunk" "Yuugi Riposte A4" .is_stall_invalidating false
-combat_skill: .id "y_kampai" .level 4 .launch 21 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi Healdot 3" "Yuugi Drunk" "Yuugi Riposte A5" .is_stall_invalidating false
+combat_skill: .id "y_kampai" .level 0 .launch 21 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi Healdot 1" "Yuugi Drunk" "Yuugi Riposte 1" .is_stall_invalidating false
+combat_skill: .id "y_kampai" .level 1 .launch 21 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi Healdot 1" "Yuugi Drunk" "Yuugi Riposte 2" .is_stall_invalidating false
+combat_skill: .id "y_kampai" .level 2 .launch 21 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi Healdot 2" "Yuugi Drunk" "Yuugi Riposte 3" .is_stall_invalidating false
+combat_skill: .id "y_kampai" .level 3 .launch 21 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi Healdot 2" "Yuugi Drunk" "Yuugi Riposte 4" .is_stall_invalidating false
+combat_skill: .id "y_kampai" .level 4 .launch 21 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi Healdot 3" "Yuugi Drunk" "Yuugi Riposte 5" .is_stall_invalidating false
 
 riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 100% .dmg 0% .crit 3% .launch 1234 .target 1234 .is_crit_valid True
 

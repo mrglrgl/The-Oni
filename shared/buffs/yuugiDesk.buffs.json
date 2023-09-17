@@ -299,6 +299,19 @@
             "float" : 0,
             "string" : ""
          }
+      },
+	  {
+         "id" : "yuugi_placeholder",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.51,
+            "string" : ""
+         }
       }
    ]
 }
