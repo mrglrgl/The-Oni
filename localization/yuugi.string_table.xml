@@ -61,34 +61,13 @@
 
 		<!-- Random Tooltips Desk -->
 	<entry id="str_skill_mode_info_yuugirulemode"><![CDATA[]]></entry>
-	<entry id="str_skill_mode_info_yuugiripostemode1"><![CDATA[{colour_start|notable}Riposte 1{colour_end}]]></entry>
-	<entry id="str_skill_mode_info_yuugiripostemode2"><![CDATA[{colour_start|notable}Riposte 2{colour_end}]]></entry>
-	<entry id="str_skill_mode_info_yuugiripostemode3"><![CDATA[{colour_start|notable}Riposte 3{colour_end}]]></entry>
-	<entry id="str_skill_mode_info_yuugiripostemode4"><![CDATA[{colour_start|notable}Riposte 4{colour_end}]]></entry>
-	<entry id="str_skill_mode_info_yuugiripostemode5"><![CDATA[{colour_start|notable}Riposte 5{colour_end}]]></entry>
 			<!-- Combat Skills -->
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_momentum_header_desk"><![CDATA[{colour_start|notable}Momentum{colour_end}]]></entry>
 	<entry id="str_skill_mode_info_yuugimomentumDesk"><![CDATA[{colour_start|skill_unselectable}Bonuses also apply to
 Riposte for 1 rds{colour_end}]]></entry>
 	
-				<!-- Rampage -->
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_riposte_desk_B1"><![CDATA[ACC base: 80 / CRIT mod: +1%%]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_riposte_desk_B2"><![CDATA[ACC base: 85 / CRIT mod: +2%%]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_riposte_desk_B3"><![CDATA[ACC base: 90 / CRIT mod: +3%%]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_riposte_desk_B4"><![CDATA[ACC base: 95 / CRIT mod: +4%%]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_riposte_desk_B5"><![CDATA[ACC base: 100 / CRIT mod: +5%%]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_riposte_desk_C"><![CDATA[DMG mod: -55%% vs Rank 3 & 4]]></entry>	
-	
-				<!-- Excavation Strike -->
-	
 				<!-- Combo Breaker -->
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_wog_desk"><![CDATA[Bypass {colour_start|riposte}Riposte{colour_end} / Breaks {colour_start|riposte}Riposte{colour_end}]]></entry>
-
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_wog_desk_1"><![CDATA[Consume Self {colour_start|mark}Mark{colour_end}: {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_wog_desk_2"><![CDATA[Consume Self {colour_start|mark}Mark{colour_end}: {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_wog_desk_3"><![CDATA[Consume Self {colour_start|mark}Mark{colour_end}: {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_wog_desk_4"><![CDATA[Consume Self {colour_start|mark}Mark{colour_end}: {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_wog_desk_5"><![CDATA[Consume Self {colour_start|mark}Mark{colour_end}: {colour_start|stun}Stun{colour_end}  {colour_start|skill_unselectable}(150%% base){colour_end}]]></entry>
 
 				<!-- Battle Rhythm -->
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_1_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -5]]></entry>
