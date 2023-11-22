@@ -1,83 +1,237 @@
 
 yuugi.sprite.combat.png
-size: 512,512
+size: 878,531
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+Bangs 2nd Half
+  rotate: false
+  xy: 641, 109
+  size: 104, 78
+  orig: 104, 78
+  offset: 0, 0
+  index: -1
+Bangs First Half
+  rotate: false
+  xy: 512, 4
+  size: 118, 96
+  orig: 118, 96
+  offset: 0, 0
+  index: -1
+Big Hair Chunk Back
+  rotate: false
+  xy: 2, 66
+  size: 155, 187
+  orig: 155, 187
+  offset: 0, 0
+  index: -1
+Boobs
+  rotate: false
+  xy: 550, 432
+  size: 174, 97
+  orig: 174, 97
+  offset: 0, 0
+  index: -1
+Dress Back
+  rotate: true
+  xy: 697, 279
+  size: 100, 156
+  orig: 100, 156
+  offset: 0, 0
+  index: -1
+Dress Collar 1
+  rotate: false
+  xy: 371, 437
+  size: 177, 92
+  orig: 177, 92
+  offset: 0, 0
+  index: -1
+Dress Piece 1
+  rotate: false
+  xy: 157, 262
+  size: 154, 191
+  orig: 154, 191
+  offset: 0, 0
+  index: -1
+Dress Piece W
+  rotate: false
+  xy: 159, 73
+  size: 138, 187
+  orig: 138, 187
+  offset: 0, 0
+  index: -1
+From selection
+  rotate: false
+  xy: 813, 190
+  size: 18, 87
+  orig: 18, 87
+  offset: 0, 0
+  index: -1
+Hair Chunk 1
+  rotate: true
+  xy: 802, 12
+  size: 64, 61
+  orig: 64, 61
+  offset: 0, 0
+  index: -1
+Hair Chunk 2
+  rotate: false
+  xy: 159, 2
+  size: 46, 69
+  orig: 46, 69
+  offset: 0, 0
+  index: -1
+Hair bun Bottom
+  rotate: false
+  xy: 397, 54
+  size: 100, 77
+  orig: 100, 77
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 726, 381
+  size: 148, 150
+  orig: 148, 150
+  offset: 0, 0
+  index: -1
+JUST FOR LAYER PRIO
+  rotate: false
+  xy: 639, 224
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+Left Arm
+  rotate: true
+  xy: 538, 298
+  size: 132, 157
+  orig: 132, 157
+  offset: 0, 0
+  index: -1
+Left Foot
+  rotate: false
+  xy: 299, 38
+  size: 96, 65
+  orig: 96, 65
+  offset: 0, 0
+  index: -1
+Left Hand And Bowl
+  rotate: true
+  xy: 299, 105
+  size: 155, 96
+  orig: 155, 96
+  offset: 0, 0
+  index: -1
+Left Leg
+  rotate: false
+  xy: 397, 133
+  size: 100, 149
+  orig: 100, 149
+  offset: 0, 0
+  index: -1
+Left Shoulder
+  rotate: true
+  xy: 397, 2
+  size: 50, 113
+  orig: 50, 113
+  offset: 0, 0
+  index: -1
+Ponytail Top
+  rotate: false
+  xy: 499, 193
+  size: 138, 103
+  orig: 138, 103
+  offset: 0, 0
+  index: -1
+Right Arm
+  rotate: false
+  xy: 747, 78
+  size: 70, 109
+  orig: 70, 109
+  offset: 0, 0
+  index: -1
+Right Arm Sleeve
+  rotate: false
+  xy: 462, 302
+  size: 74, 133
+  orig: 74, 133
+  offset: 0, 0
+  index: -1
+Right Foot
+  rotate: true
+  xy: 716, 10
+  size: 66, 84
+  orig: 66, 84
+  offset: 0, 0
+  index: -1
+Right Hand
+  rotate: false
+  xy: 632, 6
+  size: 82, 94
+  orig: 82, 94
+  offset: 0, 0
+  index: -1
+Right Leg
+  rotate: false
+  xy: 313, 284
+  size: 147, 151
+  orig: 147, 151
+  offset: 0, 0
+  index: -1
+Sake
+  rotate: true
+  xy: 855, 275
+  size: 104, 21
+  orig: 104, 21
+  offset: 0, 0
+  index: -1
+Stomach Wrap
+  rotate: false
+  xy: 2, 10
+  size: 137, 54
+  orig: 137, 54
+  offset: 0, 0
+  index: -1
+Torso
+  rotate: false
+  xy: 2, 255
+  size: 153, 198
+  orig: 153, 198
+  offset: 0, 0
+  index: -1
+bag
+  rotate: true
+  xy: 694, 189
+  size: 88, 117
+  orig: 88, 117
+  offset: 0, 0
+  index: -1
+bag string
+  rotate: false
+  xy: 819, 128
+  size: 53, 60
+  orig: 53, 60
+  offset: 0, 0
+  index: -1
+left hair chunk
+  rotate: true
+  xy: 499, 102
+  size: 89, 140
+  orig: 89, 140
+  offset: 0, 0
+  index: -1
+left small hair
+  rotate: true
+  xy: 207, 5
+  size: 66, 80
+  orig: 66, 80
+  offset: 0, 0
+  index: -1
 shadow
   rotate: false
-  xy: 1, 206
-  size: 357, 69
-  orig: 359, 71
-  offset: 2, 0
-  index: -1
-back_hair
-  rotate: false
-  xy: 1, 1
-  size: 126, 203
-  orig: 126, 203
-  offset: 0, 0
-  index: -1
-left_arm
-  rotate: false
-  xy: 322, 73
-  size: 35, 56
-  orig: 35, 56
-  offset: 0, 0
-  index: -1
-right_arm
-  rotate: false
-  xy: 242, 152
-  size: 45, 39
-  orig: 45, 39
-  offset: 0, 0
-  index: -1
-right_foot
-  rotate: false
-  xy: 191, 105
-  size: 49, 70
-  orig: 49, 70
-  offset: 0, 0
-  index: -1
-shirt
-  rotate: false
-  xy: 129, 105
-  size: 60, 63
-  orig: 60, 63
-  offset: 0, 0
-  index: -1
-head
-  rotate: false
-  xy: 129, 1
-  size: 137, 102
-  orig: 137, 102
-  offset: 0, 0
-  index: -1
-right_forearm
-  rotate: false
-  xy: 360, 132
-  size: 42, 73
-  orig: 42, 73
-  offset: 0, 0
-  index: -1
-left_foot
-  rotate: false
-  xy: 268, 1
-  size: 70, 70
-  orig: 70, 70
-  offset: 0, 0
-  index: -1
-skirt
-  rotate: false
-  xy: 360, 1
-  size: 140, 129
-  orig: 140, 129
-  offset: 0, 0
-  index: -1
-left_forearm
-  rotate: false
-  xy: 268, 73
-  size: 52, 77
-  orig: 52, 77
+  xy: 2, 455
+  size: 367, 74
+  orig: 367, 74
   offset: 0, 0
   index: -1

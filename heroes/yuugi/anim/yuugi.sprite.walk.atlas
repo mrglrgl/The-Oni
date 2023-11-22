@@ -1,97 +1,321 @@
 
 yuugi.sprite.walk.png
-size: 512,512
+size: 713,713
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+Bangs 2nd Half
+  rotate: true
+  xy: 338, 179
+  size: 104, 78
+  orig: 104, 78
+  offset: 0, 0
+  index: -1
+Bangs First Half
+  rotate: false
+  xy: 525, 353
+  size: 118, 96
+  orig: 118, 96
+  offset: 0, 0
+  index: -1
+Big Hair Chunk Back
+  rotate: false
+  xy: 151, 448
+  size: 155, 187
+  orig: 155, 187
+  offset: 0, 0
+  index: -1
+Clothing Chunk 1
+  rotate: false
+  xy: 371, 632
+  size: 191, 79
+  orig: 191, 79
+  offset: 0, 0
+  index: -1
+Clothing Chunk 2
+  rotate: true
+  xy: 573, 137
+  size: 86, 78
+  orig: 86, 78
+  offset: 0, 0
+  index: -1
+Clothing Chunk 4
+  rotate: false
+  xy: 509, 53
+  size: 62, 53
+  orig: 62, 53
+  offset: 0, 0
+  index: -1
+Dish Hand
+  rotate: true
+  xy: 458, 471
+  size: 159, 103
+  orig: 159, 103
+  offset: 0, 0
+  index: -1
+Foot 2
+  rotate: true
+  xy: 509, 108
+  size: 96, 62
+  orig: 96, 62
+  offset: 0, 0
+  index: -1
+From selection
+  rotate: true
+  xy: 573, 115
+  size: 20, 87
+  orig: 20, 87
+  offset: 0, 0
+  index: -1
+Hair Chunk 1
+  rotate: false
+  xy: 573, 52
+  size: 64, 61
+  orig: 64, 61
+  offset: 0, 0
+  index: -1
+Hair Chunk 2
+  rotate: true
+  xy: 358, 19
+  size: 46, 69
+  orig: 46, 69
+  offset: 0, 0
+  index: -1
+Hair bun Bottom
+  rotate: true
+  xy: 430, 88
+  size: 100, 77
+  orig: 100, 77
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 308, 480
+  size: 148, 150
+  orig: 148, 150
+  offset: 0, 0
+  index: -1
+JUST FOR LAYER PRIO
+  rotate: false
+  xy: 653, 176
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+Layer 80
+  rotate: false
+  xy: 645, 400
+  size: 66, 49
+  orig: 66, 49
+  offset: 0, 0
+  index: -1
+Layer 81
+  rotate: true
+  xy: 653, 250
+  size: 51, 58
+  orig: 51, 58
+  offset: 0, 0
+  index: -1
+Layer 82
+  rotate: false
+  xy: 430, 22
+  size: 70, 64
+  orig: 70, 64
+  offset: 0, 0
+  index: -1
+Layer 83
+  rotate: true
+  xy: 663, 569
+  size: 56, 48
+  orig: 56, 48
+  offset: 0, 0
+  index: -1
+Layer 84
+  rotate: false
+  xy: 242, 2
+  size: 70, 63
+  orig: 70, 63
+  offset: 0, 0
+  index: -1
+Layer 85
+  rotate: true
+  xy: 314, 15
+  size: 54, 42
+  orig: 54, 42
+  offset: 0, 0
+  index: -1
+Layer 86
+  rotate: true
+  xy: 663, 491
+  size: 76, 46
+  orig: 76, 46
+  offset: 0, 0
+  index: -1
+Layer 87
+  rotate: false
+  xy: 502, 11
+  size: 68, 40
+  orig: 68, 40
+  offset: 0, 0
+  index: -1
+Leg 1
+  rotate: false
+  xy: 144, 244
+  size: 94, 183
+  orig: 94, 183
+  offset: 0, 0
+  index: -1
+Leg 2
+  rotate: false
+  xy: 240, 277
+  size: 87, 169
+  orig: 87, 169
+  offset: 0, 0
+  index: -1
+Ponytail Top
+  rotate: true
+  xy: 329, 340
+  size: 138, 103
+  orig: 138, 103
+  offset: 0, 0
+  index: -1
+Right Arm
+  rotate: false
+  xy: 363, 67
+  size: 65, 110
+  orig: 65, 110
+  offset: 0, 0
+  index: -1
+Right Forearm
+  rotate: false
+  xy: 651, 303
+  size: 60, 40
+  orig: 60, 40
+  offset: 0, 0
+  index: -1
+Right Forearm Sleeve
+  rotate: true
+  xy: 564, 627
+  size: 84, 143
+  orig: 84, 143
+  offset: 0, 0
+  index: -1
+Right Forearm Sleeve Back
+  rotate: true
+  xy: 525, 302
+  size: 49, 124
+  orig: 49, 124
+  offset: 0, 0
+  index: -1
+Right Hand
+  rotate: false
+  xy: 478, 206
+  size: 76, 94
+  orig: 76, 94
+  offset: 0, 0
+  index: -1
+Sake
+  rotate: false
+  xy: 2, 13
+  size: 102, 30
+  orig: 102, 30
+  offset: 0, 0
+  index: -1
+Skirt Part 1
+  rotate: false
+  xy: 2, 45
+  size: 156, 182
+  orig: 156, 182
+  offset: 0, 0
+  index: -1
+Skirt Part 2
+  rotate: false
+  xy: 160, 70
+  size: 86, 172
+  orig: 86, 172
+  offset: 0, 0
+  index: -1
+Skirt Part 3
+  rotate: false
+  xy: 2, 229
+  size: 140, 198
+  orig: 140, 198
+  offset: 0, 0
+  index: -1
+Slightly Different Foot Just In Case
+  rotate: false
+  xy: 556, 225
+  size: 90, 75
+  orig: 90, 75
+  offset: 0, 0
+  index: -1
+Stomach Thing
+  rotate: true
+  xy: 418, 190
+  size: 137, 58
+  orig: 137, 58
+  offset: 0, 0
+  index: -1
+TORSO
+  rotate: false
+  xy: 2, 429
+  size: 147, 206
+  orig: 147, 206
+  offset: 0, 0
+  index: -1
+bag
+  rotate: false
+  xy: 248, 158
+  size: 88, 117
+  orig: 88, 117
+  offset: 0, 0
+  index: -1
+bag string
+  rotate: true
+  xy: 651, 345
+  size: 53, 60
+  orig: 53, 60
+  offset: 0, 0
+  index: -1
+boobs
+  rotate: true
+  xy: 563, 451
+  size: 174, 98
+  orig: 174, 98
+  offset: 0, 0
+  index: -1
+left hair chunk
+  rotate: false
+  xy: 434, 329
+  size: 89, 140
+  orig: 89, 140
+  offset: 0, 0
+  index: -1
+left sleeve
+  rotate: true
+  xy: 248, 71
+  size: 85, 113
+  orig: 85, 113
+  offset: 0, 0
+  index: -1
+left small hair
+  rotate: true
+  xy: 160, 2
+  size: 66, 80
+  orig: 66, 80
+  offset: 0, 0
+  index: -1
+right shackle
+  rotate: true
+  xy: 329, 285
+  size: 53, 85
+  orig: 53, 85
+  offset: 0, 0
+  index: -1
 shadow
   rotate: false
-  xy: 1, 301
-  size: 357, 69
-  orig: 359, 71
-  offset: 2, 0
-  index: -1
-hair_back
-  rotate: false
-  xy: 360, 1
-  size: 94, 220
-  orig: 94, 220
-  offset: 0, 0
-  index: -1
-arm_back_buffer
-  rotate: false
-  xy: 456, 198
-  size: 28, 21
-  orig: 28, 21
-  offset: 0, 0
-  index: -1
-arm_back
-  rotate: false
-  xy: 456, 161
-  size: 32, 35
-  orig: 32, 35
-  offset: 0, 0
-  index: -1
-foreleg2
-  rotate: false
-  xy: 456, 1
-  size: 45, 66
-  orig: 45, 66
-  offset: 0, 0
-  index: -1
-forefoot
-  rotate: false
-  xy: 456, 69
-  size: 45, 46
-  orig: 45, 46
-  offset: 0, 0
-  index: -1
-aftleg2
-  rotate: false
-  xy: 453, 223
-  size: 45, 72
-  orig: 45, 72
-  offset: 0, 0
-  index: -1
-aftfoot
-  rotate: false
-  xy: 456, 117
-  size: 45, 42
-  orig: 45, 42
-  offset: 0, 0
-  index: -1
-chain3
-  rotate: false
-  xy: 486, 198
-  size: 25, 21
-  orig: 25, 21
-  offset: 0, 0
-  index: -1
-chain2
-  rotate: false
-  xy: 453, 297
-  size: 14, 21
-  orig: 14, 21
-  offset: 0, 0
-  index: -1
-chain1
-  rotate: false
-  xy: 490, 161
-  size: 21, 21
-  orig: 21, 21
-  offset: 0, 0
-  index: -1
-torso
-  rotate: false
-  xy: 1, 1
-  size: 147, 298
-  orig: 147, 298
-  offset: 0, 0
-  index: -1
-arms
-  rotate: false
-  xy: 360, 223
-  size: 91, 122
-  orig: 91, 122
+  xy: 2, 637
+  size: 367, 74
+  orig: 367, 74
   offset: 0, 0
   index: -1
