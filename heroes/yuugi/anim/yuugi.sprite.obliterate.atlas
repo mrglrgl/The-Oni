@@ -1,0 +1,27 @@
+
+yuugi.sprite.obliterate.png
+size: 846,653
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+From selection
+  rotate: true
+  xy: 704, 39
+  size: 243, 140
+  orig: 243, 140
+  offset: 0, 0
+  index: -1
+Sprite
+  rotate: true
+  xy: 2, 2
+  size: 649, 700
+  orig: 649, 700
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 704, 284
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1

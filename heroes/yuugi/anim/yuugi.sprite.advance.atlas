@@ -1,0 +1,125 @@
+
+yuugi.sprite.advance.png
+size: 1097,665
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 91
+  rotate: false
+  xy: 881, 460
+  size: 210, 34
+  orig: 210, 34
+  offset: 0, 0
+  index: -1
+Layer 92
+  rotate: false
+  xy: 586, 457
+  size: 293, 130
+  orig: 293, 130
+  offset: 0, 0
+  index: -1
+Sake
+  rotate: true
+  xy: 1037, 358
+  size: 100, 43
+  orig: 100, 43
+  offset: 0, 0
+  index: -1
+blur1
+  rotate: true
+  xy: 586, 28
+  size: 166, 211
+  orig: 166, 211
+  offset: 0, 0
+  index: -1
+blur2
+  rotate: false
+  xy: 875, 29
+  size: 165, 211
+  orig: 165, 211
+  offset: 0, 0
+  index: -1
+blur3
+  rotate: false
+  xy: 846, 242
+  size: 158, 213
+  orig: 158, 213
+  offset: 0, 0
+  index: -1
+dust1
+  rotate: true
+  xy: 799, 2
+  size: 192, 74
+  orig: 192, 74
+  offset: 0, 0
+  index: -1
+dust2
+  rotate: false
+  xy: 586, 323
+  size: 258, 132
+  orig: 258, 132
+  offset: 0, 0
+  index: -1
+dust3
+  rotate: false
+  xy: 586, 196
+  size: 258, 125
+  orig: 258, 125
+  offset: 0, 0
+  index: -1
+dust4
+  rotate: false
+  xy: 881, 496
+  size: 201, 91
+  orig: 201, 91
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 586, 589
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1
+sprite
+  rotate: false
+  xy: 2, 27
+  size: 582, 636
+  orig: 582, 636
+  offset: 0, 0
+  index: -1
+stomp_ground_1
+  rotate: true
+  xy: 1006, 326
+  size: 132, 29
+  orig: 132, 29
+  offset: 0, 0
+  index: -1
+stomp_ground_2
+  rotate: true
+  xy: 1042, 202
+  size: 57, 35
+  orig: 57, 35
+  offset: 0, 0
+  index: -1
+stomp_ground_3
+  rotate: false
+  xy: 955, 613
+  size: 133, 50
+  orig: 133, 50
+  offset: 0, 0
+  index: -1
+stomp_ground_4
+  rotate: true
+  xy: 1042, 144
+  size: 56, 35
+  orig: 56, 35
+  offset: 0, 0
+  index: -1
+stomp_ground_5
+  rotate: false
+  xy: 1006, 261
+  size: 89, 63
+  orig: 89, 63
+  offset: 0, 0
+  index: -1

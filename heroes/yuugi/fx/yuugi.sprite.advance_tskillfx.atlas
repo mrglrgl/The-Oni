@@ -1,0 +1,41 @@
+
+yuugi.sprite.advance_tskillfx.png
+size: 693,291
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 100
+  rotate: true
+  xy: 634, 59
+  size: 230, 57
+  orig: 230, 57
+  offset: 0, 0
+  index: -1
+Layer 94
+  rotate: false
+  xy: 339, 6
+  size: 208, 41
+  orig: 208, 41
+  offset: 0, 0
+  index: -1
+Layer 99
+  rotate: false
+  xy: 2, 2
+  size: 335, 287
+  orig: 335, 287
+  offset: 0, 0
+  index: -1
+dust1
+  rotate: false
+  xy: 339, 49
+  size: 192, 74
+  orig: 192, 74
+  offset: 0, 0
+  index: -1
+targetbeam
+  rotate: false
+  xy: 339, 125
+  size: 293, 164
+  orig: 293, 164
+  offset: 0, 0
+  index: -1

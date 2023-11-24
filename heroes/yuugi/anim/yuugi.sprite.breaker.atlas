@@ -1,0 +1,27 @@
+
+yuugi.sprite.breaker.png
+size: 1209,534
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BACK But Foot
+  rotate: true
+  xy: 604, 78
+  size: 454, 603
+  orig: 454, 603
+  offset: 0, 0
+  index: -1
+Layer 32
+  rotate: true
+  xy: 2, 18
+  size: 514, 600
+  orig: 514, 600
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 604, 2
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1
