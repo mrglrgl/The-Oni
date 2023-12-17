@@ -25,11 +25,11 @@ combat_skill: .id "y_obligatorycleave" .level 3 .type "melee" .atk 100%	.dmg -50
 combat_skill: .id "y_obligatorycleave" .level 4 .type "melee" .atk 105% .dmg -50% .crit 0%	.launch 21 .target ~34 .is_crit_valid True .valid_modes yuugirulemode yuugimomentumDesk	.effect "Yuugi Focus 5"
 
 // Annihilating Roar
-combat_skill: .id "y_wog" .level 0 .type "ranged" .atk 95%	.dmg -65% .crit 0%	.launch 4321 .target 1234	.can_be_riposted false	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi WoG Desk" "Yuugi Disarm" "Yuugi Corpseclear"
-combat_skill: .id "y_wog" .level 1 .type "ranged" .atk 100%	.dmg -65% .crit 0%	.launch 4321 .target 1234	.can_be_riposted false	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi WoG Desk" "Yuugi Disarm" "Yuugi Corpseclear"
-combat_skill: .id "y_wog" .level 2 .type "ranged" .atk 105%	.dmg -65% .crit 0%	.launch 4321 .target 1234	.can_be_riposted false	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi WoG Desk" "Yuugi Disarm" "Yuugi Corpseclear"
-combat_skill: .id "y_wog" .level 3 .type "ranged" .atk 110%	.dmg -65% .crit 0%	.launch 4321 .target 1234	.can_be_riposted false	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi WoG Desk" "Yuugi Disarm" "Yuugi Corpseclear"
-combat_skill: .id "y_wog" .level 4 .type "ranged" .atk 115%	.dmg -65% .crit 0%	.launch 4321 .target 1234	.can_be_riposted false	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi WoG Desk" "Yuugi Disarm" "Yuugi Corpseclear"
+combat_skill: .id "y_wog" .level 0 .type "ranged" .atk 95%	.dmg -75% .crit 0%	.launch 4321 .target ~1234	.can_be_riposted false	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi WoG Desk" "Yuugi Disarm" "Yuugi Corpseclear"
+combat_skill: .id "y_wog" .level 1 .type "ranged" .atk 100%	.dmg -75% .crit 0%	.launch 4321 .target ~1234	.can_be_riposted false	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi WoG Desk" "Yuugi Disarm" "Yuugi Corpseclear"
+combat_skill: .id "y_wog" .level 2 .type "ranged" .atk 105%	.dmg -75% .crit 0%	.launch 4321 .target ~1234	.can_be_riposted false	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi WoG Desk" "Yuugi Disarm" "Yuugi Corpseclear"
+combat_skill: .id "y_wog" .level 3 .type "ranged" .atk 110%	.dmg -75% .crit 0%	.launch 4321 .target ~1234	.can_be_riposted false	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi WoG Desk" "Yuugi Disarm" "Yuugi Corpseclear"
+combat_skill: .id "y_wog" .level 4 .type "ranged" .atk 115%	.dmg -75% .crit 0%	.launch 4321 .target ~1234	.can_be_riposted false	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi WoG Desk" "Yuugi Disarm" "Yuugi Corpseclear"
 
 // Inexorible Advance
 combat_skill: .id "y_warpath" .level 0 .type "melee" .atk 95%	.dmg -65% .crit 5% 	.move 0 1 .launch 321 .target 12 .is_crit_valid True .valid_modes yuugirulemode	.effect "Stun 2" "Yuugi MarkS"

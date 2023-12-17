@@ -12,7 +12,7 @@ effect: .name "Yuugi MarkS" .target "performer" .chance 100% .tag 1  .duration 4
 //// Annihilating Roar \\\\
 effect: .name "Yuugi WoG Desk"	.target "performer"	.skill_instant true .buff_ids "yuugi_wog_Desk" .apply_once true .on_hit true .on_miss true
 
-effect: .name "Yuugi Corpseclear" .target "target_group" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss false .queue false .can_apply_on_death true .apply_once true
+effect: .name "Yuugi Corpseclear" .target "target_group" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss true .queue false .can_apply_on_death true .apply_once true
 effect: .name "Yuugi Disarm" .target "target" .chance 100% .clear_riposte 1 .on_hit true .on_miss false .has_description false
 
 

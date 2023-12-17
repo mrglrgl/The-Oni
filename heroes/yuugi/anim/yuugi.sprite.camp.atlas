@@ -1,20 +1,27 @@
 
 yuugi.sprite.camp.png
-size: 1024,512
+size: 811,480
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-shadow
+Layer 304
   rotate: false
-  xy: 493, 1
-  size: 357, 69
-  orig: 359, 71
-  offset: 2, 0
+  xy: 468, 226
+  size: 265, 252
+  orig: 265, 252
+  offset: 0, 0
   index: -1
-camp
-  rotate: false
-  xy: 1, 1
-  size: 490, 497
-  orig: 490, 497
+layer 1
+  rotate: true
+  xy: 2, 2
+  size: 476, 464
+  orig: 476, 464
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 735, 111
+  size: 367, 74
+  orig: 367, 74
   offset: 0, 0
   index: -1

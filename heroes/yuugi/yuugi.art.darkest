@@ -14,7 +14,7 @@ armour: .name "yuugi_armour_4" .icon "eqp_armour_4.png"
 
 combat_skill: .id "y_obliterate"		.icon "one"		.anim "obliterate"	.fx "obliterate_fx"	.targchestfx "blood_splatter"
 combat_skill: .id "y_obligatorycleave"	.icon "two"		.anim "toss"		.fx ""				.targfx "debris" 				.area_pos_offset 50 0 .target_area_pos_offset -50 0	.condensed_tooltip_stats true
-combat_skill: .id "y_wog"				.icon "three"	.anim "shout"		.fx "" 				.targfx "manacles_target"
+combat_skill: .id "y_wog"				.icon "three"	.anim "shout"		.fx "" 				.targfx "manacles_target"		.area_pos_offset 50 0 .target_area_pos_offset 50 0
 combat_skill: .id "y_warpath"			.icon "four"	.anim "advance"		.fx ""				.targfx "advance_tskillfx"		.area_pos_offset 50 0 .target_area_pos_offset 50 0	.condensed_tooltip_stats true	.condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "y_notlunge" 			.icon "five"	.anim "breaker"		.fx "breaker_fx"	.targchestfx "blood_splatter"	.area_pos_offset 50 0 .target_area_pos_offset 50 0	.condensed_tooltip_stats true	.condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "y_warmup"			.icon "six"		.anim "drink"		.fx ""				.targfx "emboldening_vapours_target" .condensed_tooltip_stats true	.condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
