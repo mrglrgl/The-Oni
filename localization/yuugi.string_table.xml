@@ -23,18 +23,18 @@
 
 		<!--Combat Skills-->
 	<entry id="combat_skill_name_yuugi_y_obliterate"><![CDATA[Obliterate]]></entry>
-	<entry id="combat_skill_name_yuugi_y_obligatorycleave"><![CDATA[Ooe-yama Hurricane]]></entry>
-	<entry id="combat_skill_name_yuugi_y_wog"><![CDATA[Annihilating Roar]]></entry>
+	<entry id="combat_skill_name_yuugi_y_obligatorycleave"><![CDATA[Shattering Roar]]></entry>
 	<entry id="combat_skill_name_yuugi_y_warpath"><![CDATA[Inexorible Advance]]></entry>
 	<entry id="combat_skill_name_yuugi_y_notlunge"><![CDATA[Mountain Breaker]]></entry>
+	<entry id="combat_skill_name_yuugi_y_wog"><![CDATA[Unfettered Spirit]]></entry>
     <entry id="combat_skill_name_yuugi_y_warmup"><![CDATA[Battle Rhythm]]></entry>
     <entry id="combat_skill_name_yuugi_y_kampai"><![CDATA[Kampai!]]></entry>
     <entry id="combat_skill_name_yuugi_move"><![CDATA[Move]]></entry>
     <entry id="upgrade_tree_name_yuugi.y_obliterate"><![CDATA[Obliterate]]></entry>
-	<entry id="upgrade_tree_name_yuugi.y_obligatorycleave"><![CDATA[Ooe-yama Hurricane]]></entry>
-	<entry id="upgrade_tree_name_yuugi.y_wog"><![CDATA[Annihilating Roar]]></entry>
+	<entry id="upgrade_tree_name_yuugi.y_obligatorycleave"><![CDATA[Shattering Roar]]></entry>
 	<entry id="upgrade_tree_name_yuugi.y_warpath"><![CDATA[Inexorible Advance]]></entry>
 	<entry id="upgrade_tree_name_yuugi.y_notlunge"><![CDATA[Mountain Breaker]]></entry>
+	<entry id="upgrade_tree_name_yuugi.y_wog"><![CDATA[Unfettered Spirit]]></entry>
 	<entry id="upgrade_tree_name_yuugi.y_warmup"><![CDATA[Battle Rhythm]]></entry>
 	<entry id="upgrade_tree_name_yuugi.y_kampai"><![CDATA[Kampai!]]></entry>
 	
@@ -66,21 +66,28 @@
 	<entry id="str_skill_mode_info_yuugimomentumDesk"><![CDATA[{colour_start|skill_unselectable}Bonuses also apply to
 Riposte for 1 rds{colour_end}]]></entry>
 	
-				<!-- Combo Breaker -->
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_wog_desk"><![CDATA[Bypass {colour_start|riposte}Riposte{colour_end} / Breaks {colour_start|riposte}Riposte{colour_end}]]></entry>
+				<!-- Unfettered Spirit -->
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_unhorror_desk"><![CDATA[Clear {colour_start|stress}Horror{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rallystun_1_desk"><![CDATA[Clear {colour_start|stun}Stun:{colour_end} {colour_start|stress}Stress{colour_end} -5]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rallystun_2_desk"><![CDATA[Clear {colour_start|stun}Stun:{colour_end} {colour_start|stress}Stress{colour_end} -6]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rallystun_3_desk"><![CDATA[Clear {colour_start|stun}Stun:{colour_end} {colour_start|stress}Stress{colour_end} -7]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rallymark_1_desk"><![CDATA[Clear {colour_start|mark}Mark:{colour_end} {colour_start|stress}Stress{colour_end} -5]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rallymark_2_desk"><![CDATA[Clear {colour_start|mark}Mark:{colour_end} {colour_start|stress}Stress{colour_end} -6]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rallymark_3_desk"><![CDATA[Clear {colour_start|mark}Mark:{colour_end} {colour_start|stress}Stress{colour_end} -7]]></entry>
 
+	
 				<!-- Battle Rhythm -->
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_1_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -5]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_2_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -5]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_3_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -6]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_4_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -7]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_high_eels_5_desk"><![CDATA[If HP above 49%%: {colour_start|stress}Stress{colour_end} -8]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_condstress_4_desk"><![CDATA[If HP above 33%%: {colour_start|stress}Stress{colour_end} -4]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_condstress_5_desk"><![CDATA[If HP above 33%%: {colour_start|stress}Stress{colour_end} -5]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_condstress_6_desk"><![CDATA[If HP above 33%%: {colour_start|stress}Stress{colour_end} -6]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_low_eels_1_desk"><![CDATA[If HP below 51%%: +4 {colour_start|healhp}Healing{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_low_eels_2_desk"><![CDATA[If HP below 51%%: +5 {colour_start|healhp}Healing{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_low_eels_3_desk"><![CDATA[If HP below 51%%: +6 {colour_start|healhp}Healing{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_low_eels_4_desk"><![CDATA[If HP below 51%%: +7 {colour_start|healhp}Healing{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_low_eels_5_desk"><![CDATA[If HP below 51%%: +8 {colour_start|healhp}Healing{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_condeels_2_desk"><![CDATA[If HP below 66%%: +2 {colour_start|healhp}Healing{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_condeels_3_desk"><![CDATA[If HP below 66%%: +3 {colour_start|healhp}Healing{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_condeels_4_desk"><![CDATA[If HP below 66%%: +4 {colour_start|healhp}Healing{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_freemove_desk"><![CDATA[Free {colour_start|move}Move{colour_end} After Action]]></entry>
 
 	
   </language>

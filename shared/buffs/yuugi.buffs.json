@@ -184,6 +184,58 @@
          }
       },
 	  {
+         "id" : "yuugi_stunstressblock",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "effect",
+         "amount" : -1000,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         }
+      },
+	  {
+         "id" : "yuugi_stunstressunblock",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "effect",
+         "amount" : 1000,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         }
+      },
+	  {
+         "id" : "yuugi_markstressblock",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "effect",
+         "amount" : -1000,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "yuugi_markstressunblock",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "effect",
+         "amount" : 1000,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
          "id" : "yuugi_blockstress",
          "stat_type" : "stress_heal_percent",
          "stat_sub_type" : "effect",
@@ -192,20 +244,7 @@
          "rule_type" : "hpbelow",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0.50,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "yuugi_healbuff1",
-         "stat_type" : "hp_heal_amount",
-         "stat_sub_type" : "",
-         "amount" : 5,
-         "remove_if_not_active" : false,
-         "rule_type" : "hpbelow",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0.51,
+            "float" : 0.34,
             "string" : ""
          }
       },
@@ -213,12 +252,12 @@
          "id" : "yuugi_healbuff2",
          "stat_type" : "hp_heal_amount",
          "stat_sub_type" : "",
-         "amount" : 6,
+         "amount" : 2,
          "remove_if_not_active" : false,
          "rule_type" : "hpbelow",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0.51,
+            "float" : 0.67,
             "string" : ""
          }
       },
@@ -226,12 +265,12 @@
          "id" : "yuugi_healbuff3",
          "stat_type" : "hp_heal_amount",
          "stat_sub_type" : "",
-         "amount" : 7,
+         "amount" : 3,
          "remove_if_not_active" : false,
          "rule_type" : "hpbelow",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0.51,
+            "float" : 0.67,
             "string" : ""
          }
       },
@@ -239,28 +278,32 @@
          "id" : "yuugi_healbuff4",
          "stat_type" : "hp_heal_amount",
          "stat_sub_type" : "",
-         "amount" : 8,
+         "amount" : 4,
          "remove_if_not_active" : false,
          "rule_type" : "hpbelow",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0.51,
+            "float" : 0.67,
             "string" : ""
          }
       },
 	  {
-         "id" : "yuugi_healbuff5",
-         "stat_type" : "hp_heal_amount",
-         "stat_sub_type" : "",
-         "amount" : 10,
-         "remove_if_not_active" : false,
-         "rule_type" : "hpbelow",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0.51,
-            "string" : ""
-         }
-      },
+			"id" : "yuugi_skillblock",
+			"stat_type" : "disable_combat_skill_attribute",
+			"stat_sub_type" : "poison",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"remove_on_battle_complete": true,
+			"has_description" : false,
+			"is_clear_debuff_valid": false
+	  },
 	  {
          "id" : "yuugi_drunk_DODGE",
          "stat_type" : "combat_stat_add",
