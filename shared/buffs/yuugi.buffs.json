@@ -1,7 +1,7 @@
 {
    "buffs":
    [
-       {
+	  {
          "id" : "yuugi_Focus_dmglow_1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
@@ -304,6 +304,23 @@
 			"has_description" : false,
 			"is_clear_debuff_valid": false
 	  },
+	  {
+
+			"id" : "yuugi_antipass_stress",
+			"stat_type" : "stress_dmg_percent",
+			"stat_sub_type" : "pass",
+			"amount" : -2,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"remove_on_battle_complete": true,
+			"has_description" : false
+		},
 	  {
          "id" : "yuugi_drunk_DODGE",
          "stat_type" : "combat_stat_add",

@@ -39,12 +39,12 @@
 	<entry id="upgrade_tree_name_yuugi.y_kampai"><![CDATA[Kampai!]]></entry>
 	
 		<!-- Upgrades -->
-    <entry id="yuugi_weapon_0"><![CDATA[Yuugi Weapon 1]]></entry>
-    <entry id="yuugi_weapon_1"><![CDATA[Yuugi Weapon 2]]></entry>
-    <entry id="yuugi_weapon_2"><![CDATA[Yuugi Weapon 3]]></entry>
-    <entry id="yuugi_weapon_3"><![CDATA[Yuugi Weapon 4]]></entry>
-    <entry id="yuugi_weapon_4"><![CDATA[Yuugi Weapon 5]]></entry>
-    <entry id="upgrade_tree_name_yuugi.weapon"><![CDATA[Yuugi Weapon]]></entry>
+    <entry id="yuugi_weapon_0"><![CDATA[Chipped Dish]]></entry>
+    <entry id="yuugi_weapon_1"><![CDATA[Antique Dish]]></entry>
+    <entry id="yuugi_weapon_2"><![CDATA[Custom Dish]]></entry>
+    <entry id="yuugi_weapon_3"><![CDATA[Enchanted Dish]]></entry>
+    <entry id="yuugi_weapon_4"><![CDATA[Ooe's Blossom]]></entry>
+    <entry id="upgrade_tree_name_yuugi.weapon"><![CDATA[Sake Dish]]></entry>
     <entry id="yuugi_armour_0"><![CDATA[Yuugi Armor 1]]></entry>
     <entry id="yuugi_armour_1"><![CDATA[Yuugi Armor 2]]></entry>
     <entry id="yuugi_armour_2"><![CDATA[Yuugi Armor 3]]></entry>
@@ -72,10 +72,12 @@ Riposte for 1 rds{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rallystun_1_desk"><![CDATA[Clear {colour_start|stun}Stun:{colour_end} {colour_start|stress}Stress{colour_end} -5]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rallystun_2_desk"><![CDATA[Clear {colour_start|stun}Stun:{colour_end} {colour_start|stress}Stress{colour_end} -6]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rallystun_3_desk"><![CDATA[Clear {colour_start|stun}Stun:{colour_end} {colour_start|stress}Stress{colour_end} -7]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rallystun_4_desk"><![CDATA[Clear {colour_start|stun}Stun:{colour_end} {colour_start|stress}Stress{colour_end} -8]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rallymark_1_desk"><![CDATA[Clear {colour_start|mark}Mark:{colour_end} {colour_start|stress}Stress{colour_end} -5]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rallymark_2_desk"><![CDATA[Clear {colour_start|mark}Mark:{colour_end} {colour_start|stress}Stress{colour_end} -6]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rallymark_3_desk"><![CDATA[Clear {colour_start|mark}Mark:{colour_end} {colour_start|stress}Stress{colour_end} -7]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rallymark_4_desk"><![CDATA[Clear {colour_start|mark}Mark:{colour_end} {colour_start|stress}Stress{colour_end} -8]]></entry>
 
 	
 				<!-- Battle Rhythm -->

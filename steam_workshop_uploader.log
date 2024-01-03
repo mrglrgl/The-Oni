@@ -33,6 +33,7 @@ heroes/yuugi/yuugi_A/anim/yuugi.sprite.idle.png
 heroes/yuugi/yuugi_A/anim/yuugi.sprite.investigate.png
 heroes/yuugi/yuugi_A/anim/yuugi.sprite.obliterate.png
 heroes/yuugi/yuugi_A/anim/yuugi.sprite.riposte.png
+heroes/yuugi/yuugi_A/anim/yuugi.sprite.roar.png
 heroes/yuugi/yuugi_A/anim/yuugi.sprite.shout.png
 heroes/yuugi/yuugi_A/anim/yuugi.sprite.toss.png
 heroes/yuugi/yuugi_A/anim/yuugi.sprite.walk.png
@@ -60,6 +61,8 @@ heroes/yuugi/anim/yuugi.sprite.obliterate.atlas
 heroes/yuugi/anim/yuugi.sprite.obliterate.skel
 heroes/yuugi/anim/yuugi.sprite.riposte.atlas
 heroes/yuugi/anim/yuugi.sprite.riposte.skel
+heroes/yuugi/anim/yuugi.sprite.roar.atlas
+heroes/yuugi/anim/yuugi.sprite.roar.skel
 heroes/yuugi/anim/yuugi.sprite.shout.atlas
 heroes/yuugi/anim/yuugi.sprite.shout.skel
 heroes/yuugi/anim/yuugi.sprite.toss.atlas
@@ -90,6 +93,9 @@ heroes/yuugi/fx/yuugi.sprite.obliterate_fx.skel
 heroes/yuugi/fx/yuugi.sprite.riposte_fx.atlas
 heroes/yuugi/fx/yuugi.sprite.riposte_fx.png
 heroes/yuugi/fx/yuugi.sprite.riposte_fx.skel
+heroes/yuugi/fx/yuugi.sprite.roar_fx.atlas
+heroes/yuugi/fx/yuugi.sprite.roar_fx.png
+heroes/yuugi/fx/yuugi.sprite.roar_fx.skel
 heroes/yuugi/icons_equip/eqp_armour_0.png
 heroes/yuugi/icons_equip/eqp_armour_1.png
 heroes/yuugi/icons_equip/eqp_armour_2.png

@@ -44,11 +44,11 @@ combat_skill: .id "y_notlunge" .level 4 .type "melee" .atk 105%	.dmg -25% .crit 
 combat_skill: .id "y_notlunge" .effect "Yuugi_FFS_Blocker"
 
 // Unfettered Spirit
-combat_skill: .id "y_wog" .level 0 .launch 4321 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi_Rally_Buff_1" "Yuugi_StunStressBlock" "Yuugi_StunStress_1" "Yuugi_Stun_Cleanup" "Yuugi_MarkStressBlock" "Yuugi_MarkStress_1" "Yuugi_Mark_Cleanup" "Yuugi_Rally_Desk_1"
-combat_skill: .id "y_wog" .level 1 .launch 4321 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi_Rally_Buff_1" "Yuugi_StunStressBlock" "Yuugi_StunStress_2" "Yuugi_Stun_Cleanup" "Yuugi_MarkStressBlock" "Yuugi_MarkStress_2" "Yuugi_Mark_Cleanup" "Yuugi_Rally_Desk_2"
-combat_skill: .id "y_wog" .level 2 .launch 4321 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi_Rally_Buff_2" "Yuugi_StunStressBlock" "Yuugi_StunStress_2" "Yuugi_Stun_Cleanup" "Yuugi_MarkStressBlock" "Yuugi_MarkStress_2" "Yuugi_Mark_Cleanup" "Yuugi_Rally_Desk_2"
-combat_skill: .id "y_wog" .level 3 .launch 4321 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi_Rally_Buff_2" "Yuugi_StunStressBlock" "Yuugi_StunStress_3" "Yuugi_Stun_Cleanup" "Yuugi_MarkStressBlock" "Yuugi_MarkStress_3" "Yuugi_Mark_Cleanup" "Yuugi_Rally_Desk_3"
-combat_skill: .id "y_wog" .level 4 .launch 4321 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi_Rally_Buff_3" "Yuugi_StunStressBlock" "Yuugi_StunStress_3" "Yuugi_Stun_Cleanup" "Yuugi_MarkStressBlock" "Yuugi_MarkStress_3" "Yuugi_Mark_Cleanup" "Yuugi_Rally_Desk_3"
+combat_skill: .id "y_wog" .level 0 .launch 4321 .target @~4321	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi_Rally_Buff_1" "Yuugi_StunStressBlock" "Yuugi_StunStress_1" "Yuugi_Stun_Cleanup" "Yuugi_MarkStressBlock" "Yuugi_MarkStress_1" "Yuugi_Mark_Cleanup" "Yuugi_Rally_Desk_1"
+combat_skill: .id "y_wog" .level 1 .launch 4321 .target @~4321	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi_Rally_Buff_1" "Yuugi_StunStressBlock" "Yuugi_StunStress_2" "Yuugi_Stun_Cleanup" "Yuugi_MarkStressBlock" "Yuugi_MarkStress_2" "Yuugi_Mark_Cleanup" "Yuugi_Rally_Desk_2"
+combat_skill: .id "y_wog" .level 2 .launch 4321 .target @~4321	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi_Rally_Buff_2" "Yuugi_StunStressBlock" "Yuugi_StunStress_2" "Yuugi_Stun_Cleanup" "Yuugi_MarkStressBlock" "Yuugi_MarkStress_2" "Yuugi_Mark_Cleanup" "Yuugi_Rally_Desk_2"
+combat_skill: .id "y_wog" .level 3 .launch 4321 .target @~4321	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi_Rally_Buff_2" "Yuugi_StunStressBlock" "Yuugi_StunStress_3" "Yuugi_Stun_Cleanup" "Yuugi_MarkStressBlock" "Yuugi_MarkStress_3" "Yuugi_Mark_Cleanup" "Yuugi_Rally_Desk_3"
+combat_skill: .id "y_wog" .level 4 .launch 4321 .target @~4321	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi_Rally_Buff_3" "Yuugi_StunStressBlock" "Yuugi_StunStress_4" "Yuugi_Stun_Cleanup" "Yuugi_MarkStressBlock" "Yuugi_MarkStress_4" "Yuugi_Mark_Cleanup" "Yuugi_Rally_Desk_4"
 combat_skill: .id "y_wog" .effect "Yuugi_Rally_Cleanse" "Yuugi_FFS_Blocker"
 
 // Battle Rhythm
@@ -78,8 +78,11 @@ mode: .id yuugimomentumDesk
 tag: .id "heavy"
 tag: .id "non-religious"
 tag: .id "outsiders_bonfire"
-deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+deaths_door: .buffs deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
 controlled: .target_rank 1
 id_index: .index 18897
 skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+
+quirk_modifier: .incompatible_class_ids alcoholism resolution known_cheat calm
+
 generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 6 .card_chance 1.0

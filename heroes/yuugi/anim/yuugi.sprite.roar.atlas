@@ -1,0 +1,27 @@
+
+yuugi.sprite.roar.png
+size: 731,513
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 26
+  rotate: true
+  xy: 2, 2
+  size: 509, 651
+  orig: 509, 651
+  offset: 0, 0
+  index: -1
+sake
+  rotate: true
+  xy: 655, 39
+  size: 103, 48
+  orig: 103, 48
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 655, 144
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1

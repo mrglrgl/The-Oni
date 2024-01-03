@@ -1,0 +1,83 @@
+
+yuugi.sprite.roar_fx.png
+size: 1412,480
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Faint Glow
+  rotate: true
+  xy: 649, 2
+  size: 476, 444
+  orig: 476, 444
+  offset: 0, 0
+  index: -1
+Layer 129
+  rotate: false
+  xy: 1095, 151
+  size: 230, 327
+  orig: 230, 327
+  offset: 0, 0
+  index: -1
+backshadow
+  rotate: true
+  xy: 2, 75
+  size: 403, 645
+  orig: 403, 645
+  offset: 0, 0
+  index: -1
+shout1
+  rotate: true
+  xy: 1327, 138
+  size: 114, 83
+  orig: 114, 83
+  offset: 0, 0
+  index: -1
+shout2
+  rotate: true
+  xy: 1327, 254
+  size: 224, 83
+  orig: 224, 83
+  offset: 0, 0
+  index: -1
+shout3
+  rotate: false
+  xy: 183, 22
+  size: 205, 51
+  orig: 205, 51
+  offset: 0, 0
+  index: -1
+shout4
+  rotate: false
+  xy: 390, 37
+  size: 132, 36
+  orig: 132, 36
+  offset: 0, 0
+  index: -1
+shout5
+  rotate: false
+  xy: 2, 4
+  size: 179, 69
+  orig: 179, 69
+  offset: 0, 0
+  index: -1
+shout6
+  rotate: true
+  xy: 524, 11
+  size: 62, 38
+  orig: 62, 38
+  offset: 0, 0
+  index: -1
+shout7
+  rotate: false
+  xy: 1095, 41
+  size: 177, 108
+  orig: 177, 108
+  offset: 0, 0
+  index: -1
+shout8
+  rotate: true
+  xy: 1274, 61
+  size: 75, 73
+  orig: 75, 73
+  offset: 0, 0
+  index: -1
