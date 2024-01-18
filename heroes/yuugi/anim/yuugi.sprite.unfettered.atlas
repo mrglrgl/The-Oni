@@ -1,0 +1,34 @@
+
+yuugi.sprite.unfettered.png
+size: 997,482
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Unfettered Spirit
+  rotate: true
+  xy: 2, 15
+  size: 465, 729
+  orig: 465, 729
+  offset: 0, 0
+  index: -1
+arm_light
+  rotate: false
+  xy: 733, 2
+  size: 115, 189
+  orig: 115, 189
+  offset: 0, 0
+  index: -1
+backlight_fx
+  rotate: false
+  xy: 733, 193
+  size: 186, 287
+  orig: 186, 287
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 921, 113
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1

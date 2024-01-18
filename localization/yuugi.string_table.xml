@@ -51,7 +51,7 @@
     <entry id="yuugi_armour_3"><![CDATA[Yuugi Armor 4]]></entry>
     <entry id="yuugi_armour_4"><![CDATA[Yuugi Armor 5]]></entry>
     <entry id="upgrade_tree_name_yuugi.armour"><![CDATA[Yuugi Armor]]></entry>
-    <entry id="action_verbose_body_guild_yuugi"><![CDATA[Yuugi Guild]]></entry>
+    <entry id="action_verbose_body_guild_yuugi"><![CDATA[Enjoying a stiff drink and a good brawl, this titanic youkai is unusually agreeable. She excels in the frontline, delivering blow and counterblow with devastating momentum. Even if forced from the fray, she can return with earthsplitting strides, or flatten distant foes with her powerful voice!]]></entry>
     <entry id="action_verbose_body_blacksmith_yuugi"><![CDATA[Yuugi Blacksmith]]></entry>
     <entry id="action_verbose_body_camping_trainer_yuugi"><![CDATA[Yuugi Camp]]></entry>
 	
@@ -91,6 +91,11 @@ Riposte for 1 rds{colour_end}]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_freemove_desk"><![CDATA[Free {colour_start|move}Move{colour_end} After Action]]></entry>
 
+	
+		<!-- Barks -->
+	
+			<!-- On being moved -->
+	<entry id="yuugi+str_combat_knockback"><![CDATA[]]></entry>
 	
   </language>
 
