@@ -132,8 +132,8 @@
 
 			"id" : "yuugi_party",
 			"level" : 0,
-			"cost" : 2,
-			"use_limit" : 3,
+			"cost" : 3,
+			"use_limit" : 1,
 			"effects" : 
 			[
 				
@@ -145,7 +145,7 @@
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "stress_heal_amount",
 					"sub_type" : "",
-					"amount" :  5
+					"amount" :  20
 				},
 				{ 
 					"selection" : "party",
@@ -153,15 +153,15 @@
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "buff",
                     "sub_type" : "campingStressResistBuff",
-					"amount" :  -0.05
+					"amount" :  -0.1
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "buff",
                     "sub_type" : "yuugi_campstressbuff",
-					"amount" :  0.5
+					"amount" :  -0.5
 				}
 			],
 			"hero_classes" : ["yuugi" ],
@@ -185,6 +185,55 @@
 		{ 
 			"id" : "yuugi_armwrestle",
 			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "campingStressResistBuff",					
+					"amount" :  -0.15
+				},
+                {
+					"selection" : "self",
+					"requirements" : ["afflicted"],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "stress_heal_amount",
+                    "sub_type" : "",
+					"amount" :  25
+				},	
+				{
+					"selection" : "self",
+					"requirements" : ["has_deaths_door_recovery_buffs"],
+					"chance" : { "code" : "c", "amount": 1.0 },
+                    "type": "health_heal_max_health_percent",
+                    "sub_type" : "",
+					"amount" : 0.5
+				}
+			],
+			"hero_classes" : ["yuugi"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			] 
+		},
+		
+		{ 
+			"id" : "yuugi_warmup",
+			"level" : 0,
 			"cost" : 3,
 			"use_limit" : 1,
 			"effects" :
@@ -194,40 +243,98 @@
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
 					"type" : "buff",
-					"sub_type" : "campingDMGLowBuff",					
-					"amount" :  0.20
+					"sub_type" : "campingACCBuff",					
+					"amount" :  0.1
 				},
                 { 
 					"selection" : "self",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
 					"type" : "buff",
-					"sub_type" : "campingDMGHighBuff",					
-					"amount" :  0.20
+					"sub_type" : "campingCRITBuff",					
+					"amount" :  0.08
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "self",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 },
-                    "type": "buff",
-                    "sub_type" : "campingDMGLowBuff",
-					"amount" :  0.20
+					"type" : "buff",
+					"sub_type" : "campingSPDBuff",					
+					"amount" :  3
+				}
+				
+			],
+			"hero_classes" : ["yuugi"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			] 
+		},
+		
+		{ 
+			"id" : "yuugi_festival",
+			"level" : 0,
+			"cost" : 3,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "campingDMGLowBuff",					
+					"amount" :  0.2
+				},
+                { 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "campingDMGHighBuff",					
+					"amount" :  0.2
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "yuugi_campregen",
+					"amount" :  4.0
+				},
+				{
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "d", "amount": 1.0 },
-                    "type": "buff",
-                    "sub_type" : "campingDMGHighBuff",
-					"amount" :  0.20
+					"type": "loot",
+					"sub_type": "yuugi_regen_camp_Desk",
+					"amount": 1
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "self",
 					"requirements" : [],
-					"chance" : { "code" : "e", "amount": 0.5 },
-                    "type": "health_damage_max_health_percent",
-                    "sub_type" : "",
-					"amount" :  0.20
+					"chance" : { "code" : "e", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "yuugi_campambush",
+					"amount" :  1.00
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "f", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "yuugi_campambush_Desk",
+					"amount" :  0.00
 				}
 			],
 			"hero_classes" : ["yuugi"],

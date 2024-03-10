@@ -223,6 +223,21 @@
          }
       },
 	  {
+		"id" : "yuugi_campambush_Desk",
+		"stat_type" : "scouting_chance",
+		"stat_sub_type" : "",
+		"amount" : 0,
+		"duration" : 1,
+		"duration_type" : "combat_end",
+		"remove_if_not_active" : false,
+		"rule_type" : "skill",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : "yuugi_campambush_Desk"
+		}
+	  },
+	  {
          "id" : "yuugi_placeholder",
          "stat_type" : "hp_heal_amount",
          "stat_sub_type" : "",

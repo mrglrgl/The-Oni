@@ -1,0 +1,20 @@
+
+yuugi.sprite.revital.png
+size: 763,371
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Revitalize
+  rotate: true
+  xy: 2, 21
+  size: 348, 683
+  orig: 348, 683
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 687, 2
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1

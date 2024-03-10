@@ -1,0 +1,52 @@
+{
+   "entries":
+   [
+      {
+         "id" : "cc_set_yuugi_first",
+         "buffs" : 
+         [	
+			"yuugi_cc_marked_DMGR",
+			"yuugi_cc_stunres",
+			"yuugi_cc_first_Desk"
+			
+         ],
+         "hero_class_requirements":
+         [
+            "yuugi"
+         ],
+         "set_id" : "cc_yuugi",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard",
+		 "was_hit_additional_effects":
+		 [
+		     "Yuugi_Defiant"
+		 ]
+      },
+      {
+         "id" : "cc_set_yuugi_second",
+         "buffs" : 
+         [
+			"yuugi_cc_second_acc",
+			"yuugi_cc_second_dmgL",
+			"yuugi_cc_second_dmgH",
+			"yuugi_cc_second_A_Desk",
+			"yuugi_cc_second_B_Desk"
+         ],
+         "hero_class_requirements":
+         [
+            "yuugi"
+         ],
+         "set_id" : "cc_yuugi",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard",
+		 "ranged_attack_skill_additional_effects":
+		 [
+		     "Yuugi_Intimidate"
+		 ]
+      }
+   ]
+}

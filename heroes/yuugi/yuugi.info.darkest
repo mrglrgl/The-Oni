@@ -20,19 +20,19 @@ combat_skill: .id "y_obliterate" .effect "Yuugi_FFS_Blocker"
 
 
 // Shattering Roar
-combat_skill: .id "y_obligatorycleave" .level 0 .type "melee" .atk 85%	.dmg -50% .crit -4%	.launch 21 .target ~34 .is_crit_valid True .valid_modes yuugirulemode yuugimomentumDesk	.effect "Yuugi Focus 1"
-combat_skill: .id "y_obligatorycleave" .level 1 .type "melee" .atk 90%	.dmg -50% .crit -3%	.launch 21 .target ~34 .is_crit_valid True .valid_modes yuugirulemode yuugimomentumDesk	.effect "Yuugi Focus 2"
-combat_skill: .id "y_obligatorycleave" .level 2 .type "melee" .atk 95%	.dmg -50% .crit -2%	.launch 21 .target ~34 .is_crit_valid True .valid_modes yuugirulemode yuugimomentumDesk	.effect "Yuugi Focus 3"
-combat_skill: .id "y_obligatorycleave" .level 3 .type "melee" .atk 100%	.dmg -50% .crit -1%	.launch 21 .target ~34 .is_crit_valid True .valid_modes yuugirulemode yuugimomentumDesk	.effect "Yuugi Focus 4"
-combat_skill: .id "y_obligatorycleave" .level 4 .type "melee" .atk 105% .dmg -50% .crit 0%	.launch 21 .target ~34 .is_crit_valid True .valid_modes yuugirulemode yuugimomentumDesk	.effect "Yuugi Focus 5"
+combat_skill: .id "y_obligatorycleave" .level 0 .type "ranged" .atk 85%		.dmg -50% .crit 0%	.launch 21 .target ~34 .is_crit_valid True .valid_modes yuugirulemode yuugimomentumDesk	.effect "Yuugi Focus 1"
+combat_skill: .id "y_obligatorycleave" .level 1 .type "ranged" .atk 90%		.dmg -50% .crit 0%	.launch 21 .target ~34 .is_crit_valid True .valid_modes yuugirulemode yuugimomentumDesk	.effect "Yuugi Focus 2"
+combat_skill: .id "y_obligatorycleave" .level 2 .type "ranged" .atk 95%		.dmg -50% .crit 0%	.launch 21 .target ~34 .is_crit_valid True .valid_modes yuugirulemode yuugimomentumDesk	.effect "Yuugi Focus 3"
+combat_skill: .id "y_obligatorycleave" .level 3 .type "ranged" .atk 100%	.dmg -50% .crit 0%	.launch 21 .target ~34 .is_crit_valid True .valid_modes yuugirulemode yuugimomentumDesk	.effect "Yuugi Focus 4"
+combat_skill: .id "y_obligatorycleave" .level 4 .type "ranged" .atk 105%	.dmg -50% .crit 0%	.launch 21 .target ~34 .is_crit_valid True .valid_modes yuugirulemode yuugimomentumDesk	.effect "Yuugi Focus 5"
 combat_skill: .id "y_obligatorycleave" .effect "Yuugi_FFS_Blocker"
 
 // Inexorible Advance
-combat_skill: .id "y_warpath" .level 0 .type "melee" .atk 95%	.dmg -65% .crit 5% 	.move 0 1 .launch 321 .target 12 .is_crit_valid True .valid_modes yuugirulemode	.effect "Stun 2" "Yuugi MarkS"
-combat_skill: .id "y_warpath" .level 1 .type "melee" .atk 100%	.dmg -65% .crit 6% 	.move 0 1 .launch 321 .target 12 .is_crit_valid True .valid_modes yuugirulemode	.effect "Stun 3" "Yuugi MarkS"
-combat_skill: .id "y_warpath" .level 2 .type "melee" .atk 105%	.dmg -65% .crit 7% 	.move 0 1 .launch 321 .target 12 .is_crit_valid True .valid_modes yuugirulemode	.effect "Stun 4" "Yuugi MarkS"
-combat_skill: .id "y_warpath" .level 3 .type "melee" .atk 110%	.dmg -65% .crit 8% 	.move 0 1 .launch 321 .target 12 .is_crit_valid True .valid_modes yuugirulemode	.effect "Stun 5" "Yuugi MarkS"
-combat_skill: .id "y_warpath" .level 4 .type "melee" .atk 115%	.dmg -65% .crit 9% 	.move 0 1 .launch 321 .target 12 .is_crit_valid True .valid_modes yuugirulemode	.effect "Stun 6" "Yuugi MarkS"
+combat_skill: .id "y_warpath" .level 0 .type "ranged" .atk 95%	.dmg -65% .crit 5% 	.move 0 1 .launch 321 .target 12 .is_crit_valid True .valid_modes yuugirulemode	.effect "Stun 2" "Yuugi MarkS"
+combat_skill: .id "y_warpath" .level 1 .type "ranged" .atk 100%	.dmg -65% .crit 6% 	.move 0 1 .launch 321 .target 12 .is_crit_valid True .valid_modes yuugirulemode	.effect "Stun 3" "Yuugi MarkS"
+combat_skill: .id "y_warpath" .level 2 .type "ranged" .atk 105%	.dmg -65% .crit 7% 	.move 0 1 .launch 321 .target 12 .is_crit_valid True .valid_modes yuugirulemode	.effect "Stun 4" "Yuugi MarkS"
+combat_skill: .id "y_warpath" .level 3 .type "ranged" .atk 110%	.dmg -65% .crit 8% 	.move 0 1 .launch 321 .target 12 .is_crit_valid True .valid_modes yuugirulemode	.effect "Stun 5" "Yuugi MarkS"
+combat_skill: .id "y_warpath" .level 4 .type "ranged" .atk 115%	.dmg -65% .crit 9% 	.move 0 1 .launch 321 .target 12 .is_crit_valid True .valid_modes yuugirulemode	.effect "Stun 6" "Yuugi MarkS"
 combat_skill: .id "y_warpath" .effect "Yuugi_FFS_Blocker"
 
 // Mountain Breaker

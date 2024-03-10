@@ -6,19 +6,22 @@
 	
 
 		<!--Camp Skills-->
-	<entry id="camping_skill_name_yuugi_party"><![CDATA[ENDLESS REVELRY]]></entry>
-	<entry id="camping_skill_name_yuugi_armwrestle"><![CDATA[TEST OF STRENGTH]]></entry>
+	<entry id="camping_skill_name_yuugi_party"><![CDATA[EXQUISITE BREW]]></entry>
+	<entry id="camping_skill_name_yuugi_armwrestle"><![CDATA[INDOMITABLE]]></entry>
+	<entry id="camping_skill_name_yuugi_warmup"><![CDATA[WARMUP]]></entry>
+	<entry id="camping_skill_name_yuugi_festival"><![CDATA[DEMON'S FESTIVAL]]></entry>
 	
-	<entry id="yuugi+str_bark_yuugi_party"><![CDATA[Gather 'round, got enough for everyone!]]></entry>
-	<entry id="yuugi+str_bark_yuugi_party"><![CDATA[I brought the strong stuff this time!]]></entry>
-	<entry id="yuugi+str_bark_yuugi_party"><![CDATA[Drink up, ahaha!]]></entry>
-	<entry id="yuugi+str_bark_yuugi_party"><![CDATA[Let the party begin, RAAAAAH!]]></entry>
-	<entry id="yuugi+str_bark_yuugi_party"><![CDATA[I know just how to break this tension!]]></entry>
-	<entry id="yuugi+str_bark_yuugi_armwrestle"><![CDATA[Hah, nice try!]]></entry>
+	<entry id="yuugi+str_bark_yuugi_party"><![CDATA[You won't want anything else after this one!]]></entry>
+	<entry id="yuugi+str_bark_yuugi_armwrestle"><![CDATA[*cracks* Think this's bad? Should see the other guy.]]></entry>
+	<entry id="yuugi+str_bark_yuugi_warmup"><![CDATA[Guns? Check THESE!]]></entry>
+	<entry id="yuugi+str_bark_yuugi_festival"><![CDATA[A rowdy welcome for our rowdy guests!]]></entry>
 
 	<entry id="yuugi+str_bark_first_aid"><![CDATA[Nothing a little spit won't fix.]]></entry>
 	<entry id="yuugi+str_bark_encourage"><![CDATA[Stop moping and have another!]]></entry>
 	<entry id="yuugi+str_bark_pep_talk"><![CDATA[*slaps back* Relax, you'll be fine!]]></entry>
+	
+	<entry id="camping_skill_effect_loot_yuugi_regen_camp_Desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 4 pts/rd for 4 rds]]></entry>
+	<entry id="buff_rule_data_tooltip_yuugi_campambush_Desk"><![CDATA[Guarantees nighttime ambush{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 
 
 		<!--Combat Skills-->
@@ -27,7 +30,7 @@
 	<entry id="combat_skill_name_yuugi_y_warpath"><![CDATA[Inexorible Advance]]></entry>
 	<entry id="combat_skill_name_yuugi_y_notlunge"><![CDATA[Mountain Breaker]]></entry>
 	<entry id="combat_skill_name_yuugi_y_wog"><![CDATA[Unfettered Spirit]]></entry>
-    <entry id="combat_skill_name_yuugi_y_warmup"><![CDATA[Battle Rhythm]]></entry>
+    <entry id="combat_skill_name_yuugi_y_warmup"><![CDATA[Revitalize]]></entry>
     <entry id="combat_skill_name_yuugi_y_kampai"><![CDATA[Kampai!]]></entry>
     <entry id="combat_skill_name_yuugi_move"><![CDATA[Move]]></entry>
     <entry id="upgrade_tree_name_yuugi.y_obliterate"><![CDATA[Obliterate]]></entry>
@@ -35,22 +38,22 @@
 	<entry id="upgrade_tree_name_yuugi.y_warpath"><![CDATA[Inexorible Advance]]></entry>
 	<entry id="upgrade_tree_name_yuugi.y_notlunge"><![CDATA[Mountain Breaker]]></entry>
 	<entry id="upgrade_tree_name_yuugi.y_wog"><![CDATA[Unfettered Spirit]]></entry>
-	<entry id="upgrade_tree_name_yuugi.y_warmup"><![CDATA[Battle Rhythm]]></entry>
+	<entry id="upgrade_tree_name_yuugi.y_warmup"><![CDATA[Revitalize]]></entry>
 	<entry id="upgrade_tree_name_yuugi.y_kampai"><![CDATA[Kampai!]]></entry>
 	
 		<!-- Upgrades -->
-    <entry id="yuugi_weapon_0"><![CDATA[Chipped Dish]]></entry>
-    <entry id="yuugi_weapon_1"><![CDATA[Antique Dish]]></entry>
-    <entry id="yuugi_weapon_2"><![CDATA[Custom Dish]]></entry>
+    <entry id="yuugi_weapon_0"><![CDATA[Chipped Cup]]></entry>
+    <entry id="yuugi_weapon_1"><![CDATA[Antique Cup]]></entry>
+    <entry id="yuugi_weapon_2"><![CDATA[Master's Cup]]></entry>
     <entry id="yuugi_weapon_3"><![CDATA[Enchanted Dish]]></entry>
-    <entry id="yuugi_weapon_4"><![CDATA[Ooe's Blossom]]></entry>
+    <entry id="yuugi_weapon_4"><![CDATA["Ooe's Blossom"]]></entry>
     <entry id="upgrade_tree_name_yuugi.weapon"><![CDATA[Sake Dish]]></entry>
-    <entry id="yuugi_armour_0"><![CDATA[Yuugi Armor 1]]></entry>
-    <entry id="yuugi_armour_1"><![CDATA[Yuugi Armor 2]]></entry>
-    <entry id="yuugi_armour_2"><![CDATA[Yuugi Armor 3]]></entry>
-    <entry id="yuugi_armour_3"><![CDATA[Yuugi Armor 4]]></entry>
-    <entry id="yuugi_armour_4"><![CDATA[Yuugi Armor 5]]></entry>
-    <entry id="upgrade_tree_name_yuugi.armour"><![CDATA[Yuugi Armor]]></entry>
+    <entry id="yuugi_armour_0"><![CDATA[Worn Uniform]]></entry>
+    <entry id="yuugi_armour_1"><![CDATA[Training Uniform]]></entry>
+    <entry id="yuugi_armour_2"><![CDATA[Champion's Yukata]]></entry>
+    <entry id="yuugi_armour_3"><![CDATA[Wartorn Yukata]]></entry>
+    <entry id="yuugi_armour_4"><![CDATA["Legend of Old Hell"]]></entry>
+    <entry id="upgrade_tree_name_yuugi.armour"><![CDATA[Yukata]]></entry>
     <entry id="action_verbose_body_guild_yuugi"><![CDATA[Enjoying a stiff drink and a good brawl, this titanic youkai is unusually agreeable. She excels in the frontline, delivering blow and counterblow with devastating momentum. Even if forced from the fray, she can return with earthsplitting strides, or flatten distant foes with her powerful voice!]]></entry>
     <entry id="action_verbose_body_blacksmith_yuugi"><![CDATA[Yuugi Blacksmith]]></entry>
     <entry id="action_verbose_body_camping_trainer_yuugi"><![CDATA[Yuugi Camp]]></entry>
@@ -58,12 +61,42 @@
 		<!-- Event -->
 
 		<!-- Trinkets and Bobbles -->
+	<entry id="str_inventory_title_trinketyuugi_trinket_common"><![CDATA[Festival Lantern]]></entry>
+	<entry id="str_inventory_title_trinketyuugi_trinket_miyoi"><![CDATA[Whale Warmer]]></entry>
+	<entry id="str_inventory_title_trinketyuugi_trinket_cirno"><![CDATA[Hero's Hairpin]]></entry>
+	<entry id="str_inventory_title_trinketyuugi_trinket_helix"><![CDATA[Kishin's Helix]]></entry>
+	<entry id="str_inventory_title_trinketcc_set_yuugi_first"><![CDATA[Defiant Standard]]></entry>
+	<entry id="str_inventory_title_trinketcc_set_yuugi_second"><![CDATA[Unspeakable Trophy]]></entry>
+	<entry id="str_inventory_title_trinketyuugi_trinket_com"><![CDATA[Broken Moonshine]]></entry>
+	
+	<entry id="str_inventory_set_title_common_yuugi"><![CDATA["Hell... our home."]]></entry>
+	<entry id="str_inventory_set_title_cc_yuugi"><![CDATA["I always love a good turf war."]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_yuugi_attack_rule"><![CDATA[On Attack Hit]]></entry>
+	<entry id="buff_rule_data_tooltip_yuugi_melee_rule"><![CDATA[On {colour_start|attacktype}Melee{colour_end} Skill Hit]]></entry>
+	<entry id="buff_rule_data_tooltip_yuugi_ranged_rule"><![CDATA[On {colour_start|attacktype}Ranged{colour_end} Hit]]></entry>
+	<entry id="buff_rule_data_tooltip_yuugi_friendly_rule"><![CDATA[{colour_start|attacktype}Friendly{colour_end} Skills]]></entry>
+	<entry id="buff_rule_data_tooltip_yuugi_washit_rule"><![CDATA[When Hit]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_common_A_desk"><![CDATA[Gain Monster {colour_start|buff}Buffs{colour_end} from {colour_start|stealth}Darkness{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_common_B_desk"><![CDATA[Immune to {colour_start|stress}+Stress{colour_end} from {colour_start|stealth}Darkness{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_miyoi_regen_desk"><![CDATA[+35%% {colour_start|healhp}Regen{colour_end} Amount Applied]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_miyoi_cleanse_desk"><![CDATA[Clear {colour_start|debuff}Debuffs{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_yuugi_fake_s1"><![CDATA[Size 1 {colour_start|skill_unselectable}(Only){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_cc_first_desk"><![CDATA[{colour_start|mark}Mark{colour_end} Self / +2 SPD]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_cc_second_A_desk"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_cc_second_B_desk"><![CDATA[-33%% DMG / -5 SPD {colour_start|skill_unselectable}(150%% base){colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_yuugi_helix_rule"><![CDATA[When {colour_start|riposte}Riposted{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_helix_A_desk"><![CDATA[Never DODGE]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_helix_B_desk"><![CDATA[Reflect 500%% DMG]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_helix_C_desk"><![CDATA[Break {colour_start|riposte}Riposte{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_empty_space_deleter"><![CDATA[​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+	
 
 		<!-- Random Tooltips Desk -->
 	<entry id="str_skill_mode_info_yuugirulemode"><![CDATA[]]></entry>
 			<!-- Combat Skills -->
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_momentum_header_desk"><![CDATA[{colour_start|notable}Momentum{colour_end}]]></entry>
-	<entry id="str_skill_mode_info_yuugimomentumDesk"><![CDATA[{colour_start|skill_unselectable}Bonuses also apply to
+	<entry id="str_skill_mode_info_yuugimomentumDesk"><![CDATA[{colour_start|notable}Bonuses also apply to
 Riposte for 1 rds{colour_end}]]></entry>
 	
 				<!-- Unfettered Spirit -->

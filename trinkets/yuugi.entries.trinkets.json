@@ -1,0 +1,77 @@
+{
+   "entries":
+   [
+	  {
+         "id" : "yuugi_trinket_miyoi",
+         "buffs" : 
+         [
+			"yuugi_miyoi_regenamt",
+			"yuugi_miyoi_regen_Desk",
+			"yuugi_miyoi_stressheal",
+			"yuugi_miyoi_cleanse_Desk"
+         ],
+         "hero_class_requirements":
+         [
+            "yuugi"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+         [
+			 "Yuugi_Miyoi_Cleanse"
+         ]
+      },
+	  {
+         "id" : "yuugi_trinket_cirno",
+         "buffs" : 
+         [
+			"yuugi_cirno_AP",
+			"yuugi_cirno_dmgL",
+			"yuugi_cirno_dmgH",
+			"yuugi_cirno_stun",
+			"yuugi_cirno_crit",
+			"yuugi_cirno_critS2",
+			"yuugi_cirno_critDesk"
+         ],
+         "hero_class_requirements":
+         [
+            "yuugi"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "yuugi_trinket_helix",
+         "buffs" : 
+         [
+			"yuugi_helix_hp",
+			"yuugi_helix_ACC",
+			"yuugi_helix_A_Desk",
+			"yuugi_helix_B_Desk",
+			"yuugi_helix_C_Desk",
+			"yuugi_empty_space_Deleter"
+         ],
+         "hero_class_requirements":
+         [
+            "yuugi"
+         ],
+         "rarity" : "sakura",
+         "price" : 30000,
+         "limit" : 1,
+         "origin_dungeon" : "ship",
+		 "attack_skill_additional_effects":
+         [
+			 "Yuugi_CounterCounter",
+			 "Yuugi_Riposte_Break"
+         ],
+		 "riposte_skill_additional_effects":
+         [
+			 "Yuugi_WFT_RedHook"
+         ]
+      }
+	]
+}

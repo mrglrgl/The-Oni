@@ -1,0 +1,27 @@
+
+yuugi.sprite.kampai.png
+size: 785,513
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Her
+  rotate: true
+  xy: 2, 2
+  size: 509, 705
+  orig: 509, 705
+  offset: 0, 0
+  index: -1
+Little Sake
+  rotate: false
+  xy: 709, 97
+  size: 30, 45
+  orig: 30, 45
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 709, 144
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1

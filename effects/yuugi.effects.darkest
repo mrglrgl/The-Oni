@@ -1,10 +1,10 @@
 //// Skills \\\\
 // Shared \\
-effect: .name "Yuugi Focus 1" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_1" "yuugi_Focus_dmghigh_1" "yuugi_Focus_ACC" "yuugi_momentum_header_Desk" .on_hit true .on_miss true .apply_once true
-effect: .name "Yuugi Focus 2" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_2" "yuugi_Focus_dmghigh_2" "yuugi_Focus_ACC" "yuugi_momentum_header_Desk" .on_hit true .on_miss true .apply_once true
-effect: .name "Yuugi Focus 3" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_3" "yuugi_Focus_dmghigh_3" "yuugi_Focus_ACC" "yuugi_momentum_header_Desk" .on_hit true .on_miss true .apply_once true
-effect: .name "Yuugi Focus 4" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_4" "yuugi_Focus_dmghigh_4" "yuugi_Focus_ACC" "yuugi_momentum_header_Desk" .on_hit true .on_miss true .apply_once true
-effect: .name "Yuugi Focus 5" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_5" "yuugi_Focus_dmghigh_5" "yuugi_Focus_ACC" "yuugi_momentum_header_Desk" .on_hit true .on_miss true .apply_once true
+effect: .name "Yuugi Focus 1" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_1" "yuugi_Focus_dmghigh_1" "yuugi_Focus_ACC" .on_hit true .on_miss true .apply_once true
+effect: .name "Yuugi Focus 2" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_2" "yuugi_Focus_dmghigh_2" "yuugi_Focus_ACC" .on_hit true .on_miss true .apply_once true
+effect: .name "Yuugi Focus 3" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_3" "yuugi_Focus_dmghigh_3" "yuugi_Focus_ACC" .on_hit true .on_miss true .apply_once true
+effect: .name "Yuugi Focus 4" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_4" "yuugi_Focus_dmghigh_4" "yuugi_Focus_ACC" .on_hit true .on_miss true .apply_once true
+effect: .name "Yuugi Focus 5" .target "performer" .chance 100% .skill_instant true .buff_ids "yuugi_Focus_dmglow_5" "yuugi_Focus_dmghigh_5" "yuugi_Focus_ACC" .on_hit true .on_miss true .apply_once true
 
 effect: .name "Yuugi MarkS" .target "performer" .chance 100% .tag 1  .duration 4 .on_hit true .on_miss true .apply_once true
 
@@ -14,7 +14,7 @@ effect: .name "Yuugi_FFS_Blocker" .target "target" .chance 0%  .dotPoison 1 .dur
 //// Inexorible Advance \\\\
 
 //// Mountain Breaker \\\\
-effect: .name "Yuugi Giant Killer" .target "performer" .skill_instant true .buff_ids "yuugi_DMGL_Large" "yuugi_DMGH_Large" "yuugi_ACC_Large" "yuugi_momentum_header_Desk" .apply_once true .on_hit true .on_miss true
+effect: .name "Yuugi Giant Killer" .target "performer" .skill_instant true .buff_ids "yuugi_DMGL_Large" "yuugi_DMGH_Large" "yuugi_ACC_Large" .apply_once true .on_hit true .on_miss true
 
 
 //// Unfettered Spirit \\\\
@@ -82,3 +82,23 @@ effect: .name "Yuugi Riposte 2"  .target "performer" .chance 100% .riposte 1 .ri
 effect: .name "Yuugi Riposte 3"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4	.on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50%  .attack_rating_add -10%
 effect: .name "Yuugi Riposte 4"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4	.on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50%  .attack_rating_add -5%
 effect: .name "Yuugi Riposte 5"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4	.on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50% 
+
+
+//// Trinkets \\\\
+effect: .name "Yuugi_Miyoi_Cleanse" .target "target"  .chance 100% .clear_debuff 1 .on_hit true .on_miss false .has_description false
+
+effect: .name "Yuugi_Defiant" .target "performer" .chance 100% .duration 2 .buff_ids "yuugi_defiant_SPD" "yuugi_defiant_Mark"	.on_hit true .on_miss false .has_description false
+
+effect: .name "Yuugi_Intimidate" .target "target" .chance 150% .duration 3  .buff_ids "yuugi_intim_SPD" "yuugi_intim_DMGL" "yuugi_intim_DMGH"	.on_hit true .on_miss false .has_description false
+
+
+//// Sunward Isles
+// AWR causes these buffs to apply BEFORE the enemy Riposte occurs.
+effect: .name "Yuugi_CounterCounter" .target "performer"  .chance 100% .buff_ids "yuugi_countercounter" "yuugi_nododge" .buff_source_type bsrc_vampire .duration 1 .on_hit true .on_miss true .has_description false .apply_with_result true
+
+// For NO GOOD FUCKING REASON THANKS RED HOOK, the trinket triggers "on attack skill" and "on melee/ranged skill" (whichever Riposte is tagged with) will activate AWR effects on Riposte.
+// Even though they usually don't.  So I have to manually clear the buffs on Riposte.  Otherwise they stay until the end of next turn and stack.
+// Oh and it HAS to be Self-Steal, and not a counter-debuff.  Because negative DMG Reflect apparently can't exist.
+effect: .name "Yuugi_WFT_RedHook" 	.target "performer"  .chance 100% .steal_buff_source_type bsrc_vampire .on_hit true .on_miss true .has_description false .apply_once true
+
+effect: .name "Yuugi_Riposte_Break" .target "target"  .chance 100% .clear_riposte 1 .on_hit true .on_miss false

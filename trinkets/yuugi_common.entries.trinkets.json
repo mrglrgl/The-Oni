@@ -1,0 +1,39 @@
+{
+   "entries":
+   [
+      {
+         "id" : "yuugi_trinket_common",
+         "buffs" : 
+         [
+            "yuugi_common_stress76",
+			"yuugi_common_stress51",
+			"yuugi_common_stress26",
+			"yuugi_common_stress1",
+			"yuugi_common_dmgL51",
+			"yuugi_common_dmgH51",
+			"yuugi_common_dmgL26",
+			"yuugi_common_dmgH26",
+			"yuugi_common_dmgL1",
+			"yuugi_common_dmgH1",
+			"yuugi_common_crit76",
+			"yuugi_common_crit51",
+			"yuugi_common_crit26",
+			"yuugi_common_crit1",
+			"yuugi_common_acc51",
+			"yuugi_common_acc26",
+			"yuugi_common_acc1",
+			"yuugi_common_A_Desk",
+			"yuugi_common_B_Desk"
+         ],
+         "hero_class_requirements":
+         [
+            "yuugi"
+         ],
+		 "set_id" : "common_yuugi",
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      }
+	]
+}

@@ -1,0 +1,14 @@
+{
+   "loot_tables" :
+   [
+      {
+         "id" : "yuugi_regen_camp_Desk",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 1, "data" : { }}
+         ]
+      }
+   ]
+}
