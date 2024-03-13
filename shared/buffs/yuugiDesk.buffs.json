@@ -223,6 +223,19 @@
          }
       },
 	  {
+         "id" : "yuugi_nostack_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_nostack_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
 		"id" : "yuugi_campambush_Desk",
 		"stat_type" : "scouting_chance",
 		"stat_sub_type" : "",

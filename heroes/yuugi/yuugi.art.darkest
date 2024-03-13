@@ -18,7 +18,7 @@ combat_skill: .id "y_warpath"			.icon "three"	.anim "advance"		.fx ""				.targfx
 combat_skill: .id "y_notlunge" 			.icon "four"	.anim "breaker"		.fx "breaker_fx"	.targchestfx "blood_splatter"	.area_pos_offset 50 0	.target_area_pos_offset 50 0	.condensed_tooltip_stats true	.condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "y_wog"				.icon "five"	.anim "unfettered"	.fx "unfettered_fx" .targfx "" 						.area_pos_offset 0 -30	.target_area_pos_offset 0 -30	.condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "y_warmup"			.icon "six"		.anim "revital"		.fx "revital_fx"	.targfx "" 						.area_pos_offset 0 -10	.condensed_tooltip_stats true	.condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
-combat_skill: .id "y_kampai" 			.icon "seven"	.anim "kampai"		.fx "kampai_fx"		.targfx ""						.area_pos_offset 0 -10									.condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
+combat_skill: .id "y_kampai" 			.icon "seven"	.anim "kampai"		.fx "kampai_fx"		.targfx ""						.area_pos_offset 0 -10									.condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1	.can_display_performer_selection_after_turn false
 
 				
 combat_move_skill: .id "move" .icon "generic_move" .anim "idle"

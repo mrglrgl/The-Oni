@@ -33,6 +33,7 @@ heroes/yuugi/yuugi_A/anim/yuugi.sprite.idle.png
 heroes/yuugi/yuugi_A/anim/yuugi.sprite.investigate.png
 heroes/yuugi/yuugi_A/anim/yuugi.sprite.kampai.png
 heroes/yuugi/yuugi_A/anim/yuugi.sprite.obliterate.png
+heroes/yuugi/yuugi_A/anim/yuugi.sprite.revital.png
 heroes/yuugi/yuugi_A/anim/yuugi.sprite.riposte.png
 heroes/yuugi/yuugi_A/anim/yuugi.sprite.roar.png
 heroes/yuugi/yuugi_A/anim/yuugi.sprite.unfettered.png
@@ -61,6 +62,8 @@ heroes/yuugi/anim/yuugi.sprite.kampai.atlas
 heroes/yuugi/anim/yuugi.sprite.kampai.skel
 heroes/yuugi/anim/yuugi.sprite.obliterate.atlas
 heroes/yuugi/anim/yuugi.sprite.obliterate.skel
+heroes/yuugi/anim/yuugi.sprite.revital.atlas
+heroes/yuugi/anim/yuugi.sprite.revital.skel
 heroes/yuugi/anim/yuugi.sprite.riposte.atlas
 heroes/yuugi/anim/yuugi.sprite.riposte.skel
 heroes/yuugi/anim/yuugi.sprite.roar.atlas
@@ -93,6 +96,9 @@ heroes/yuugi/fx/yuugi.sprite.manacles_target.skel
 heroes/yuugi/fx/yuugi.sprite.obliterate_fx.atlas
 heroes/yuugi/fx/yuugi.sprite.obliterate_fx.png
 heroes/yuugi/fx/yuugi.sprite.obliterate_fx.skel
+heroes/yuugi/fx/yuugi.sprite.revital_fx.atlas
+heroes/yuugi/fx/yuugi.sprite.revital_fx.png
+heroes/yuugi/fx/yuugi.sprite.revital_fx.skel
 heroes/yuugi/fx/yuugi.sprite.riposte_fx.atlas
 heroes/yuugi/fx/yuugi.sprite.riposte_fx.png
 heroes/yuugi/fx/yuugi.sprite.riposte_fx.skel
@@ -155,7 +161,6 @@ trinkets/east_town.rarities.trinkets.json
 trinkets/yuugi.entries.trinkets.json
 trinkets/yuugi.sets.trinkets.json
 trinkets/yuugi_cc.entries.trinkets.json
-trinkets/yuugi_com.entries.trinkets.json
 trinkets/yuugi_common.entries.trinkets.json
 preview_icon.png
 project.xml

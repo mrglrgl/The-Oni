@@ -5,7 +5,7 @@
          "id" : "yuugi_miyoi_regenamt",
          "stat_type" : "hp_heal_dot_amount_percent",
          "stat_sub_type" : "",
-         "amount" : 0.35,
+         "amount" : 0.33,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -19,7 +19,7 @@
          "id" : "yuugi_miyoi_stressheal",
          "stat_type" : "stress_heal_percent",
          "stat_sub_type" : "",
-         "amount" : 0.35,
+         "amount" : 0.33,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -179,11 +179,11 @@
          "stat_sub_type" : "yuugi_helix_A_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
-         "rule_type" : "skill",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "yuugi_helix_rule"
+            "string" : ""
          }
       },
 	  {
@@ -192,11 +192,11 @@
          "stat_sub_type" : "yuugi_helix_B_desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
-         "rule_type" : "skill",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "yuugi_helix_rule"
+            "string" : ""
          }
       },
 	  {

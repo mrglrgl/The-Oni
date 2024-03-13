@@ -71,17 +71,32 @@ effect: .name "Yuugi_FFS"	.target "performer" .chance 100% .buff_source_type bsr
 
 
 //// Kampai \\\\
-effect: .name "Yuugi Healdot 1" .target "performer" .chance 100% .dotHpHeal 2 .duration 3	.on_hit true .on_miss true
-effect: .name "Yuugi Healdot 2" .target "performer" .chance 100% .dotHpHeal 3 .duration 3	.on_hit true .on_miss true
-effect: .name "Yuugi Healdot 3" .target "performer" .chance 100% .dotHpHeal 4 .duration 3	.on_hit true .on_miss true
+effect: .name "Yuugi_Drunk_TopDesk_1" .target "performer" .chance 100% .dotHpHeal 3 .duration 3	.on_hit false .on_miss false
+effect: .name "Yuugi_Drunk_TopDesk_2" .target "performer" .chance 100% .dotHpHeal 4 .duration 3	.on_hit false .on_miss false
+effect: .name "Yuugi_Drunk_TopDesk_3" .target "performer" .chance 100% .dotHpHeal 5 .duration 3	.on_hit false .on_miss false
+effect: .name "Yuugi_Drunk_TopDesk_4" .target "performer" .chance 100% .dotHpHeal 6 .duration 3	.on_hit false .on_miss false
+effect: .name "Yuugi_Drunk_MarkDesk" .target "performer" .chance 100% .tag 1  .duration 4 .on_hit false .on_miss false
 
-effect: .name "Yuugi Drunk" .target "performer" .chance 100% .duration 4  .buff_ids "yuugi_drunk_DODGE"	.on_hit true .on_miss true
+
+effect: .name "Yuugi_Drunk_Reset" .target "performer" .chance 100% .clear_riposte 1	.steal_buff_source_type bsrc_stun	.on_hit true .on_miss true .has_description false
+effect: .name "Yuugi_HealDoT_1" .target "performer" .chance 100% .buff_ids "yuugi_drunk_HealDoT_1"	.on_hit true .on_miss true .buff_source_type bsrc_stun
+effect: .name "Yuugi_HealDoT_2" .target "performer" .chance 100% .buff_ids "yuugi_drunk_HealDoT_2"	.on_hit true .on_miss true .buff_source_type bsrc_stun
+effect: .name "Yuugi_HealDoT_3" .target "performer" .chance 100% .buff_ids "yuugi_drunk_HealDoT_3"	.on_hit true .on_miss true .buff_source_type bsrc_stun
+effect: .name "Yuugi_HealDoT_4" .target "performer" .chance 100% .buff_ids "yuugi_drunk_HealDoT_4"	.on_hit true .on_miss true .buff_source_type bsrc_stun
+
+effect: .name "Yuugi Drunk" .target "performer" .chance 100% .duration 4  .buff_ids "yuugi_drunk_DODGE" "yuugi_drunk_Mark"	.on_hit true .on_miss true .buff_source_type bsrc_stun
+
+//effect: .name "Yuugi Healdot 1" .target "performer" .chance 100% .dotHpHeal 2 .duration 3	.on_hit true .on_miss true
+//effect: .name "Yuugi Healdot 2" .target "performer" .chance 100% .dotHpHeal 3 .duration 3	.on_hit true .on_miss true
+//effect: .name "Yuugi Healdot 3" .target "performer" .chance 100% .dotHpHeal 4 .duration 3	.on_hit true .on_miss true
 
 effect: .name "Yuugi Riposte 1"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4	.on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50%  .attack_rating_add -20%
 effect: .name "Yuugi Riposte 2"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4	.on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50%  .attack_rating_add -15%
 effect: .name "Yuugi Riposte 3"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4	.on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50%  .attack_rating_add -10%
 effect: .name "Yuugi Riposte 4"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4	.on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50%  .attack_rating_add -5%
 effect: .name "Yuugi Riposte 5"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4	.on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50% 
+
+effect: .name "Yuugi_NoStack_Desk" .target "performer" .skill_instant true .buff_ids "yuugi_nostack_Desk" .on_hit false .on_miss false
 
 
 //// Trinkets \\\\
