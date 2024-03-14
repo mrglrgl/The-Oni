@@ -86,39 +86,102 @@
          "stat_sub_type" : "crit_chance",
          "amount" : -0.09,
          "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_helix_hp",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         },
-		 "has_description" : false
+         }
       },
 	  {
-         "id" : "yuugi_cirno_critS2",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.09,
+         "id" : "yuugi_com_DMGLBandage",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.2,
          "remove_if_not_active" : false,
-         "rule_type" : "monsterSize",
-         "is_false_rule" : false,
+         "rule_type" : "has_item_id",
+         "is_false_rule" : true,
          "rule_data" : {
-            "float" : 2,
-            "string" : ""
-         },
-		 "has_description" : false
+            "float" : 0,
+            "string" : "bandage"
+         }
       },
 	  {
-         "id" : "yuugi_cirno_critDesk",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : -0.09,
+         "id" : "yuugi_com_DMGHBandage",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.2,
          "remove_if_not_active" : false,
-         "rule_type" : "monsterType",
+         "rule_type" : "has_item_id",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bandage"
+         }
+      },
+	  {
+         "id" : "yuugi_com_DMGLAntivenom",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_item_id",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "antivenom"
+         }
+      },
+	  {
+         "id" : "yuugi_com_DMGHAntivenom",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_item_id",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "antivenom"
+         }
+      },
+	  {
+         "id" : "yuugi_com_DMGRBleed",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "yuugi_fake_s1"
+            "string" : "bleeding"
+         }
+      },
+	  {
+         "id" : "yuugi_com_DMGRBlight",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "poisoned"
          }
       },
 	  {
@@ -164,6 +227,19 @@
          "id" : "yuugi_miyoi_cleanse_Desk",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "yuugi_miyoi_cleanse_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "yuugi_friendly_rule"
+         }
+      },
+	  {
+         "id" : "yuugi_com_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_com_Desk",
          "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "skill",

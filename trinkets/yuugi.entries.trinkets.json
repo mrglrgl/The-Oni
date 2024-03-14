@@ -31,9 +31,7 @@
 			"yuugi_cirno_dmgL",
 			"yuugi_cirno_dmgH",
 			"yuugi_cirno_stun",
-			"yuugi_cirno_crit",
-			"yuugi_cirno_critS2",
-			"yuugi_cirno_critDesk"
+			"yuugi_cirno_crit"
          ],
          "hero_class_requirements":
          [

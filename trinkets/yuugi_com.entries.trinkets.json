@@ -1,0 +1,31 @@
+{
+   "entries":
+   [
+      {
+         "id" : "yuugi_trinket_com",
+         "buffs" : 
+         [
+			"yuugi_com_DMGLBandage",
+			"yuugi_com_DMGHBandage",
+			"yuugi_com_DMGLAntivenom",
+			"yuugi_com_DMGHAntivenom",
+			"yuugi_com_DMGRBleed",
+			"yuugi_com_DMGRBlight",
+			"yuugi_com_Desk"
+         ],
+         "hero_class_requirements":
+         [
+            "yuugi"
+         ],
+		 "rarity" : "comet",
+         "shard" : 25,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+         [
+			 "Yuugi_CoM_BleedYoink",
+			 "Yuugi_CoM_BlightYoink"
+         ]
+      }
+   ]
+}

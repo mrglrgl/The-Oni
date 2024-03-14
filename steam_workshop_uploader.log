@@ -27,7 +27,6 @@ heroes/yuugi/yuugi_A/anim/yuugi.sprite.breaker.png
 heroes/yuugi/yuugi_A/anim/yuugi.sprite.camp.png
 heroes/yuugi/yuugi_A/anim/yuugi.sprite.combat.png
 heroes/yuugi/yuugi_A/anim/yuugi.sprite.defend.png
-heroes/yuugi/yuugi_A/anim/yuugi.sprite.drink.png
 heroes/yuugi/yuugi_A/anim/yuugi.sprite.heroic.png
 heroes/yuugi/yuugi_A/anim/yuugi.sprite.idle.png
 heroes/yuugi/yuugi_A/anim/yuugi.sprite.investigate.png
@@ -50,8 +49,6 @@ heroes/yuugi/anim/yuugi.sprite.combat.atlas
 heroes/yuugi/anim/yuugi.sprite.combat.skel
 heroes/yuugi/anim/yuugi.sprite.defend.atlas
 heroes/yuugi/anim/yuugi.sprite.defend.skel
-heroes/yuugi/anim/yuugi.sprite.drink.atlas
-heroes/yuugi/anim/yuugi.sprite.drink.skel
 heroes/yuugi/anim/yuugi.sprite.heroic.atlas
 heroes/yuugi/anim/yuugi.sprite.heroic.skel
 heroes/yuugi/anim/yuugi.sprite.idle.atlas
@@ -78,9 +75,6 @@ heroes/yuugi/fx/yuugi.sprite.advance_tskillfx.skel
 heroes/yuugi/fx/yuugi.sprite.breaker_fx.atlas
 heroes/yuugi/fx/yuugi.sprite.breaker_fx.png
 heroes/yuugi/fx/yuugi.sprite.breaker_fx.skel
-heroes/yuugi/fx/yuugi.sprite.debris.atlas
-heroes/yuugi/fx/yuugi.sprite.debris.png
-heroes/yuugi/fx/yuugi.sprite.debris.skel
 heroes/yuugi/fx/yuugi.sprite.drum_fear_target.atlas
 heroes/yuugi/fx/yuugi.sprite.drum_fear_target.png
 heroes/yuugi/fx/yuugi.sprite.drum_fear_target.skel
@@ -90,9 +84,6 @@ heroes/yuugi/fx/yuugi.sprite.emboldening_vapours_target.skel
 heroes/yuugi/fx/yuugi.sprite.kampai_fx.atlas
 heroes/yuugi/fx/yuugi.sprite.kampai_fx.png
 heroes/yuugi/fx/yuugi.sprite.kampai_fx.skel
-heroes/yuugi/fx/yuugi.sprite.manacles_target.atlas
-heroes/yuugi/fx/yuugi.sprite.manacles_target.png
-heroes/yuugi/fx/yuugi.sprite.manacles_target.skel
 heroes/yuugi/fx/yuugi.sprite.obliterate_fx.atlas
 heroes/yuugi/fx/yuugi.sprite.obliterate_fx.png
 heroes/yuugi/fx/yuugi.sprite.obliterate_fx.skel
@@ -161,6 +152,7 @@ trinkets/east_town.rarities.trinkets.json
 trinkets/yuugi.entries.trinkets.json
 trinkets/yuugi.sets.trinkets.json
 trinkets/yuugi_cc.entries.trinkets.json
+trinkets/yuugi_com.entries.trinkets.json
 trinkets/yuugi_common.entries.trinkets.json
 preview_icon.png
 project.xml
