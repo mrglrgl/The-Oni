@@ -82,7 +82,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_miyoi_regen_desk"><![CDATA[+33%% {colour_start|healhp}Regen{colour_end} Amount Applied]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_miyoi_cleanse_desk"><![CDATA[Clear {colour_start|debuff}Debuffs{colour_end}]]></entry>
 	<!-- <entry id="buff_rule_data_tooltip_yuugi_fake_s1"><![CDATA[Size 1 {colour_start|skill_unselectable}(Only){colour_end}]]></entry> -->
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_com_Desk"><![CDATA[Other Heroes: Steal {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_com_Desk"><![CDATA[Steal {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end} from Allies]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_cc_first_desk"><![CDATA[{colour_start|mark}Mark{colour_end} Self / +2 SPD]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_cc_second_A_desk"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_cc_second_B_desk"><![CDATA[-33%% DMG / -5 SPD {colour_start|skill_unselectable}(150%% base){colour_end}]]></entry>
