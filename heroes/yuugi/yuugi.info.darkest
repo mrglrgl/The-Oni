@@ -79,6 +79,7 @@ mode: .id yuugimomentumDesk
 tag: .id "heavy"
 tag: .id "non-religious"
 tag: .id "outsiders_bonfire"
+tag: .id "yuugi"
 deaths_door: .buffs deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
 controlled: .target_rank 1
 id_index: .index 18897

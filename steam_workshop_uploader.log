@@ -122,6 +122,7 @@ raid/camping/skill_icons/camp_skill_yuugi_armwrestle.png
 raid/camping/skill_icons/camp_skill_yuugi_festival.png
 raid/camping/skill_icons/camp_skill_yuugi_party.png
 raid/camping/skill_icons/camp_skill_yuugi_warmup.png
+audio/secondary_banks/yuugi.bank
 heroes/yuugi/PLACEHOLDER.zip
 heroes/yuugi/Untitled_Artwork(2).png
 heroes/yuugi/yuugi.ability.five.png
@@ -141,6 +142,9 @@ shared/buffs/yuugi_Trinket.buffs.json
 shared/buffs/yuugi_Trinket_CC.buffs.json
 shared/buffs/yuugi_Trinket_Common.buffs.json
 upgrades/heroes/yuugi.upgrades.json
+audio/yuugi.campaign.guid_overrides.json
+audio/yuugi.campaign.load_order.json
+audio/yuugi.narration.json
 colours/yuugi.colours.darkest
 effects/yuugi.effects.darkest
 localization/0_english.loc2

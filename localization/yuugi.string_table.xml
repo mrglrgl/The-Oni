@@ -79,10 +79,12 @@
 	<entry id="buff_rule_data_tooltip_yuugi_washit_rule"><![CDATA[When Hit]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_common_A_desk"><![CDATA[Gain Monster {colour_start|buff}Buffs{colour_end} from {colour_start|stealth}Darkness{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_common_B_desk"><![CDATA[Immune to {colour_start|stress}+Stress{colour_end} from {colour_start|stealth}Darkness{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_miyoi_regen_desk"><![CDATA[+33%% {colour_start|healhp}Regen{colour_end} Amount Applied]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_miyoi_cleanse_desk"><![CDATA[Clear {colour_start|debuff}Debuffs{colour_end}]]></entry>
 	<!-- <entry id="buff_rule_data_tooltip_yuugi_fake_s1"><![CDATA[Size 1 {colour_start|skill_unselectable}(Only){colour_end}]]></entry> -->
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_com_Desk"><![CDATA[Steal {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end} from Allies]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_com_desk_A"><![CDATA[On Any Action: Self:]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_com_desk_B"><![CDATA[Steal {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end} from Allies]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_com_desk_C"><![CDATA[{colour_start|healhp}Heal{colour_end} 2 pts/rd while {colour_start|bleed}Bleeding{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_com_desk_D"><![CDATA[{colour_start|healhp}Heal{colour_end} 2 pts/rd while {colour_start|blight}Blighted{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_cc_first_desk"><![CDATA[{colour_start|mark}Mark{colour_end} Self / +2 SPD]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_cc_second_A_desk"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_cc_second_B_desk"><![CDATA[-33%% DMG / -5 SPD {colour_start|skill_unselectable}(150%% base){colour_end}]]></entry>
@@ -92,6 +94,10 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_helix_C_desk"><![CDATA[Break {colour_start|riposte}Riposte{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_empty_space_deleter"><![CDATA[​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
 	
+	<!-- 1x ZWSP = 3x visible characters -->
+	<!-- 170 ZWSP: {​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​} 63 ZWSP: {​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​} 13 ZWSP: {​​​​​​​​​​​​​} 1 ZWSP: {​} -->
+	<!-- 1x color tag = 13x visible characters
+	<!-- <c>123456</c> = {colour_start|red}{colour_end} -->
 
 		<!-- Random Tooltips Desk -->
 	<entry id="str_skill_mode_info_yuugirulemode"><![CDATA[]]></entry>
@@ -113,7 +119,6 @@ Riposte for 1 rds{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rallymark_3_desk"><![CDATA[Clear {colour_start|mark}Mark:{colour_end} {colour_start|stress}Stress{colour_end} -7]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rallymark_4_desk"><![CDATA[Clear {colour_start|mark}Mark:{colour_end} {colour_start|stress}Stress{colour_end} -8]]></entry>
 
-	
 				<!-- Battle Rhythm -->
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_condstress_4_desk"><![CDATA[If HP above 33%%: {colour_start|stress}Stress{colour_end} -4]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_condstress_5_desk"><![CDATA[If HP above 33%%: {colour_start|stress}Stress{colour_end} -5]]></entry>
@@ -132,9 +137,11 @@ Riposte for 1 rds{colour_end}]]></entry>
 			<!-- On being moved -->
 	<entry id="yuugi+str_combat_knockback"><![CDATA[]]></entry>
 	
-		<!-- Buff Shit -->
-	<entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Antivenom]]></entry>
-	<entry id="buff_rule_tooltip_has_item_type_false"><![CDATA[%s if no %s in Inventory]]></entry>
+		<!-- Misc Generic Buffs -->
+	<entry id="buff_stat_tooltip_hp_heal_amount"><![CDATA[%+d {colour_start|healhp}Healing{colour_end} Done]]></entry>
+	
+		<!-- Tooltip Formats - DO NOT TRANSLATE/CHANGE -->
+	<entry id="buff_rule_tooltip_skill"><![CDATA[%s: %s]]></entry>
 	
   </language>
 

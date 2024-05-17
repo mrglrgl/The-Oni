@@ -107,8 +107,9 @@ effect: .name "Yuugi_Defiant" .target "performer" .chance 100% .duration 2 .buff
 effect: .name "Yuugi_Intimidate" .target "target" .chance 150% .duration 3  .buff_ids "yuugi_intim_SPD" "yuugi_intim_DMGL" "yuugi_intim_DMGH"	.on_hit true .on_miss false .has_description false
 
 // CoM
-effect: .name "Yuugi_CoM_BleedYoink"	.target "performer_group_other" .chance 100% .steal_buff_stat_type hp_dot_bleed		.on_hit true .on_miss false .queue true .apply_once true .has_description false
-effect: .name "Yuugi_CoM_BlightYoink"	.target "performer_group_other" .chance 100% .steal_buff_stat_type hp_dot_poison	.on_hit true .on_miss false .queue true .apply_once true .has_description false
+effect: .name "Yuugi_CoM_BleedYoink"	.target "performer_group_other" .chance 100% .steal_buff_stat_type hp_dot_bleed					.on_hit true .on_miss true .queue true .apply_once true .has_description false
+effect: .name "Yuugi_CoM_BlightYoink"	.target "performer_group_other" .chance 100% .steal_buff_stat_type hp_dot_poison				.on_hit true .on_miss true .queue true .apply_once true .has_description false
+effect: .name "Yuugi_CoM_CondRegen" 	.target "performer" 			.chance 100% .buff_ids "yuugi_BleedRegen" "yuugi_BlightRegen"	.on_hit true .on_miss true .queue true .apply_once true .has_description false
 
 
 

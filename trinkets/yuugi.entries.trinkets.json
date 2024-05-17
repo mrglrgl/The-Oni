@@ -5,8 +5,7 @@
          "id" : "yuugi_trinket_miyoi",
          "buffs" : 
          [
-			"yuugi_miyoi_regenamt",
-			"yuugi_miyoi_regen_Desk",
+			"yuugi_miyoi_heal",
 			"yuugi_miyoi_stressheal",
 			"yuugi_miyoi_cleanse_Desk"
          ],
@@ -21,6 +20,27 @@
 		 "friendly_skill_additional_effects":
          [
 			 "Yuugi_Miyoi_Cleanse"
+         ]
+      },
+	  {
+         "id" : "yuugi_trinket_rare",
+         "buffs" : 
+         [
+			"yuugi_rare_riposteDMGL",
+			"yuugi_rare_riposteDMGH",
+			"yuugi_rare_Desk"
+         ],
+         "hero_class_requirements":
+         [
+            "yuugi"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+         [
+			 "Yuugi_Basic_Riposte"
          ]
       },
 	  {

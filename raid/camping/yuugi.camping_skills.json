@@ -195,7 +195,7 @@
 					"chance" : { "code" : "a", "amount": 1.0 },
 					"type" : "buff",
 					"sub_type" : "campingStressResistBuff",					
-					"amount" :  -0.15
+					"amount" :  -0.2
 				},
                 {
 					"selection" : "self",

@@ -5,13 +5,11 @@
          "id" : "yuugi_trinket_com",
          "buffs" : 
          [
-			"yuugi_com_DMGLBandage",
-			"yuugi_com_DMGHBandage",
-			"yuugi_com_DMGLAntivenom",
-			"yuugi_com_DMGHAntivenom",
-			"yuugi_com_DMGRBleed",
-			"yuugi_com_DMGRBlight",
-			"yuugi_com_Desk"
+			"yuugi_com_Desk_A",
+			"yuugi_com_Desk_B",
+			"yuugi_com_Desk_C",
+			"yuugi_com_Desk_D",
+			"yuugi_empty_space_Deleter"
          ],
          "hero_class_requirements":
          [
@@ -21,10 +19,17 @@
          "shard" : 25,
          "limit" : 1,
          "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+         [
+			 "Yuugi_CoM_BleedYoink",
+			 "Yuugi_CoM_BlightYoink",
+			 "Yuugi_CoM_CondRegen"
+         ],
 		 "friendly_skill_additional_effects":
          [
 			 "Yuugi_CoM_BleedYoink",
-			 "Yuugi_CoM_BlightYoink"
+			 "Yuugi_CoM_BlightYoink",
+			 "Yuugi_CoM_CondRegen"
          ]
       }
    ]

@@ -2,18 +2,17 @@
    "buffs":
    [
       {
-         "id" : "yuugi_miyoi_regenamt",
-         "stat_type" : "hp_heal_dot_amount_percent",
+         "id" : "yuugi_miyoi_heal",
+         "stat_type" : "hp_heal_amount",
          "stat_sub_type" : "",
-         "amount" : 0.33,
+         "amount" : 3,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         },
-		 "has_description" : false
+         }
       },
       {
          "id" : "yuugi_miyoi_stressheal",
@@ -22,6 +21,32 @@
          "amount" : 0.33,
          "remove_if_not_active" : false,
          "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_rare_riposteDMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_rare_riposteDMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
@@ -107,114 +132,10 @@
          }
       },
 	  {
-         "id" : "yuugi_com_DMGLBandage",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.2,
-         "remove_if_not_active" : false,
-         "rule_type" : "has_item_id",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "bandage"
-         }
-      },
-	  {
-         "id" : "yuugi_com_DMGHBandage",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.2,
-         "remove_if_not_active" : false,
-         "rule_type" : "has_item_id",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "bandage"
-         }
-      },
-	  {
-         "id" : "yuugi_com_DMGLAntivenom",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.2,
-         "remove_if_not_active" : false,
-         "rule_type" : "has_item_id",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "antivenom"
-         }
-      },
-	  {
-         "id" : "yuugi_com_DMGHAntivenom",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.2,
-         "remove_if_not_active" : false,
-         "rule_type" : "has_item_id",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "antivenom"
-         }
-      },
-	  {
-         "id" : "yuugi_com_DMGRBleed",
-         "stat_type" : "damage_received_percent",
-         "stat_sub_type" : "",
-         "amount" : -0.2,
-         "remove_if_not_active" : false,
-         "rule_type" : "is_actor_status",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "bleeding"
-         }
-      },
-	  {
-         "id" : "yuugi_com_DMGRBlight",
-         "stat_type" : "damage_received_percent",
-         "stat_sub_type" : "",
-         "amount" : -0.2,
-         "remove_if_not_active" : false,
-         "rule_type" : "is_actor_status",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "poisoned"
-         }
-      },
-	  {
-         "id" : "yuugi_helix_hp",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "max_hp",
-         "amount" : 0.2,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
          "id" : "yuugi_helix_ACC",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
          "amount" : 0.1,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "yuugi_miyoi_regen_Desk",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "yuugi_miyoi_regen_desk",
-         "amount" : 0.01,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -237,16 +158,55 @@
          }
       },
 	  {
-         "id" : "yuugi_com_Desk",
+         "id" : "yuugi_com_Desk_A",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "yuugi_com_Desk",
+         "stat_sub_type" : "yuugi_com_desk_A",
          "amount" : 0.01,
          "remove_if_not_active" : false,
-         "rule_type" : "skill",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "yuugi_friendly_rule"
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_com_Desk_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_com_desk_B",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_com_Desk_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_com_desk_C",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_com_Desk_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_com_desk_D",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
          }
       },
 	  {
