@@ -122,13 +122,13 @@ Riposte for 1 rds{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rallymark_4_desk"><![CDATA[Clear {colour_start|mark}Mark:{colour_end} {colour_start|stress}Stress{colour_end} -8]]></entry>
 
 				<!-- Battle Rhythm -->
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_revit_1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 3 / {colour_start|stress}Stress{colour_end} -4 / {colour_start|mark}Mark{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_revit_2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 4 / {colour_start|stress}Stress{colour_end} -4 / {colour_start|mark}Mark{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_revit_3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 4 / {colour_start|stress}Stress{colour_end} -5 / {colour_start|mark}Mark{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_revit_4_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 5 / {colour_start|stress}Stress{colour_end} -5 / {colour_start|mark}Mark{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_revit_5_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 6 / {colour_start|stress}Stress{colour_end} -6 / {colour_start|mark}Mark{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_revit_1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 3 / {colour_start|stress}Stress{colour_end} -3 / {colour_start|mark}Mark{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_revit_2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 4 / {colour_start|stress}Stress{colour_end} -3 / {colour_start|mark}Mark{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_revit_3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 4 / {colour_start|stress}Stress{colour_end} -4 / {colour_start|mark}Mark{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_revit_4_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 5 / {colour_start|stress}Stress{colour_end} -4 / {colour_start|mark}Mark{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_revit_5_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 6 / {colour_start|stress}Stress{colour_end} -5 / {colour_start|mark}Mark{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_condeels_desk"><![CDATA[2x {colour_start|healhp}Heal{colour_end} If HP below 33%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_condeels_desk"><![CDATA[2x {colour_start|healhp}Heal{colour_end} if HP below 33%%]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_freemove_desk"><![CDATA[{colour_start|notable}Bonus{colour_end} {colour_start|move}Move{colour_end} {colour_start|notable}Action{colour_end}]]></entry>
 

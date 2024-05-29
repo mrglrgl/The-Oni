@@ -57,9 +57,9 @@ effect: .name "Yuugi_EelCond_4"	.target "performer" .chance 100% .buff_source_ty
 effect: .name "Yuugi_EelCond_5"	.target "performer" .chance 100% .buff_source_type bsrc_vampire .buff_ids "yuugi_healbuff5" .duration 1 .on_hit true .on_miss true .has_description false
 effect: .name "Yuugi_EelCond_6"	.target "performer" .chance 100% .buff_source_type bsrc_vampire .buff_ids "yuugi_healbuff6" .duration 1 .on_hit true .on_miss true .has_description false
 
+effect: .name "Yuugi_SEel_3" .target "performer" .chance 100% .healstress 3	.on_hit true .on_miss true .has_description false
 effect: .name "Yuugi_SEel_4" .target "performer" .chance 100% .healstress 4	.on_hit true .on_miss true .has_description false
 effect: .name "Yuugi_SEel_5" .target "performer" .chance 100% .healstress 5	.on_hit true .on_miss true .has_description false
-effect: .name "Yuugi_SEel_6" .target "performer" .chance 100% .healstress 6	.on_hit true .on_miss true .has_description false
 
 effect: .name "Yuugi_Eel_3" .target "performer" .chance 100% .heal 3	.on_hit true .on_miss true .has_description false
 effect: .name "Yuugi_Eel_4" .target "performer" .chance 100% .heal 4	.on_hit true .on_miss true .has_description false

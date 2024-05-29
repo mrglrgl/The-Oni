@@ -53,11 +53,11 @@ combat_skill: .id "y_wog" .level 4 .launch 4321 .target @~4321	.is_crit_valid Tr
 combat_skill: .id "y_wog" .effect "Yuugi_Rally_Cleanse" "Yuugi_FFS_Blocker"
 
 // Revitalize
-combat_skill: .id "y_warmup" .level 0 .launch 4321 .target	.is_crit_valid True	.effect "Yuugi_EelCond_3" "Yuugi_Eel_3" "Yuugi_SEel_4" "Yuugi CleanEels" "Yuugi MarkS_H" "Yuugi Eels 1 Desk"
-combat_skill: .id "y_warmup" .level 1 .launch 4321 .target	.is_crit_valid True	.effect "Yuugi_EelCond_4" "Yuugi_Eel_4" "Yuugi_SEel_4" "Yuugi CleanEels" "Yuugi MarkS_H" "Yuugi Eels 2 Desk"
-combat_skill: .id "y_warmup" .level 2 .launch 4321 .target	.is_crit_valid True	.effect "Yuugi_EelCond_4" "Yuugi_Eel_4" "Yuugi_SEel_5" "Yuugi CleanEels" "Yuugi MarkS_H" "Yuugi Eels 3 Desk"
-combat_skill: .id "y_warmup" .level 3 .launch 4321 .target	.is_crit_valid True	.effect "Yuugi_EelCond_5" "Yuugi_Eel_5" "Yuugi_SEel_5" "Yuugi CleanEels" "Yuugi MarkS_H" "Yuugi Eels 4 Desk"
-combat_skill: .id "y_warmup" .level 4 .launch 4321 .target	.is_crit_valid True	.effect "Yuugi_EelCond_6" "Yuugi_Eel_6" "Yuugi_SEel_6" "Yuugi CleanEels" "Yuugi MarkS_H" "Yuugi Eels 5 Desk"
+combat_skill: .id "y_warmup" .level 0 .launch 4321 .target	.is_crit_valid True	.effect "Yuugi_EelCond_3" "Yuugi_Eel_3" "Yuugi_SEel_3" "Yuugi CleanEels" "Yuugi MarkS_H" "Yuugi Eels 1 Desk"
+combat_skill: .id "y_warmup" .level 1 .launch 4321 .target	.is_crit_valid True	.effect "Yuugi_EelCond_4" "Yuugi_Eel_4" "Yuugi_SEel_3" "Yuugi CleanEels" "Yuugi MarkS_H" "Yuugi Eels 2 Desk"
+combat_skill: .id "y_warmup" .level 2 .launch 4321 .target	.is_crit_valid True	.effect "Yuugi_EelCond_4" "Yuugi_Eel_4" "Yuugi_SEel_4" "Yuugi CleanEels" "Yuugi MarkS_H" "Yuugi Eels 3 Desk"
+combat_skill: .id "y_warmup" .level 3 .launch 4321 .target	.is_crit_valid True	.effect "Yuugi_EelCond_5" "Yuugi_Eel_5" "Yuugi_SEel_4" "Yuugi CleanEels" "Yuugi MarkS_H" "Yuugi Eels 4 Desk"
+combat_skill: .id "y_warmup" .level 4 .launch 4321 .target	.is_crit_valid True	.effect "Yuugi_EelCond_6" "Yuugi_Eel_6" "Yuugi_SEel_5" "Yuugi CleanEels" "Yuugi MarkS_H" "Yuugi Eels 5 Desk"
 combat_skill: .id "y_warmup" .is_continue_turn true .per_turn_limit 1 .effect "Yuugi_FFS" "Yuugi_FFS_Blocker"
 combat_skill: .id "y_warmup" .valid_modes yuugirulemode
 
