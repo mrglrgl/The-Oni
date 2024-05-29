@@ -63,6 +63,7 @@
 		<!-- Trinkets and Bobbles -->
 	<entry id="str_inventory_title_trinketyuugi_trinket_common"><![CDATA[Festival Lantern]]></entry>
 	<entry id="str_inventory_title_trinketyuugi_trinket_miyoi"><![CDATA[Whale Warmer]]></entry>
+	<entry id="str_inventory_title_trinketyuugi_trinket_rare"><![CDATA[Ibaraki Inro]]></entry>
 	<entry id="str_inventory_title_trinketyuugi_trinket_cirno"><![CDATA[Hero's Hairpin]]></entry>
 	<entry id="str_inventory_title_trinketyuugi_trinket_helix"><![CDATA[Kishin's Helix]]></entry>
 	<entry id="str_inventory_title_trinketcc_set_yuugi_first"><![CDATA[Defiant Standard]]></entry>
@@ -80,18 +81,19 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_common_A_desk"><![CDATA[Gain Monster {colour_start|buff}Buffs{colour_end} from {colour_start|stealth}Darkness{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_common_B_desk"><![CDATA[Immune to {colour_start|stress}+Stress{colour_end} from {colour_start|stealth}Darkness{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_miyoi_cleanse_desk"><![CDATA[Clear {colour_start|debuff}Debuffs{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rare_desk"><![CDATA[Attack Skills: {colour_start|riposte}Activate Riposte{colour_end}]]></entry>
 	<!-- <entry id="buff_rule_data_tooltip_yuugi_fake_s1"><![CDATA[Size 1 {colour_start|skill_unselectable}(Only){colour_end}]]></entry> -->
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_com_desk_A"><![CDATA[On Any Action: Self:]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_com_desk_B"><![CDATA[Steal {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end} from Allies]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_com_desk_C"><![CDATA[{colour_start|healhp}Heal{colour_end} 2 pts/rd while {colour_start|bleed}Bleeding{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_com_desk_D"><![CDATA[{colour_start|healhp}Heal{colour_end} 2 pts/rd while {colour_start|blight}Blighted{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_com_desk_C"><![CDATA[{colour_start|healhp}Heal{colour_end} 1 pts/rd while {colour_start|bleed}Bleeding{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_com_desk_D"><![CDATA[{colour_start|healhp}Heal{colour_end} 1 pts/rd while {colour_start|blight}Blighted{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_cc_first_desk"><![CDATA[{colour_start|mark}Mark{colour_end} Self / +2 SPD]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_cc_second_A_desk"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_cc_second_B_desk"><![CDATA[-33%% DMG / -5 SPD {colour_start|skill_unselectable}(150%% base){colour_end}]]></entry>
 		<!-- Translator Warning: "When Riposted" means "When the hero is Riposted by an enemy".  Please Write a tooltip that makes sense in your language. --> 
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_helix_A_desk"><![CDATA[When {colour_start|riposte}Riposted{colour_end}: Never DODGE]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_helix_B_desk"><![CDATA[When {colour_start|riposte}Riposted{colour_end}: Reflect 500%% DMG]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_helix_C_desk"><![CDATA[Break {colour_start|riposte}Riposte{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_helix_A_desk"><![CDATA[Never DODGE when attacked by {colour_start|riposte}Riposte{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_helix_B_desk"><![CDATA[Reflect 500%% DMG when attacked by {colour_start|riposte}Riposte{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_helix_C_desk"><![CDATA[Target: Break {colour_start|riposte}Riposte{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_empty_space_deleter"><![CDATA[​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
 	
 	<!-- 1x ZWSP = 3x visible characters -->
@@ -120,15 +122,15 @@ Riposte for 1 rds{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rallymark_4_desk"><![CDATA[Clear {colour_start|mark}Mark:{colour_end} {colour_start|stress}Stress{colour_end} -8]]></entry>
 
 				<!-- Battle Rhythm -->
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_condstress_4_desk"><![CDATA[If HP above 33%%: {colour_start|stress}Stress{colour_end} -4]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_condstress_5_desk"><![CDATA[If HP above 33%%: {colour_start|stress}Stress{colour_end} -5]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_condstress_6_desk"><![CDATA[If HP above 33%%: {colour_start|stress}Stress{colour_end} -6]]></entry>
-
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_condeels_2_desk"><![CDATA[If HP below 66%%: +2 {colour_start|healhp}Healing{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_condeels_3_desk"><![CDATA[If HP below 66%%: +3 {colour_start|healhp}Healing{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_condeels_4_desk"><![CDATA[If HP below 66%%: +4 {colour_start|healhp}Healing{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_revit_1_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 3 / {colour_start|stress}Stress{colour_end} -4 / {colour_start|mark}Mark{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_revit_2_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 4 / {colour_start|stress}Stress{colour_end} -4 / {colour_start|mark}Mark{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_revit_3_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 4 / {colour_start|stress}Stress{colour_end} -5 / {colour_start|mark}Mark{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_revit_4_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 5 / {colour_start|stress}Stress{colour_end} -5 / {colour_start|mark}Mark{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_revit_5_desk"><![CDATA[{colour_start|healhp}Heal{colour_end} 6 / {colour_start|stress}Stress{colour_end} -6 / {colour_start|mark}Mark{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_freemove_desk"><![CDATA[Free {colour_start|move}Move{colour_end} After Action]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_condeels_desk"><![CDATA[2x {colour_start|healhp}Heal{colour_end} If HP below 33%%]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_freemove_desk"><![CDATA[{colour_start|notable}Bonus{colour_end} {colour_start|move}Move{colour_end} {colour_start|notable}Action{colour_end}]]></entry>
 
 				<!-- Kampai -->
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_nostack_desk"><![CDATA[{colour_start|notable}Unstackable{colour_end}]]></entry>

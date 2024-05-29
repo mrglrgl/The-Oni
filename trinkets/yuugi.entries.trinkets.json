@@ -26,6 +26,7 @@
          "id" : "yuugi_trinket_rare",
          "buffs" : 
          [
+			"yuugi_rare_riposteCRIT",
 			"yuugi_rare_riposteDMGL",
 			"yuugi_rare_riposteDMGH",
 			"yuugi_rare_Desk"
@@ -34,8 +35,8 @@
          [
             "yuugi"
          ],
-         "rarity" : "uncommon",
-         "price" : 10000,
+         "rarity" : "rare",
+         "price" : 15000,
          "limit" : 1,
          "origin_dungeon" : "",
 		 "attack_skill_additional_effects":

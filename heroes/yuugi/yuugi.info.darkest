@@ -1,4 +1,5 @@
 resistances: .stun 50% .poison 30% .bleed 30% .disease 30% .move 40% .debuff 40% .death_blow 67% .trap 10%
+crit: .effects "Yuugi_On_CRIT_SPD"
 weapon: .name "yuugi_weapon_0" .atk 0% .dmg 7 14 .crit 6% .spd 4
 weapon: .name "yuugi_weapon_1" .atk 0% .dmg 8 16 .crit 7% .spd 4 .upgradeRequirementCode 0
 weapon: .name "yuugi_weapon_2" .atk 0% .dmg 9 18 .crit 8% .spd 5 .upgradeRequirementCode 1
@@ -52,12 +53,13 @@ combat_skill: .id "y_wog" .level 4 .launch 4321 .target @~4321	.is_crit_valid Tr
 combat_skill: .id "y_wog" .effect "Yuugi_Rally_Cleanse" "Yuugi_FFS_Blocker"
 
 // Revitalize
-combat_skill: .id "y_warmup" .level 0 .launch 4321 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi EelCond 2" "Yuugi CondStress 4" "Yuugi Eel 2" "Yuugi CleanEels" "Yuugi MarkS" "Yuugi Eels 1 Desk"
-combat_skill: .id "y_warmup" .level 1 .launch 4321 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi EelCond 2" "Yuugi CondStress 5" "Yuugi Eel 2" "Yuugi CleanEels" "Yuugi MarkS" "Yuugi Eels 2 Desk"
-combat_skill: .id "y_warmup" .level 2 .launch 4321 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi EelCond 3" "Yuugi CondStress 5" "Yuugi Eel 3" "Yuugi CleanEels" "Yuugi MarkS" "Yuugi Eels 3 Desk"
-combat_skill: .id "y_warmup" .level 3 .launch 4321 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi EelCond 3" "Yuugi CondStress 6" "Yuugi Eel 3" "Yuugi CleanEels" "Yuugi MarkS" "Yuugi Eels 4 Desk"
-combat_skill: .id "y_warmup" .level 4 .launch 4321 .target	.is_crit_valid True .valid_modes yuugirulemode  .effect "Yuugi EelCond 4" "Yuugi CondStress 6" "Yuugi Eel 4" "Yuugi CleanEels" "Yuugi MarkS" "Yuugi Eels 5 Desk"
+combat_skill: .id "y_warmup" .level 0 .launch 4321 .target	.is_crit_valid True	.effect "Yuugi_EelCond_3" "Yuugi_Eel_3" "Yuugi_SEel_4" "Yuugi CleanEels" "Yuugi MarkS_H" "Yuugi Eels 1 Desk"
+combat_skill: .id "y_warmup" .level 1 .launch 4321 .target	.is_crit_valid True	.effect "Yuugi_EelCond_4" "Yuugi_Eel_4" "Yuugi_SEel_4" "Yuugi CleanEels" "Yuugi MarkS_H" "Yuugi Eels 2 Desk"
+combat_skill: .id "y_warmup" .level 2 .launch 4321 .target	.is_crit_valid True	.effect "Yuugi_EelCond_4" "Yuugi_Eel_4" "Yuugi_SEel_5" "Yuugi CleanEels" "Yuugi MarkS_H" "Yuugi Eels 3 Desk"
+combat_skill: .id "y_warmup" .level 3 .launch 4321 .target	.is_crit_valid True	.effect "Yuugi_EelCond_5" "Yuugi_Eel_5" "Yuugi_SEel_5" "Yuugi CleanEels" "Yuugi MarkS_H" "Yuugi Eels 4 Desk"
+combat_skill: .id "y_warmup" .level 4 .launch 4321 .target	.is_crit_valid True	.effect "Yuugi_EelCond_6" "Yuugi_Eel_6" "Yuugi_SEel_6" "Yuugi CleanEels" "Yuugi MarkS_H" "Yuugi Eels 5 Desk"
 combat_skill: .id "y_warmup" .is_continue_turn true .per_turn_limit 1 .effect "Yuugi_FFS" "Yuugi_FFS_Blocker"
+combat_skill: .id "y_warmup" .valid_modes yuugirulemode
 
 // Kampai
 combat_skill: .id "y_kampai" .level 0 .launch 21 .target	.is_crit_valid True	.effect "Yuugi_Drunk_TopDesk_1" "Yuugi_Drunk_MarkDesk" "Yuugi_Drunk_Reset" "Yuugi_HealDoT_1" "Yuugi Drunk" "Yuugi Riposte 1" .is_stall_invalidating false

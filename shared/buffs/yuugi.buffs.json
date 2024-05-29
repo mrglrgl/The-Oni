@@ -2,6 +2,20 @@
    "buffs":
    [
 	  {
+         "id" : "yuugi_crit_spd",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 4,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "yuugi_Focus_dmglow_1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
@@ -236,32 +250,6 @@
          }
       },
 	  {
-         "id" : "yuugi_blockstress",
-         "stat_type" : "stress_heal_percent",
-         "stat_sub_type" : "effect",
-         "amount" : -1000,
-         "remove_if_not_active" : false,
-         "rule_type" : "hpbelow",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0.34,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "yuugi_healbuff2",
-         "stat_type" : "hp_heal_amount",
-         "stat_sub_type" : "",
-         "amount" : 2,
-         "remove_if_not_active" : false,
-         "rule_type" : "hpbelow",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0.67,
-            "string" : ""
-         }
-      },
-	  {
          "id" : "yuugi_healbuff3",
          "stat_type" : "hp_heal_amount",
          "stat_sub_type" : "",
@@ -270,7 +258,7 @@
          "rule_type" : "hpbelow",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0.67,
+            "float" : 0.34,
             "string" : ""
          }
       },
@@ -283,7 +271,33 @@
          "rule_type" : "hpbelow",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0.67,
+            "float" : 0.34,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_healbuff5",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 5,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.34,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "yuugi_healbuff6",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 6,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.34,
             "string" : ""
          }
       },
@@ -579,7 +593,7 @@
 		   "id" : "yuugi_BleedRegen",
 		   "stat_type" : "hp_dot_heal",
 		   "stat_sub_type" : "",
-		   "amount" : 2,
+		   "amount" : 1,
 		   "duration_type" : "before_turn",
 		   "duration" : -1,
 		   "remove_if_not_active" : true,
@@ -594,7 +608,7 @@
 		   "id" : "yuugi_BlightRegen",
 		   "stat_type" : "hp_dot_heal",
 		   "stat_sub_type" : "",
-		   "amount" : 2,
+		   "amount" : 1,
 		   "duration_type" : "before_turn",
 		   "duration" : -1,
 		   "remove_if_not_active" : true,

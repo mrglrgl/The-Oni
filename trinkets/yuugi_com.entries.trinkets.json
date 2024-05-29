@@ -5,6 +5,7 @@
          "id" : "yuugi_trinket_com",
          "buffs" : 
          [
+			"yuugi_com_heals",
 			"yuugi_com_Desk_A",
 			"yuugi_com_Desk_B",
 			"yuugi_com_Desk_C",

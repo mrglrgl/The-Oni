@@ -28,6 +28,19 @@
          }
       },
 	  {
+         "id" : "yuugi_rare_riposteCRIT",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "yuugi_rare_riposteDMGL",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
@@ -145,6 +158,19 @@
          }
       },
 	  {
+         "id" : "yuugi_com_heals",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
          "id" : "yuugi_miyoi_cleanse_Desk",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "yuugi_miyoi_cleanse_desk",
@@ -155,6 +181,19 @@
          "rule_data" : {
             "float" : 0,
             "string" : "yuugi_friendly_rule"
+         }
+      },
+	  {
+         "id" : "yuugi_rare_Desk",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "yuugi_rare_desk",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
          }
       },
 	  {
