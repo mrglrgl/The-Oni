@@ -109,7 +109,7 @@ effect: .name "Yuugi_NoStack_Desk" .target "performer" .skill_instant true .buff
 //// Trinkets \\\\
 effect: .name "Yuugi_Miyoi_Cleanse" .target "target"  .chance 100% .clear_debuff 1 .on_hit true .on_miss false .has_description false
 
-effect: .name "Yuugi_Basic_Riposte"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .has_description false .apply_once true
+effect: .name "Yuugi_Basic_Riposte"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .has_description false .apply_once true
 
 effect: .name "Yuugi_Defiant" .target "performer" .chance 100% .duration 2 .buff_ids "yuugi_defiant_SPD" "yuugi_defiant_Mark"	.on_hit true .on_miss false .has_description false
 
