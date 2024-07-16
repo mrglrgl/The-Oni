@@ -55,8 +55,8 @@
     <entry id="yuugi_armour_4"><![CDATA["Legend of Old Hell"]]></entry>
     <entry id="upgrade_tree_name_yuugi.armour"><![CDATA[Yukata]]></entry>
     <entry id="action_verbose_body_guild_yuugi"><![CDATA[Enjoying a stiff drink and a good brawl, this titanic youkai is unusually agreeable. She excels in the frontline, delivering blow and counterblow with devastating momentum. Even if forced from the fray, she can return with earthsplitting strides, or flatten distant foes with her powerful voice!]]></entry>
-    <entry id="action_verbose_body_blacksmith_yuugi"><![CDATA[Yuugi Blacksmith]]></entry>
-    <entry id="action_verbose_body_camping_trainer_yuugi"><![CDATA[Yuugi Camp]]></entry>
+    <entry id="action_verbose_body_blacksmith_yuugi"><![CDATA[The Oni cares little for self-defense, clad in tattered cloth and rusted shackles.  Her sake dish is an endless font of renewal - allowing her to shrug off blows, and retaliate with her devastating fists!]]></entry>
+    <entry id="action_verbose_body_camping_trainer_yuugi"><![CDATA[“Restraint” is anathema to a demon. The Oni fills the night with roaring festivities, exquisite drink, and a rowdy welcome to would-be party crashers.]]></entry>
 	
 		<!-- Event -->
 
@@ -81,7 +81,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_common_A_desk"><![CDATA[Gain Monster {colour_start|buff}Buffs{colour_end} from {colour_start|stealth}Darkness{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_common_B_desk"><![CDATA[Immune to {colour_start|stress}+Stress{colour_end} from {colour_start|stealth}Darkness{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_miyoi_cleanse_desk"><![CDATA[Clear {colour_start|debuff}Debuffs{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rare_desk"><![CDATA[Attack Skills: {colour_start|riposte}Activate Riposte{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_rare_desk"><![CDATA[Attack Skills: {colour_start|riposte}Activate Riposte{colour_end} {colour_start|skill_unselectable}(2 rd){colour_end}]]></entry>
 	<!-- <entry id="buff_rule_data_tooltip_yuugi_fake_s1"><![CDATA[Size 1 {colour_start|skill_unselectable}(Only){colour_end}]]></entry> -->
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_com_desk_A"><![CDATA[On Any Action: Self:]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_yuugi_com_desk_B"><![CDATA[Steal {colour_start|bleed}Bleed{colour_end}/{colour_start|blight}Blight{colour_end} from Allies]]></entry>
@@ -144,6 +144,209 @@ Riposte for 1 rds{colour_end}]]></entry>
 	
 		<!-- Tooltip Formats - DO NOT TRANSLATE/CHANGE -->
 	<entry id="buff_rule_tooltip_skill"><![CDATA[%s: %s]]></entry>
+	
+		<!-- Barks -->
+			<!-- On CRIT -->
+	<entry id="yuugi+str_critbyhero"><![CDATA[Oops, was that yer nose?]]></entry>
+	<entry id="yuugi+str_critbyhero"><![CDATA[Haw! Snapped like a twig!]]></entry>
+	<entry id="yuugi+str_critbyhero"><![CDATA[Try pickin on sum'un yer own size.]]></entry>
+	<entry id="yuugi+str_critbyhero"><![CDATA[Learn yer place.]]></entry>
+	<entry id="yuugi+str_critbyhero"><![CDATA[Now everyone knows what ya are.]]></entry>
+	<entry id="yuugi+str_critbyhero"><![CDATA[…was yer face always this ugly?]]></entry>
+	<entry id="yuugi+str_critbyhero"><![CDATA[Not a drop spilled.]]></entry>
+	<entry id="yuugi+str_critbyhero"><![CDATA[Ya had yer chance to run.]]></entry>
+	<entry id="yuugi+str_critbyhero"><![CDATA[Yer brave. But stupid.]]></entry>
+	<entry id="yuugi+str_critbyhero"><![CDATA[Welcome to hell, kid.  Enjoy yer stay.]]></entry>
+
+			<!-- Fearful -->
+	<entry id="yuugi+str_afflicted_fearful"><![CDATA[<checks script> …holup. Ain't this outta character?]]></entry>
+	<entry id="yuugi+str_bark_stress_fearful"><![CDATA[Oh no. I'm afraid. Or… something?]]></entry>
+	<entry id="yuugi+str_bark_stress_fearful"><![CDATA[Uh… eek? No?]]></entry>
+	<entry id="yuugi+str_change_pos_back_fearful"><![CDATA[<flip flip> …retreat? Oh, that coward thingy.]]></entry>
+	<entry id="yuugi+str_ignore_command_fearful"><![CDATA[<flip flip> Oh, where IS that line!]]></entry>
+	<entry id="yuugi+str_comment_self_hit_fearful"><![CDATA[DO YA MIND?!?]]></entry>
+	<entry id="yuugi+str_comment_self_missed_fearful"><![CDATA[Uh… Eek? Was that it?]]></entry>
+	<entry id="yuugi+str_comment_ally_attack_missed_fearful"><![CDATA[Yes, that was a very good kick.]]></entry>
+	<entry id="yuugi+str_comment_ally_hit_fearful"><![CDATA[Could ya stop screaming? I'm tryin'a read here!]]></entry>
+	<entry id="yuugi+str_comment_ally_missed_fearful"><![CDATA[Yes, that was a very good block.]]></entry>
+	<entry id="yuugi+str_block_move_fearful"><![CDATA["Frozen with fear"? How the hell does THAT work?]]></entry>
+	<entry id="yuugi+str_block_camping_skill_performer_fearful"><![CDATA["Reject help when sad"? Seems dumb, but yer the boss.]]></entry>
+	<entry id="yuugi+str_bark_stress_camp_fearful"><![CDATA[<waves script> How the hell do ya people do this?!]]></entry>
+	<entry id="yuugi+str_comment_curio_interaction_fearful"><![CDATA[Sure, whatever.]]></entry>
+	<entry id="yuugi+trigger_curio_affliction_fearful"><![CDATA[Could use a drink…]]></entry>
+	<entry id="yuugi+str_heart_attack_fearful"><![CDATA[WE'RE ALL DOOMED! …was that okay?]]></entry>
+
+			<!-- Paranoid -->
+	<entry id="yuugi+str_afflicted_paranoid"><![CDATA[Oh? And would ye exterminate ME too?]]></entry>
+	<entry id="yuugi+str_bark_stress_paranoid"><![CDATA[What's that glint I see?]]></entry>
+	<entry id="yuugi+str_bark_stress_paranoid"><![CDATA[Ya got a problem? Then say it to my fist!]]></entry>
+	<entry id="yuugi+str_change_pos_back_paranoid"><![CDATA[If ya wish to face me, then prove yerself first!]]></entry>
+	<entry id="yuugi+str_ignore_command_paranoid"><![CDATA[Do it yerself, then.]]></entry>
+	<entry id="yuugi+str_random_command_paranoid"><![CDATA[Yer very commands are poison!]]></entry>
+	<entry id="yuugi+str_block_combat_retreat_paranoid"><![CDATA[And turn my back to ya? I think not.]]></entry>
+	<entry id="yuugi+str_comment_self_hit_paranoid"><![CDATA[Craven pawns! Do yer worst!]]></entry>
+	<entry id="yuugi+str_comment_self_missed_paranoid"><![CDATA[Such a curious conspiracy…]]></entry>
+	<entry id="yuugi+str_comment_ally_attack_missed_paranoid"><![CDATA[Keep that blade where I can see it.]]></entry>
+	<entry id="yuugi+str_comment_ally_hit_paranoid"><![CDATA[How malicious…]]></entry>
+	<entry id="yuugi+str_comment_ally_missed_paranoid"><![CDATA[Such a curious conspiracy…]]></entry>
+	<entry id="yuugi+str_block_move_paranoid"><![CDATA[Stay where I can see ya, mate.]]></entry>
+	<entry id="yuugi+str_block_item_paranoid"><![CDATA[KEEP YER DAMN SOYBEANS AWAY!]]></entry>
+	<entry id="yuugi+str_block_heal_paranoid"><![CDATA[KEEP YER DAMN SOYBEANS AWAY!]]></entry>
+	<entry id="yuugi+str_block_buff_paranoid"><![CDATA[KEEP YER DAMN SOYBEANS AWAY!]]></entry>
+	<entry id="yuugi+str_attack_friendly_paranoid"><![CDATA[Whoops!]]></entry>
+	<entry id="yuugi+str_block_camping_meal_paranoid"><![CDATA[An' just what's it spiked with?]]></entry>
+	<entry id="yuugi+str_block_camping_skill_performer_paranoid"><![CDATA[Nice try. I know THAT scheme.]]></entry>
+	<entry id="yuugi+str_block_camping_skill_target_paranoid"><![CDATA[<growls>]]></entry>
+	<entry id="yuugi+str_bark_stress_camp_paranoid"><![CDATA[I'm not sleeping with ya. Guard yerselves.]]></entry>
+	<entry id="yuugi+trigger_curio_affliction_paranoid"><![CDATA[I'm not lettin ya trap that.]]></entry>
+	<entry id="yuugi+str_heart_attack_paranoid"><![CDATA[I SHOULD'VE KILLED YA WHEN I HAD THE CHANCE!]]></entry>
+
+			<!-- Masochistic -->
+	<entry id="yuugi+str_afflicted_masochistic"><![CDATA[C'mon! Gimme a fresh taste of Hell!]]></entry>
+	<entry id="yuugi+str_bark_stress_masochistic"><![CDATA[Make me bleed, an' maybe ya can live!]]></entry>
+	<entry id="yuugi+str_bark_stress_masochistic"><![CDATA[Let these halls run red!]]></entry>
+	<entry id="yuugi+str_bark_stress_masochistic"><![CDATA[Etch this battle in my mind and flesh!]]></entry>
+	<entry id="yuugi+str_change_pos_fwd_masochistic"><![CDATA[For blood an' liquor!]]></entry>
+	<entry id="yuugi+str_random_command_masochistic"><![CDATA[Eye for eye, an' toast for toast!]]></entry>
+	<entry id="yuugi+str_mark_self_masochistic"><![CDATA[Let each rain vengeance upon th' other! Gyahaha!]]></entry>
+	<entry id="yuugi+str_attack_self_masochistic"><![CDATA[See? THIS is how a demon bleeds!]]></entry>
+	<entry id="yuugi+str_block_combat_retreat_masochistic"><![CDATA[Deny me. And I. Will. Kill you.]]></entry>
+	<entry id="yuugi+str_comment_self_hit_masochistic"><![CDATA[How long since I've tasted my own blood!]]></entry>
+	<entry id="yuugi+str_comment_self_missed_masochistic"><![CDATA[Don't toy with me, vermin!]]></entry>
+	<entry id="yuugi+str_comment_ally_hit_masochistic"><![CDATA[I don't need a meatshield. Now get outta our way!]]></entry>
+	<entry id="yuugi+str_block_move_masochistic"><![CDATA[I'm no milksop! I will NOT yield!]]></entry>
+	<entry id="yuugi+str_block_item_masochistic"><![CDATA[Yer interference is unsporting!]]></entry>
+	<entry id="yuugi+str_block_heal_masochistic"><![CDATA[This is nothing! Stand back!]]></entry>
+	<entry id="yuugi+str_block_buff_masochistic"><![CDATA[Yer interference is unsporting!]]></entry>
+	<entry id="yuugi+str_block_camping_meal_masochistic"><![CDATA[I'm still savoring our last battle. Ah, delightful…]]></entry>
+	<entry id="yuugi+str_block_camping_skill_performer_masochistic"><![CDATA[Oh dear, blood seems to have tainted my liquor…]]></entry>
+	<entry id="yuugi+str_block_camping_skill_target_masochistic"><![CDATA[How am I to bask if ya keep prodding me? SHOO!]]></entry>
+	<entry id="yuugi+str_bark_stress_camp_masochistic"><![CDATA[Bring more rags! And a bucket.]]></entry>
+	<entry id="yuugi+str_comment_curio_interaction_masochistic"><![CDATA[I suppose ya think ya earned that?]]></entry>
+	<entry id="yuugi+trigger_curio_affliction_masochistic"><![CDATA[What's this…?]]></entry>
+	<entry id="yuugi+str_heart_attack_masochistic"><![CDATA[AHAHA! Ahhhh….]]></entry>
+
+			<!-- Abusive -->
+	<entry id="yuugi+str_afflicted_abusive"><![CDATA[Cowards! A fairy's got more spine than ya!]]></entry>
+	<entry id="yuugi+str_bark_stress_abusive"><![CDATA[Quit whimpering!]]></entry>
+	<entry id="yuugi+str_bark_stress_abusive"><![CDATA[GET OUTTA MY WAY!]]></entry>
+	<entry id="yuugi+str_random_command_abusive"><![CDATA[I don't take orders from YOU.]]></entry>
+	<entry id="yuugi+str_comment_ally_attack_hit_abusive"><![CDATA[Put yer back into it!]]></entry>
+	<entry id="yuugi+str_comment_ally_attack_missed_abusive"><![CDATA[Get yer craven arse outta my way!]]></entry>
+	<entry id="yuugi+str_comment_ally_hit_abusive"><![CDATA[Stop shaking, an' start dodging!]]></entry>
+	<entry id="yuugi+str_block_move_abusive"><![CDATA[Oh yeah? Try an' make me.]]></entry>
+	<entry id="yuugi+str_attack_friendly_abusive"><![CDATA[You asked for it.]]></entry>
+	<entry id="yuugi+str_block_camping_skill_performer_abusive"><![CDATA[I ain't sharin' a drop with you wimps.]]></entry>
+	<entry id="yuugi+str_block_camping_skill_target_abusive"><![CDATA[What could ya possibly offer me?]]></entry>
+	<entry id="yuugi+str_bark_stress_camp_abusive"><![CDATA[Urgh, I miss hell's company…]]></entry>
+	<entry id="yuugi+trigger_curio_affliction_abusive"><![CDATA[Don't drop it, you dolt!]]></entry>
+	<entry id="yuugi+str_heart_attack_abusive"><![CDATA[WILL YA STOP SCREWING AROUND-]]></entry>
+
+			<!-- Selfish -->
+	<entry id="yuugi+str_afflicted_selfish"><![CDATA[The strongest take what they want!]]></entry>
+	<entry id="yuugi+str_bark_stress_selfish"><![CDATA[Make way, or I'll trample ya!]]></entry>
+	<entry id="yuugi+str_bark_stress_selfish"><![CDATA[Stand down, worms!]]></entry>
+	<entry id="yuugi+str_change_pos_fwd_selfish"><![CDATA[Lemme at 'em!]]></entry>
+	<entry id="yuugi+str_change_pos_back_selfish"><![CDATA[Surely ya can handle the weaklings, yes?]]></entry>
+	<entry id="yuugi+str_ignore_command_selfish"><![CDATA[<yawn> Not even worth my time.]]></entry>
+	<entry id="yuugi+str_random_command_selfish"><![CDATA[I'll do as I please!]]></entry>
+	<entry id="yuugi+str_comment_self_hit_selfish"><![CDATA[Hmpf, was that all?]]></entry>
+	<entry id="yuugi+str_comment_ally_attack_hit_selfish"><![CDATA[And NOW who's gonna summon reinforcements?!]]></entry>
+	<entry id="yuugi+str_comment_ally_attack_missed_selfish"><![CDATA[Good, ya know yer place.]]></entry>
+	<entry id="yuugi+str_block_camping_skill_performer_selfish"><![CDATA[Go ask the fool to amuse ya!]]></entry>
+	<entry id="yuugi+str_bark_stress_camp_selfish"><![CDATA[I ain't sharin' a drop with you wimps.]]></entry>
+	<entry id="yuugi+str_comment_curio_interaction_selfish"><![CDATA[Tryin' to pinch from under my nose, eh?]]></entry>
+	<entry id="yuugi+trigger_curio_affliction_selfish"><![CDATA[Mine by right!]]></entry>
+	<entry id="yuugi+str_heart_attack_selfish"><![CDATA[HOW COULD-]]></entry>
+
+			<!-- Hopeless -->
+	<entry id="yuugi+str_afflicted_depressed"><![CDATA[S'only a problem when I- uh-oh.]]></entry>
+	<entry id="yuugi+str_bark_stress_depressed"><![CDATA[Feels like I'm wasting away…]]></entry>
+	<entry id="yuugi+str_bark_stress_depressed"><![CDATA[Ah, fer a good drink…]]></entry>
+	<entry id="yuugi+str_change_pos_fwd_depressed"><![CDATA[Is that a whiff o' booze?]]></entry>
+	<entry id="yuugi+str_change_pos_back_depressed"><![CDATA[Is that a whiff o' booze?]]></entry>
+	<entry id="yuugi+str_ignore_command_depressed"><![CDATA[Gotta save what I got…]]></entry>
+	<entry id="yuugi+str_random_command_depressed"><![CDATA[GRRRAH!]]></entry>
+	<entry id="yuugi+str_mark_self_depressed"><![CDATA[C'mon! Make me feel something!]]></entry>
+	<entry id="yuugi+str_attack_self_depressed"><![CDATA[Ow! …nope, not a dream.]]></entry>
+	<entry id="yuugi+str_block_combat_retreat_depressed"><![CDATA[…whatever.]]></entry>
+	<entry id="yuugi+str_block_item_depressed"><![CDATA[<sniffs> I'll pass…]]></entry>
+	<entry id="yuugi+str_block_heal_depressed"><![CDATA[I don't want yer flimsy chants!]]></entry>
+	<entry id="yuugi+str_block_buff_depressed"><![CDATA[Yer holding, aren't ya?]]></entry>
+	<entry id="yuugi+str_block_camping_meal_depressed"><![CDATA[I only desire that sweet nectar…]]></entry>
+	<entry id="yuugi+str_block_camping_skill_performer_depressed"><![CDATA[Don't feel like it…]]></entry>
+	<entry id="yuugi+str_block_camping_skill_target_depressed"><![CDATA[Keep the platitudes…]]></entry>
+	<entry id="yuugi+str_bark_stress_camp_depressed"><![CDATA[I rember happy days…]]></entry>
+	<entry id="yuugi+trigger_curio_affliction_depressed"><![CDATA[Is that a whiff o' booze?]]></entry>
+	<entry id="yuugi+str_heart_attack_depressed"><![CDATA[Huh? Wha-]]></entry>
+
+			<!-- Irrational -->
+	<entry id="yuugi+str_afflicted_irrational"><![CDATA[This a club? Cuz I'm gettin tipsy…]]></entry>
+	<entry id="yuugi+str_bark_stress_irrational"><![CDATA[~ What do we do with a drunken oni? ~]]></entry>
+	<entry id="yuugi+str_bark_stress_irrational"><![CDATA[Barkeep! Another round! <hic>]]></entry>
+	<entry id="yuugi+str_change_pos_fwd_irrational"><![CDATA[<stumbles> Uwah!]]></entry>
+	<entry id="yuugi+str_change_pos_back_irrational"><![CDATA[Where are my manners? <hic>]]></entry>
+	<entry id="yuugi+str_ignore_command_irrational"><![CDATA[*incoherent*]]></entry>
+	<entry id="yuugi+str_random_command_irrational"><![CDATA[Wheeeee! Hehehe!]]></entry>
+	<entry id="yuugi+str_mark_self_irrational"><![CDATA[C'mere an <hic> lemme punch ya!]]></entry>
+	<entry id="yuugi+str_attack_self_irrational"><![CDATA[< She hit herself in her confusion! >]]></entry>
+	<entry id="yuugi+str_block_combat_retreat_irrational"><![CDATA[And leave a perfectly good bar brawl?]]></entry>
+	<entry id="yuugi+str_comment_self_hit_irrational"><![CDATA[My turn! Whehehe!]]></entry>
+	<entry id="yuugi+str_comment_self_missed_irrational"><![CDATA[Ach, c'mon! Try it again!]]></entry>
+	<entry id="yuugi+str_comment_ally_attack_hit_irrational"><![CDATA[Aye! <hic> I wanna swing too!]]></entry>
+	<entry id="yuugi+str_comment_ally_hit_irrational"><![CDATA[Dogpile! Dogpile! <hic> Ahaha!]]></entry>
+	<entry id="yuugi+str_comment_ally_attack_missed_irrational"><![CDATA[Oi! Watch for elephants!]]></entry>
+	<entry id="yuugi+str_comment_ally_missed_irrational"><![CDATA[<throws pebble> My turn!]]></entry>
+	<entry id="yuugi+str_block_move_irrational"><![CDATA[Huh? But this is the best part!]]></entry>
+	<entry id="yuugi+str_block_item_irrational"><![CDATA[I shwear t'drunk, I'm god!]]></entry>
+	<entry id="yuugi+str_block_heal_irrational"><![CDATA[I shwear t'drunk, I'm god!]]></entry>
+	<entry id="yuugi+str_block_buff_irrational"><![CDATA[I shwear t'drunk, I'm god!]]></entry>
+	<entry id="yuugi+str_attack_friendly_irrational"><![CDATA[Whoops!]]></entry>
+	<entry id="yuugi+str_block_camping_meal_irrational"><![CDATA[Hurrrrk! …who spiked this?]]></entry>
+	<entry id="yuugi+str_block_camping_skill_performer_irrational"><![CDATA[A snack? Sorry, I don't eat people <hic>]]></entry>
+	<entry id="yuugi+str_block_camping_skill_target_irrational"><![CDATA[Oh, I got plenty alrea- <hic>]]></entry>
+	<entry id="yuugi+str_bark_stress_camp_irrational"><![CDATA[I drank so much… why're the whispers LOUDER?]]></entry>
+	<entry id="yuugi+trigger_curio_affliction_irrational"><![CDATA[Hm~ that smells good!]]></entry>
+	<entry id="yuugi+str_comment_curio_interaction_irrational"><![CDATA[Oi, no cutting! ]]></entry>
+	<entry id="yuugi+str_heart_attack_irrational"><![CDATA[SOYBEANS! SOYBEANS IN MY DRINK!]]></entry>
+
+			<!-- Generic Heart Attack -->
+	<entry id="yuugi+str_heart_attack"><![CDATA[AH, FER-]]></entry>
+
+			<!-- Stalwart -->
+	<entry id="yuugi+str_virtued_stalwart"><![CDATA[You cannot chain me. You cannot break me!]]></entry>
+	<entry id="yuugi+str_stress_heal_self_stalwart"><![CDATA[Bring it, squidface!]]></entry>
+	<entry id="yuugi+str_stress_heal_self_stalwart"><![CDATA[All Hell stands behind me!]]></entry>
+
+			<!-- Courageous -->
+	<entry id="yuugi+str_virtued_courageous"><![CDATA[The party's not over yet! Haha!]]></entry>
+	<entry id="yuugi+str_stress_heal_party_courageous"><![CDATA[Take a sniff- you'll have plenty after our victory!]]></entry>
+	<entry id="yuugi+str_stress_heal_party_courageous"><![CDATA[They'll learn to fear OUR might!]]></entry>
+
+			<!-- Focused -->
+	<entry id="yuugi+str_virtued_focused"><![CDATA[I wield the fury of Hell itself!]]></entry>
+	<entry id="yuugi+str_buff_random_party_member_focused"><![CDATA[Watch and learn, friend!]]></entry>
+	<entry id="yuugi+str_buff_random_party_member_focused"><![CDATA[Punch 'em REALLY hard!]]></entry>
+
+			<!-- Powerful -->
+	<entry id="yuugi+str_virtued_powerful"><![CDATA[Mine is the fist that pierces the heavens!]]></entry>
+	<entry id="yuugi+str_buff_party_powerful"><![CDATA[Every swing, testament to my power!]]></entry>
+	<entry id="yuugi+str_buff_party_powerful"><![CDATA[<stomps the earth>]]></entry>
+
+			<!-- Vigorous -->
+	<entry id="yuugi+str_virtued_vigorous"><![CDATA[Knock me down to Hell, and I'll crawl right back out!]]></entry>
+	<entry id="yuugi+str_heal_self_vigorous"><![CDATA[Break yerselves upon my body!]]></entry>
+	<entry id="yuugi+str_heal_self_vigorous"><![CDATA[Ahhh, that's the good stuff!]]></entry>
+
+			<!-- Anchor Cuck -->
+	<entry id="yuugi+str_block_effect_vigorous"><![CDATA[Pathetic!]]></entry>
+	<entry id="yuugi+str_block_effect_powerful"><![CDATA[Pathetic!]]></entry>
+	<entry id="yuugi+str_block_effect_focused"><![CDATA[Pathetic!]]></entry>
+	<entry id="yuugi+str_block_effect_courageous"><![CDATA[Pathetic!]]></entry>
+	<entry id="yuugi+str_block_effect_stalwart"><![CDATA[Pathetic!]]></entry>
+
+			<!-- CUYM -->
+	<entry id="yuugi+str_monster_user_selected_targets_kill_pill"><![CDATA[Don't ya dare! I got unfinished business with squidface here.]]></entry>
 	
   </language>
 

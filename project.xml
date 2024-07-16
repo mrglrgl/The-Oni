@@ -9,13 +9,60 @@
 	<Visibility>private</Visibility>
 	<UploadMode>dont_submit</UploadMode>
 	<VersionMajor>0</VersionMajor>
-	<VersionMinor>1</VersionMinor>
+	<VersionMinor>9</VersionMinor>
 	<TargetBuild>0</TargetBuild>
 	<Tags>
-		<Tags>tag1</Tags>
-		<Tags>tag2</Tags>
+		<Tags>New Class</Tags>
+		<Tags>Oni</Tags>
+		<Tags>Touhou</Tags>
+		<Tags>Yuugi Hoshiguma</Tags>
 	</Tags>
-	<ItemDescription>Describe your mod in 8000
-characters or less here!</ItemDescription>
+	<ItemDescription>
+	
+At her core, The Celestial is a hybrid Tank/Disruptor. Her heaven-forged body grants immense passive damage absorption, and she can draw attention to herself with ease. On the offense she unleashes devastating attacks with her divine sword and stones, sundering armor and sending formations reeling.
+
+However, one must be careful. The Celestial is arrogant and excitable, prone to outbursts of reckless power. While this allows her to effortlessly swap between offense and defense, it can also leave her vulnerable at crucial moments. Managing her [b]Exhilaration[/b] is key to success.
+
+
+[h1]Summary[/h1]
+[b]This mod features[/b]
+1 new class
+Original art, animations, fx, and audio
+8 Trinkets (including CC, CoM &amp; [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1689234891]Sunward Isles[/url])
+&quot;Compatible&quot; with all languages
+Translated for the following languages: English
+
+[img]https://i.imgur.com/dEzMhas.png[/img]
+
+[img]https://i.imgur.com/pzpPmG8.png[/img]
+
+[img]https://i.imgur.com/61KuDI1.png[/img]
+
+[h1]Anticipated Questions[/h1]
+[quote][i]&quot;Do you have plans to translate for X language?&quot;[/i][/quote]
+I only know English, all other languages must be translated by volunteers. If you would like to volunteer to help translate this mod, please contact me on Discord.
+
+[quote][i]&quot;Are you making other Class mods?&quot;[/i][/quote]
+Yes! Feel free to join [url=https://discord.gg/PhwGZnu]The Gensokyo Crypt[/url] for info on my upcoming mods; or if you want to give feedback/report bugs.
+
+[h1]Misc Links[/h1]
+[url=https://discord.gg/bfFbBQtBN4]The Gensokyo Crypt[/url]: This is my &quot;workshop&quot; for mod development. I post mod project updates, take feedback/bug reports, and discuss design here.
+
+[h1]Credits[/h1]
+[url=https://steamcommunity.com/id/mandjgoody505/]Threey[/url]: Character, Icon, FX, and Trinket Art
+[url=https://steamcommunity.com/id/Rage_Halo/]ShallowIris[/url]: Character and FX Animations
+[url=https://steamcommunity.com/id/danaw167/]Mrglrgl[/url]: Project Lead; Code; Writing
+[url=https://steamcommunity.com/id/Mr_19/]The Necromancer[/url]: Audio
+[url=https://store.steampowered.com/search/?developer=%E4%B8%8A%E6%B5%B7%E3%82%A2%E3%83%AA%E3%82%B9%E5%B9%BB%E6%A8%82%E5%9B%A3]Zun-Team Shanghai Alice[/url]: Original Character
+
+[h1]Translation Credits[/h1]
+-
+
+[h1]Thanks[/h1]
+Thanks to everyone on Discord who tested Oni, and helped me stay sane during her development.
+
+
+[h1]Legal[/h1]
+This not an official Red Hook Studios product or product modification, and Red Hook Studios Inc. is not responsible in any way for changes or damages that may result from using the mod. Furthermore, “Darkest Dungeon” and the Darkest Dungeon logo are trademarks of Red Hook Studios</ItemDescription>
 </project>
 

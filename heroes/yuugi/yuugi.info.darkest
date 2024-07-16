@@ -87,7 +87,8 @@ controlled: .target_rank 1
 id_index: .index 18897
 skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
 
-quirk_modifier: .incompatible_class_ids resolution known_cheat calm
+quirk_modifier: .incompatible_class_ids resolution known_cheat calm fear_of_eldritch fear_of_unholy fear_of_man fear_of_beast lygophobia phengophobia zoophobia
+quirk_modifier: .incompatible_class_ids thanatophobia satanophobia automatonophobia claustrophobia ghost_fear phasmophobia scopophobia megalophobia
 
 overstressed_modifier: .override_trait_type_ids powerful .override_trait_type_chances 1.0
 
